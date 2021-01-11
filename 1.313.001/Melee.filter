@@ -1844,7 +1844,7 @@ Hide
 # Normal cards we show on any map.
 Show
 	Class = "Divination Card"
-	BaseType = "The Scholar" "The Void" "The Trial" "Sambodhi's Vow" "Acclimitisation"
+	BaseType = "The Scholar" "The Void" "The Trial" "Sambodhi's Vow" #"Acclimitisation"
 	SetTextColor 65 65 65 255 # T3 Cards
 	SetBackgroundColor 225 225 225 240 # T3 Cards
 	SetBorderColor 65 65 65 255 # T3 Cards
