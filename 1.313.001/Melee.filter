@@ -1805,7 +1805,7 @@ Show
 # Subsection: [F.3] T1 Cards
 #-------------------------------------------------------------------------------
 Show
-	BaseType = "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" "Fateful Meeting"
+	BaseType = "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" # "Fateful Meeting"
 	SetTextColor 65 65 65 255 # T1 Cards
 	SetBackgroundColor 225 225 225 240 # T1 Cards
 	SetBorderColor 65 65 65 255 # T1 Cards
