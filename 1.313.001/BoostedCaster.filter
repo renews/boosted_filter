@@ -1,5 +1,5 @@
 # >===============================================================================
-# 13.01.2021 | BOOSTED - BoostedAnimatedWeaponRanged v1.313.001
+# 13.01.2021 | BOOSTED - BoostedCaster v1.313.001
 # ================================================================================
 # Dúvidas? Questions? https://www.pathofexile.com/forum/view-thread/1595976
 #
@@ -58,7 +58,7 @@ Show
 Show
 	LinkedSockets = 4
 	Sockets < "6"
-	SocketGroup = "BBG" "BBB" "BBR"
+	SocketGroup = "BBG" "BBB"
 	Rarity = Normal
 	ItemLevel <= 62
 	Class = "Gloves"
@@ -70,7 +70,7 @@ Show
 Show
 	LinkedSockets = 4
 	Sockets < "6"
-	SocketGroup = "BBG" "BBB" "BBR"
+	SocketGroup = "BBG" "BBB"
 	Rarity = Normal
 	ItemLevel <= 62
 	Class = "Helm"
@@ -82,7 +82,7 @@ Show
 Show
 	LinkedSockets = 4
 	Sockets < "6"
-	SocketGroup = "BBG" "BBB" "BBR"
+	SocketGroup = "BBG" "BBB"
 	Rarity = Normal
 	ItemLevel <= 62
 	Class = "Boots"
@@ -94,7 +94,7 @@ Show
 Show
 	LinkedSockets = 4
 	Sockets < "6"
-	SocketGroup = "BBG" "BBB" "BBR"
+	SocketGroup = "BBG" "BBB"
 	Rarity = Normal
 	ItemLevel <= 62
 	Class = "Body Armour"
@@ -106,7 +106,7 @@ Show
 # Subsection: [A.2] 3 links with good colors ~ Dominus
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBG" "BBB" "BGG"
 	Rarity = Normal
 	AreaLevel <= 33
 	Class = "Gloves"
@@ -117,7 +117,7 @@ Show
 	PlayEffect Orange Temp
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBG" "BBB" "BGG"
 	Rarity = Normal
 	AreaLevel <= 33
 	Class = "Helm"
@@ -128,7 +128,7 @@ Show
 	PlayEffect Purple Temp
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBG" "BBB" "BGG"
 	Rarity = Normal
 	AreaLevel <= 33
 	Class = "Boots"
@@ -139,7 +139,7 @@ Show
 	PlayEffect Green Temp
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBG" "BBB" "BGG"
 	Rarity = Normal
 	AreaLevel <= 33
 	Class = "Body Armour"
@@ -150,7 +150,7 @@ Show
 	PlayEffect White Temp
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBB" "BBG" "BGG"
 	Rarity = Normal
 	AreaLevel <= 33
 	Class = "Wand" "Sceptre"
@@ -161,7 +161,7 @@ Show
 	PlayEffect Blue Temp
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBB" "BBG" "BGG"
 	Rarity = Normal
 	AreaLevel <= 33
 	Class = "Shield"
@@ -173,7 +173,7 @@ Show
 # Subsection: [A.3] 3 links with colors ~ Docks
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBG" "BBB" "BGG"
 	Rarity = Normal
 	AreaLevel <= 29
 	Class = "Gloves"
@@ -183,7 +183,7 @@ Show
 	PlayAlertSound 1 100 # item_lvling
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBG" "BBB" "BGG"
 	Rarity = Normal
 	AreaLevel <= 29
 	Class = "Helm"
@@ -193,7 +193,7 @@ Show
 	PlayAlertSound 1 100 # item_lvling
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBG" "BBB" "BGG"
 	Rarity = Normal
 	AreaLevel <= 29
 	Class = "Boots"
@@ -203,7 +203,7 @@ Show
 	PlayAlertSound 1 100 # item_lvling
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBG" "BBB" "BGG"
 	Rarity = Normal
 	AreaLevel <= 29
 	Class = "Body Armour"
@@ -213,7 +213,7 @@ Show
 	PlayAlertSound 1 100 # item_lvling
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBB" "BBG" "BGG"
 	Rarity = Normal
 	AreaLevel <= 29
 	Class = "Wand" "Sceptre"
@@ -223,7 +223,7 @@ Show
 	PlayAlertSound 1 100 # item_lvling
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "BBB" "BBG" "BGG"
 	Rarity = Normal
 	AreaLevel <= 29
 	Class = "Shield"
@@ -243,7 +243,7 @@ Show
 # Subsection: [A.4] 2 links with good colors ~Merveil
 Show
   LinkedSockets = 2
-  SocketGroup = "BB" "BR" "BG"
+  SocketGroup = "BB" "GG" "BG"
   AreaLevel <= 8
   Rarity = Normal
   Class = "Gloves"
@@ -252,7 +252,7 @@ Show
   SetFontSize 45
 Show
   LinkedSockets = 2
-  SocketGroup = "BB" "BR" "BG"
+  SocketGroup = "BB" "GG" "BG"
   AreaLevel <= 8
   Rarity = Normal
   Class = "Helm"
@@ -261,7 +261,7 @@ Show
   SetFontSize 45
 Show
   LinkedSockets = 2
-  SocketGroup = "BB" "BR" "BG"
+  SocketGroup = "BB" "GG" "BG"
   AreaLevel <= 8
   Rarity = Normal
   Class = "Boots"
@@ -270,7 +270,7 @@ Show
   SetFontSize 45
 Show
   LinkedSockets = 2
-  SocketGroup = "BB" "BR" "BG"
+  SocketGroup = "BB" "GG" "BG"
   AreaLevel <= 8
   Rarity = Normal
   Class = "Body Armour"
@@ -5391,6 +5391,53 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [P.1] Energy Shield
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Rare
+	BaseType = "Sorcerer Gloves"
+	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBorderColor 199 99 0 255 # item_gloves
+	SetFontSize 40
+Show
+	Rarity = Rare
+	BaseType = "Sorcerer Boots"
+	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBorderColor 8 150 96 255 # item_boots
+	SetFontSize 40
+Show
+	Rarity = Rare
+	BaseType = "Hubris Circlet"
+	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBorderColor 129 50 85 255 # item_helmet
+	SetFontSize 40
+Show
+	Rarity = Rare
+	BaseType = "Titanium Spirit Shield"
+	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBorderColor 38 29 154 255 # item_shield
+	SetFontSize 40
+Show
+	Rarity = Rare
+	BaseType = "Vaal Regalia" "Sadist Garb"
+	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBorderColor 255 255 255 255 # item_chest
+	SetFontSize 40
+Show
+	Rarity = Rare
+	BaseType = "Arcanist Gloves"
+	SetBorderColor 199 99 0 255 # item_gloves
+	SetFontSize 36
+Show
+	Rarity = Rare
+	BaseType = "Arcanist Slippers"
+	SetBackgroundColor 65 50 38 240 # item_t2
+	SetBorderColor 8 150 96 255 # item_boots
+	SetFontSize 36
+Show
+	Rarity = Rare
+	BaseType = "Moonstone Ring" "Unset Ring" "Citrine Amulet"
+	SetBackgroundColor 65 50 38 240 # item_t2
+	SetBorderColor 250 250 150 255 # item_jewellery
+	SetFontSize 42
 #-------------------------------------------------------------------------------
 # Subsection: [P.2] Armor
 #-------------------------------------------------------------------------------
@@ -5400,6 +5447,12 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [P.4] Shield
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Rare
+	BaseType = "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield"
+	SetBackgroundColor 65 50 38 240 # item_t2
+	SetBorderColor 38 29 154 255 # item_shield
+	SetFontSize 40
 # Show
 # 	Rarity = Rare
 # 	BaseType = "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield"
@@ -5601,6 +5654,18 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [R.1] Caster
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Rare
+	BaseType = "Sambar Sceptre" "Opal Sceptre" "Void Sceptre" "Profane Wand" "Opal Wand" "Imbued Wand" "Tornado Wand" "Prophecy Wand"
+	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 36
+Show
+	Rarity = Rare
+	BaseType = "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield"
+	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBorderColor 38 29 154 255 # item_shield
+	SetFontSize 36
 #-------------------------------------------------------------------------------
 # Subsection: [R.2] Ranged
 #-------------------------------------------------------------------------------
@@ -5998,6 +6063,90 @@ Show
 #===============================================================================
 # Section: [V] - Leveling | Caster
 #===============================================================================
+Show
+	ItemLevel = 2
+	Class = "Wand" "Sceptre"
+	SetBackgroundColor 43 32 23 255 # item_t1
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 45
+	PlayAlertSound 12 200 # item_normal
+	MinimapIcon 2 Yellow Hexagon
+Show
+	LinkedSockets = 3
+	AreaLevel <= 47
+	BaseType = "Quartz Wand" "Carved Wand" "Quartz Sceptre" "Shadow Sceptre"
+	SetBackgroundColor 43 32 23 255 # item_t1
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 40
+Show
+	LinkedSockets = 3
+	AreaLevel <= 61
+	BaseType = "Crystal Wand" "Engraved Wand" "Crystal Sceptre" "Abyssal Sceptre"
+	SetBackgroundColor 43 32 23 255 # item_t1
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 38
+Show
+	LinkedSockets = 3
+	AreaLevel <= 67
+	BaseType = "Opal Wand" "Imbued Wand" "Opal Sceptre" "Void Sceptre"
+	SetBackgroundColor 43 32 23 255 # item_t1
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 38
+Show
+	AreaLevel <= 47
+	BaseType = "Quartz Wand" "Carved Wand" "Quartz Sceptre" "Shadow Sceptre"
+	SetBackgroundColor 65 50 38 240 # item_t2
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 40
+Show
+	AreaLevel <= 59
+	BaseType = "Crystal Wand" "Engraved Wand" "Crystal Sceptre" "Abyssal Sceptre"
+	SetBackgroundColor 65 50 38 240 # item_t2
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 38
+Show
+	AreaLevel <= 67
+	BaseType = "Opal Wand" "Imbued Wand" "Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
+	SetBackgroundColor 65 50 38 240 # item_t2
+	SetBorderColor 169 169 254 255 # item_weapon
+Show
+	Rarity = Magic
+	AreaLevel <= 15
+	Class = "Wand" "Sceptre"
+	SetBackgroundColor 65 50 38 240 # item_t2
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 70
+	Class = "Wand" "Sceptre"
+	SetBackgroundColor 43 32 23 255 # item_t1
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 38
+Show
+	LinkedSockets = 3
+	AreaLevel <= 47
+	Class = "Wand" "Sceptre"
+	SetBackgroundColor 43 32 23 255 # item_t1
+	SetBorderColor 169 169 254 255 # item_weapon
+Show
+	Rarity = Magic
+	AreaLevel <= 35
+	Class = "Wand" "Sceptre"
+	SetBackgroundColor 65 50 38 240 # item_t2
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 38
+Show
+	AreaLevel <= 15
+	ItemLevel >= 2
+	Class = "Wand" "Sceptre"
+	SetBackgroundColor 110 82 61 240 # item_t5
+	SetBorderColor 169 169 254 255 # item_weapon
+Show
+	AreaLevel <= 67
+	BaseType = "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+	SetBackgroundColor 43 32 23 255 # item_t1
+	SetBorderColor 38 29 154 255 # item_shield
 # crit daggers (disabled by default)
 #$Caster
 #	AreaLevel <= 67
@@ -6009,59 +6158,6 @@ Show
 # Section: [W] Leveling | Summoner
 #===============================================================================
 # remember that a pagan wand with essenced minion dmg is by far the best summoner leveling weapon
-Show
-	AreaLevel <= 67
-	BaseType = "Pagan Wand"
-	SetBackgroundColor 43 32 23 255 # item_t1
-	SetBorderColor 169 169 254 255 # item_weapon
-	SetFontSize 45
-	PlayAlertSound 12 200 # item_normal
-	MinimapIcon 2 Blue Hexagon
-Show
-	Rarity = Magic
-	AreaLevel <= 15
-	Class = "Wand" "Sceptre"
-	SetBackgroundColor 65 50 38 240 # item_t2
-	SetBorderColor 169 169 254 255 # item_weapon
-	SetFontSize 45
-Show
-	Rarity = Normal
-	AreaLevel <= 47
-	BaseType = "Bone Spirit Shield"
-	SetBackgroundColor 65 50 38 240 # item_t2
-	SetBorderColor 38 29 154 255 # item_shield
-	SetFontSize 38
-Show
-	ItemLevel <= 15
-	ItemLevel >= 2
-	Class = "Wand"
-	SetBackgroundColor 65 50 38 240 # item_t2
-	SetBorderColor 169 169 254 255 # item_weapon
-Show
-	AreaLevel <= 67
-	BaseType = "Helmet"
-	HasExplicitMod = "Reanimator's"
-	SetBackgroundColor 65 50 38 240 # item_t2
-	SetBorderColor 129 50 85 255 # item_helmet
-	SetFontSize 38
-Show
-	AreaLevel <= 75
-	BaseType = "Helmet"
-	HasExplicitMod = "Summoner's"
-	SetBackgroundColor 65 50 38 240 # item_t2
-	SetBorderColor 129 50 85 255 # item_helmet
-	SetFontSize 40
-Show
-	ItemLevel <= 45
-	BaseType = "Sparkling Claw" "Double Claw" "Gouger"
-	SetBackgroundColor 65 50 38 240 # item_t2
-	SetBorderColor 169 169 254 255 # item_weapon
-Show
-	ItemLevel <= 67
-	BaseType = "Gut Ripper"
-	SetBackgroundColor 65 50 38 240 # item_t2
-	SetBorderColor 169 169 254 255 # item_weapon
-	SetFontSize 38
 #===============================================================================
 # Section: [X] Leveling | 1h Melee
 #===============================================================================
@@ -6998,6 +7094,13 @@ Show
 #-------------------------------------------------------------------------------
 # Starter weapons, hillock items, shields for brutus kill races.
 Show
+	LinkedSockets = 2
+	Rarity = Normal
+	ItemLevel = 1
+	Class = "Wand" "Sceptre" "Dagger"
+	SetBorderColor 169 169 254 255 # item_weapon
+	SetFontSize 45
+Show
 	Sockets = "RGB"
 	Rarity = Normal
 	AreaLevel = 1
@@ -7254,18 +7357,6 @@ Show
 #===============================================================================
 # Section: [AD] - Animated Weapon
 #===============================================================================
-Show
-  Rarity = Normal
-  Class = "Axes" "Swords" "Maces" "Claws" "Staves" "Sceptres" "Daggers"
-  SetBackgroundColor 210 0 0 148 # Animated Weapon Melee
-  SetBorderColor 100 100 100 255 # Aniamted Weapon
-  SetFontSize 18
-Show
-  Rarity = Normal
-  Class = "Wands" "Bows"
-  SetBackgroundColor 0 210 24 148 # Animated Weapon Ranged
-  SetBorderColor 100 100 100 255 # Aniamted Weapon
-  SetFontSize 18
 #===============================================================================
 # Section: [AE] - Gems
 #===============================================================================

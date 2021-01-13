@@ -1,5 +1,5 @@
 # >===============================================================================
-# 13.01.2021 | BOOSTED - BoostedAnimatedWeaponRanged v1.313.001
+# 13.01.2021 | BOOSTED - BoostedAnimatedWeapon v1.313.001
 # ================================================================================
 # Dúvidas? Questions? https://www.pathofexile.com/forum/view-thread/1595976
 #
@@ -7260,7 +7260,7 @@ Show
   SetBackgroundColor 210 0 0 148 # Animated Weapon Melee
   SetBorderColor 100 100 100 255 # Aniamted Weapon
   SetFontSize 18
-Show
+Hide
   Rarity = Normal
   Class = "Wands" "Bows"
   SetBackgroundColor 0 210 24 148 # Animated Weapon Ranged
