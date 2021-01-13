@@ -737,13 +737,6 @@ Show
 	SetBorderColor 255 196 129 255 # uniq
 	SetFontSize 36
 	PlayAlertSound 1 100 # uniq_normal
-Show
-	Rarity = Unique
-	SetTextColor 0 0 0 255
-	SetBackgroundColor 200 75 0 240
-	SetBorderColor 0 0 0 255
-	SetFontSize 36
-	PlayAlertSound 1 100 # uniq_normal
 #===============================================================================
 # Section: C - Flasks
 #===============================================================================
@@ -1805,7 +1798,7 @@ Show
 # Subsection: [F.3] T1 Cards
 #-------------------------------------------------------------------------------
 Show
-	BaseType = "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" # "Fateful Meeting"
+	BaseType = "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" "Fateful Meeting"
 	SetTextColor 65 65 65 255 # T1 Cards
 	SetBackgroundColor 225 225 225 240 # T1 Cards
 	SetBorderColor 65 65 65 255 # T1 Cards
@@ -1844,7 +1837,7 @@ Hide
 # Normal cards we show on any map.
 Show
 	Class = "Divination Card"
-	BaseType = "The Scholar" "The Void" "The Trial" "Sambodhi's Vow" #"Acclimitisation"
+	BaseType = "The Scholar" "The Void" "The Trial" "Sambodhi's Vow" "Acclimatisation"
 	SetTextColor 65 65 65 255 # T3 Cards
 	SetBackgroundColor 225 225 225 240 # T3 Cards
 	SetBorderColor 65 65 65 255 # T3 Cards
@@ -1890,6 +1883,7 @@ Show
 	SetBorderColor 0 0 0 255 # fallback
 	SetFontSize 40 # fallback
 	PlayAlertSound 11 200 # fallback
+	Continue
 #===============================================================================
 # Section: G - League Items
 #===============================================================================
@@ -3174,7 +3168,63 @@ Show
 #-------------------------------------------------------------------------------
 # Cards -> Toghether with the others.
 # G.19 - Currency
-# G.19 - Items
+Show
+	BaseType = "Maven's Orb" "Orb of Unmaking"
+	SetTextColor 56 102 65 255 # currency_big_mark
+	SetBackgroundColor 165 255 214 240 # currency_big_mark
+	SetBorderColor 56 102 65 255 # currency_big_mark
+	SetFontSize 45
+	PlayAlertSound 6 300 # currency_big_mark
+	MinimapIcon 0 Pink Triangle
+	PlayEffect Pink
+Show
+	BaseType = "Ritual Splinter" "Ritual Vessel" "Crescent Splinter"
+	SetTextColor 33 33 33 255 # league_small_marker
+	SetBackgroundColor 251 122 166 210 # league_small_marker
+	SetBorderColor 33 33 33 255 # league_small_marker
+	SetFontSize 40 # league_small_marker
+	PlayAlertSound 11 150 # league_small_marker
+Show
+	Class "Atlas Region Upgrade Item"
+	BaseType = "Platinum" "Titanium" "Chromium"
+	SetTextColor 255 166 158 255 # mapa_claro
+	SetBackgroundColor 119 46 37 240 # mapa_claro
+	SetBorderColor 255 166 158 255 # mapa_claro
+	SetFontSize 45
+	PlayAlertSound 16 300
+	MinimapIcon 0 Pink Triangle
+	PlayEffect Pink
+Show
+	Class = "Map Fragments"
+	BaseType = "The Maven's Writ" "Blood-filled Vessel"
+	SetTextColor 255 166 158 255 # mapa_claro
+	SetBackgroundColor 119 46 37 240 # mapa_claro
+	SetBorderColor 255 166 158 255 # mapa_claro
+	SetFontSize 40 # mapas_fragmentos
+	PlayAlertSound 11 250
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink Temp
+Show
+	Class = "Misc Map Items"
+	BaseType = "Maven's Invitation"
+	SetTextColor 255 166 158 255 # mapa_claro
+	SetBackgroundColor 119 46 37 240 # mapa_claro
+	SetBorderColor 255 166 158 255 # mapa_claro
+	SetFontSize 40 # mapas_fragmentos
+	PlayAlertSound 11 250
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink Temp
+# League cards - NON TIERED CARDS
+Show
+	Class = "Divination Card"
+	BaseType = "Haunting Shadows" "The Whiteout" "Society's Remorse" "Dying Light" "The Astromancer" "Keeper's Corruption" "Reckless Ambition" "Love Through Ice" "Draped in Dreams" "The Patient" "The Long Watch" "The Bear Woman" "Brotherhood in Exile"
+	SetTextColor 33 33 33 255 # card_medium_mark
+	SetBackgroundColor 193 193 193 240 # card_medium_mark
+	SetBorderColor 33 33 33 255 # card_medium_mark
+	SetFontSize 45 # card_medium_mark
+	PlayAlertSound 2 200 # card_medium_mark
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink Temp
 # G.19 - Bases
 # G.19 - Uniques
 #===============================================================================
@@ -3449,23 +3499,26 @@ Show
 # Subsection: [L.1] Watchstones
 #-------------------------------------------------------------------------------
 Show
+	Class "Atlas Region Upgrade Item"
 	BaseType = "Ivory Watchstone"
 	SetTextColor 255 148 148 255 # mapas_fragmentos
 	SetBackgroundColor 136 68 68 210 # mapas_fragmentos
 	SetBorderColor 255 148 148 255 # mapas_fragmentos
 	SetFontSize 45
-	PlayAlertSound 16 100 # quest_item
-	MinimapIcon 0 Blue Pentagon
-	PlayEffect Blue
+	PlayAlertSound 16 300 # quest_item
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
 Show
+	Class "Atlas Region Upgrade Item"
 	BaseType = "Watchstone"
 	SetTextColor 255 148 148 255 # mapas_fragmentos
 	SetBackgroundColor 136 68 68 210 # mapas_fragmentos
 	SetBorderColor 255 148 148 255 # mapas_fragmentos
 	SetFontSize 45
-	PlayAlertSound 16 100 # quest_item
+	PlayAlertSound 16 200 # quest_item
 	MinimapIcon 0 Blue Pentagon
 	PlayEffect Blue
+	Continue # new watchstones on ritual league
 #-------------------------------------------------------------------------------
 # Subsection: [L.2] Fragments
 #-------------------------------------------------------------------------------
@@ -3485,6 +3538,7 @@ Show
 	SetBackgroundColor 136 68 68 210 # mapas_fragmentos
 	SetBorderColor 255 148 148 255 # mapas_fragmentos
 	SetFontSize 36 # mapas_fragmentos
+	Continue # new watchstones on ritual league
 #-------------------------------------------------------------------------------
 # Subsection: [L.3] Uniques
 #-------------------------------------------------------------------------------
@@ -8433,6 +8487,14 @@ Show
 	SetBorderColor 169 169 254 255 # item_weapon
 	SetFontSize 40
 	PlayEffect White Temp
+#Unique Catchall
+Show
+	Rarity = Unique
+	SetTextColor 0 0 0 255
+	SetBackgroundColor 200 75 0 240
+	SetBorderColor 0 0 0 255
+	SetFontSize 36
+	PlayAlertSound 1 100 # uniq_normal
 #-------------------------------------------------------------------------------
 # Subsection: [ZZ.2] - Disable Drop Sounds
 #-------------------------------------------------------------------------------
