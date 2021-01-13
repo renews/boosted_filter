@@ -1,5 +1,5 @@
 # >===============================================================================
-# 10.01.2021 | BOOSTED - Summoner v1.313.000
+# 13.01.2021 | BOOSTED - AnimatedWeapon-Ranged v1.313.001
 # ================================================================================
 # Dúvidas? Questions? https://www.pathofexile.com/forum/view-thread/1595976
 #
@@ -757,6 +757,39 @@ Show
 # Section: C - Flasks
 #===============================================================================
 #-------------------------------------------------------------------------------
+# Subsection: [O.4] Flasks
+#-------------------------------------------------------------------------------
+Show
+	Corrupted = False
+	Mirrored = False
+	BaseType = "Quicksilver Flask" "Basalt Flask" "Granite Flask" "Jade Flask" "Diamond Flask" "Quartz Flask" "Stibnite Flask"
+	HasExplicitMod = "Chemist's"
+	SetTextColor 33 33 33 255 # flask
+	SetBackgroundColor 180 173 225 255 # flask_utility
+	SetBorderColor 33 33 33 255 # flask_utility
+	SetFontSize 40
+	MinimapIcon 2 Blue Pentagon
+Show
+	Corrupted = False
+	Mirrored = False
+	BaseType = "Quicksilver Flask"
+	HasExplicitMod = "Adrenaline"
+	SetTextColor 33 33 33 255 # flask
+	SetBackgroundColor 180 173 225 255 # flask_utility
+	SetBorderColor 33 33 33 255 # flask_utility
+	SetFontSize 45
+	PlayAlertSound 1 100 # item_lvling
+	MinimapIcon 0 Blue Pentagon
+Show
+	Corrupted = False
+	Mirrored = False
+	HasExplicitMod = "Seething"
+	SetBackgroundColor 112 97 97 240
+	SetBorderColor 114 95 95 255
+	SetFontSize 45
+	PlayAlertSound 12 200 # item_normal
+	MinimapIcon 2 Blue Pentagon
+#-------------------------------------------------------------------------------
 # Subsection: [C.1] Flask - Utility
 #-------------------------------------------------------------------------------
 Show
@@ -1350,12 +1383,12 @@ Show
 Show
 	AreaLevel <= 32
 	Class = "Currency"
-	BaseType = "Orb of Transmutation" "Orb of Alteration" "Chromatic Orb" "Orb of Alchemy"
+	BaseType = "Orb of Transmutation" "Orb of Alteration" "Chromatic Orb" "Orb of Alchemy" "Orb of Fusing"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 179
 	SetBorderColor 165 255 214 255
 	SetFontSize 45
-	PlayAlertSound 12 200
+	PlayAlertSound 12 250
 Show
 	AreaLevel <= 32
 	BaseType = "Binding Shard" "Alchemy Shard"
@@ -1381,7 +1414,7 @@ Show
 	SetBackgroundColor 92 153 115 240
 	SetBorderColor 165 255 214 255
 	SetFontSize 45
-	PlayAlertSound 3 150
+	PlayAlertSound 3 200
 	PlayEffect Green Temp
 Show
 	AreaLevel <= 62
@@ -1781,7 +1814,7 @@ Show
 # Subsection: [F.3] T1 Cards
 #-------------------------------------------------------------------------------
 Show
-	BaseType = "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" "Fateful Meeting"
+	BaseType = "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" # "Fateful Meeting"
 	SetTextColor 65 65 65 255 # T1 Cards
 	SetBackgroundColor 225 225 225 240 # T1 Cards
 	SetBorderColor 65 65 65 255 # T1 Cards
@@ -1820,7 +1853,7 @@ Hide
 # Normal cards we show on any map.
 Show
 	Class = "Divination Card"
-	BaseType = "The Scholar" "The Void" "The Trial" "Sambodhi's Vow" "Acclimitisation"
+	BaseType = "The Scholar" "The Void" "The Trial" "Sambodhi's Vow" #"Acclimitisation"
 	SetTextColor 65 65 65 255 # T3 Cards
 	SetBackgroundColor 225 225 225 240 # T3 Cards
 	SetBorderColor 65 65 65 255 # T3 Cards
@@ -5258,39 +5291,6 @@ Show
 	MinimapIcon 2 Yellow UpsideDownHouse
 	PlayEffect Yellow Temp
 #-------------------------------------------------------------------------------
-# Subsection: [O.4] Flasks
-#-------------------------------------------------------------------------------
-Show
-	Corrupted = False
-	Mirrored = False
-	BaseType = "Quicksilver Flask" "Basalt Flask" "Granite Flask" "Jade Flask" "Diamond Flask" "Quartz Flask" "Stibnite Flask"
-	HasExplicitMod = "Chemist's"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
-	SetFontSize 40
-	MinimapIcon 2 Blue Pentagon
-Show
-	Corrupted = False
-	Mirrored = False
-	BaseType = "Quicksilver Flask"
-	HasExplicitMod = "Adrenaline"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
-	SetFontSize 45
-	PlayAlertSound 1 100 # item_lvling
-	MinimapIcon 0 Blue Pentagon
-Show
-	Corrupted = False
-	Mirrored = False
-	HasExplicitMod = "Seething"
-	SetBackgroundColor 112 97 97 240
-	SetBorderColor 114 95 95 255
-	SetFontSize 45
-	PlayAlertSound 12 200 # item_normal
-	MinimapIcon 2 Blue Pentagon
-#-------------------------------------------------------------------------------
 # Subsection: [O.5] Jewel
 #-------------------------------------------------------------------------------
 Show
@@ -6104,7 +6104,7 @@ Show
 # Subsection: [Y.3] Axes | Endgame
 #-------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------
-# Subsection: [Y.4] Swords
+# Subsection: [Y.4] 2H Swords
 #-------------------------------------------------------------------------------
 #$Melee
 #	Rarity = Rare
@@ -6200,7 +6200,7 @@ Show
 #	SetBorderColor 169 169 254 255 # item_weapon
 #	SetFontSize 38
 #-------------------------------------------------------------------------------
-# Subsection: [Y.5] Swrods | A5 Kitava Cutoff
+# Subsection: [Y.5] 2H Swords | A5 Kitava Cutoff
 #-------------------------------------------------------------------------------
 #$Melee
 #	Rarity = Rare
@@ -6255,7 +6255,7 @@ Show
 #	SetBorderColor 169 169 254 255 # item_weapon
 #	SetFontSize 38
 #-------------------------------------------------------------------------------
-# Subsection: [Y.5] Swrods | Endgame
+# Subsection: [Y.5] 2H Swords | Endgame
 #-------------------------------------------------------------------------------
 #$Melee
 #	Rarity = Rare
@@ -7254,13 +7254,13 @@ Show
 #===============================================================================
 # Section: [AD] - Animated Weapon
 #===============================================================================
-Hide
+Show
   Rarity = Normal
   Class = "Axes" "Swords" "Maces" "Claws" "Staves" "Sceptres" "Daggers"
   SetBackgroundColor 210 0 0 148 # Animated Weapon Melee
   SetBorderColor 100 100 100 255 # Aniamted Weapon
   SetFontSize 18
-Hide
+Show
   Rarity = Normal
   Class = "Wands" "Bows"
   SetBackgroundColor 0 210 24 148 # Animated Weapon Ranged
@@ -7582,6 +7582,11 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [ZZ.2] - Disable Drop Sounds
 #-------------------------------------------------------------------------------
+Hide
+	AreaLevel <= 62
+	Corrupted = False
+	Mirrored = False
+	BaseType = "Staff"
 Hide
 	BaseType = "Scroll Fragment" "Transmutation Shard" "Alteration Shard" "Scroll of Wisdom"
 	DisableDropSound
