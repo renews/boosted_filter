@@ -1808,11 +1808,11 @@ Show
 #-------------------------------------------------------------------------------
 Show
 	BaseType = "House of Mirrors" "The Doctor" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" "Fateful Meeting"
-	SetTextColor 65 65 65 255 # T1 Cards
-	SetBackgroundColor 225 225 225 240 # T1 Cards
-	SetBorderColor 65 65 65 255 # T1 Cards
-	SetFontSize 45 # T1 Cards
-	PlayAlertSound 6 300 # T1 Cards
+	SetTextColor 65 65 65 255 # Cards - T1
+	SetBackgroundColor 225 225 225 240 # Cards - T1
+	SetBorderColor 65 65 65 255 # Cards - T1
+	SetFontSize 45 # Cards - T1
+	PlayAlertSound 6 300 # Cards - T1
 	MinimapIcon 0 White Square
 	PlayEffect White
 #-------------------------------------------------------------------------------
@@ -1820,11 +1820,11 @@ Show
 #-------------------------------------------------------------------------------
 Show
 	BaseType = "The Offering" "Pride Before the Fall" "The King's Heart" "Hunter's Reward" "The Immortal" "The Celestial Justicar" "Wealth and Power" "The Polymath" "Abandoned Wealth" "The Iron Bard" "The Spark and the Flame" "The Dragon's Heart" "The Nurse" "The Ethereal" "Dark Dreams" "The Eye of Terror" "Void of the Elements" "The Damned" "The Old Man" "The Price of Loyalty" "Burning Blood" "Pride of the First Ones" "Etched in Blood" "The Craving" "The Enlightened" "Alluring Bounty" "The Progeny of Lunaris" "The Strategist" "The White Knight" "Hive of Knowledge" "Gift of Asenath" "The Long Con" "The Gulf" "Desecrated Virtue" "The Dragon" "Lingering Remnants" "Prometheus' Armoury"
-	SetTextColor 33 33 33 255 # T2 Cards
-	SetBackgroundColor 193 193 193 240 # T2 Cards
-	SetBorderColor 33 33 33 255 # T2 Cards
-	SetFontSize 45 # T2 Cards
-	PlayAlertSound 2 200 # T2 Cards
+	SetTextColor 33 33 33 255 # Cards - T2
+	SetBackgroundColor 193 193 193 240 # Cards - T2
+	SetBorderColor 33 33 33 255 # Cards - T2
+	SetFontSize 45 # Cards - T2
+	PlayAlertSound 2 200 # Cards - T2
 	MinimapIcon 2 White Square
 	PlayEffect White
 #-------------------------------------------------------------------------------
@@ -1834,11 +1834,11 @@ Show
 	AreaLevel <= 77
 	Class = "Divination Card"
 	BaseType = "The Devastator" "The Artist" "The Saint's Treasure" "The Dapper Prodigy" "The Sephirot" "The Warlord" "The Vast" "The Throne" "The Aesthete" "The Wolf" "The Valkyrie" "The Soul" "Emperor of Purity" "Heterochromia" "The Hoarder" "Chaotic Disposition" "The Chains that Bind" "The Dark Mage" "Bowyer's Dream" "Lucky Deck" "Time-Lost Relic" "The Cartographer" "The Breach" "The Dreamer" "The Obscured" "Harmony of Souls" "The Admirer" "The Undaunted" "The Professor" "The Jeweller's Boon" "The Hale Heart" "The Beast" "The Innocent" "The Price of Protection" "The Cacophony" "The Wilted Rose" "Merciless Armament" "Rebirth" "Left to Fate" "The Thaumaturgist" "Dab of Ink" "The Journey" "The Landing" "The Messenger" "Monochrome" "The Seeker" "Alone in the Darkness" "The Porcupine" "The Soul" "The Last One Standing" "Buried Treasure" "Demigod's Wager" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "The Bargain" "Remembrance" "The Heroic Shot" "The Formless Sea" "Mawr Blaid" "The Brittle Emperor" "The Hunger" "The Undisputed" "Perfection" "The Master" "The Celestial Stone" "The Wind" "The Endless Darkness" "The Mayor" "The Queen" "The Mad King" "Seven Years Bad Luck" "The Life Thief" "The Risk" "Earth Drinker" "Blessing of God" "The Deep Ones" "Baited Expectations" "Deathly Designs" "The Chosen" "Cameria's Cut" "Divine Justice" "The Fishmonger" "The Bones" "Friendship" "Squandered Prosperity" "Underground Forest" "The Escape" "Boon of the First Ones" "The Wolven King's Bite" "Council of Cats" "The Eldritch Decay" "Peaceful Moments" "The Greatest Intentions" "The Sustenance" "A Note in the Wind" "The Betrayal" "The Sacrifice" "The World Eater" "The Bitter Blossom" "The Academic" "Unchained" "The Archmage's Right Hand" "A Familiar Call" "The Awakened" "The Cache" "The Avenger" "Triskaidekaphobia" "Hope" "Last Hope" "Lost Worlds" "The Darkest Dream" "The Deceiver" "The Insatiable" "The Rite of Elements" "The Surveyor" "Three Voices" "The Lion" "Arrogance of the Vaal" "Cursed Words" "Lucky Connections" "The Cursed King" "The Doppelganger" "The Garish Power" "The Fool" "The One With All" "The Scavenger" "The Skeleton" "The Summoner" "The Sword King's Salute" "The Tinkerer's Table" "The Twilight Moon" "The Wrath" "The Wretched" "Vinia's Token" "Might is Right" "More is Never Enough" "No Traces" "The Fletcher"
-	SetTextColor 65 65 65 255 # T3 Cards
-	SetBackgroundColor 225 225 225 240 # T3 Cards
-	SetBorderColor 65 65 65 255 # T3 Cards
-	SetFontSize 40 # T3 Cards
-	PlayAlertSound 3 125 # T3 Cards
+	SetTextColor 65 65 65 255 # Cards - T3
+	SetBackgroundColor 225 225 225 240 # Cards - T3
+	SetBorderColor 65 65 65 255 # Cards - T3
+	SetFontSize 40 # Cards - T3
+	PlayAlertSound 3 125 # Cards - T3
 Hide
 	AreaLevel > 77
 	Class = "Divination Card"
@@ -1847,11 +1847,11 @@ Hide
 Show
 	Class = "Divination Card"
 	BaseType = "The Scholar" "The Void" "The Trial" "Sambodhi's Vow" "Acclimatisation"
-	SetTextColor 65 65 65 255 # T3 Cards
-	SetBackgroundColor 225 225 225 240 # T3 Cards
-	SetBorderColor 65 65 65 255 # T3 Cards
-	SetFontSize 40 # T3 Cards
-	PlayAlertSound 3 125 # T3 Cards
+	SetTextColor 65 65 65 255 # Cards - T3
+	SetBackgroundColor 225 225 225 240 # Cards - T3
+	SetBorderColor 65 65 65 255 # Cards - T3
+	SetFontSize 40 # Cards - T3
+	PlayAlertSound 3 125 # Cards - T3
 #-------------------------------------------------------------------------------
 # Subsection: [F.6] T4 Cards (< 2c)
 #-------------------------------------------------------------------------------
@@ -1859,17 +1859,17 @@ Show
 	AreaLevel <= 72
 	Class = "Divination Card"
 	BaseType = "The Gambler" "The Lover" "Emperor's Luck" "Flora's Gift" "Her Mask" "The Catalyst" "Destined to Crumble" "The Inoculated" "The Road to Power" "The Sigil" "The Spoiled Prince" "Rain of Chaos" "Thunderous Skies" "The Twins" "Light and Truth" "Prosperity" "The Mercenary" "The Warden" "The Calling" "The Gemcutter" "The Lord in Black" "Struck by Lightning" "The Metalsmith's Gift" "Lantador's Lost Love" "The Scarred Meadow" "The Visionary" "The Incantation" "Dying Anguish" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "The Opulent" "A Mother's Parting Gift" "The Sun" "The Conduit" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Lysah's Respite" "The Lich" "The Feast" "The Witch" "Ruthless Ceinture" "The Siren" "Death" "Call to the First Ones" "The Hermit" "The Puzzle" "The Fathomless Depths" "Audacity" "Doedre's Madness" "Rain Tempter" "Anarchy's Price" "The Watcher" "The Coming Storm" "Dark Temptation" "Blazing Fire" "Tranquillity" "The Rabid Rhoa" "Forbidden Power" "Rats" "Thirst for Knowledge" "Tumbleweed" "Easy Stroll" "Army of Blood" "The Journalist" "The Gladiator" "The Golden Era" "The Harvester" "The Jester" "The Pact" "The Poet" "The Stormcaller" "The Tyrant" "The Unexpected Prize" "The Union" "The Deal" "Atziri's Arsenal" "Coveted Possession" "Dialla's Subjugation" "Echoes of Love" "Gemcutter's Promise" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Hubris" "Loyalty" "The Arena Champion" "The Battle Born" "The Body" "The Cataclysm" "The Encroaching Darkness" "The Endurance" "The Explorer" "The Eye of the Dragon" "The Inventor" "The Lord of Celebration" "The Mountain" "The Oath" "The Standoff" "The Survivalist" "The Tower" "The Wolverine" "Three Faces in the Dark" "Treasure Hunter" "Vile Power" "Volatile Power" "Mitts" "Scholar of the Seas" "Shard of Fate" "The Dreamland" "The Drunken Aristocrat"
-	SetTextColor 0 0 0 255 # T4 Cards
-	SetBackgroundColor 97 97 97 210 # T4 Cards
-	SetBorderColor 0 0 0 255 # T4 Cards
-	SetFontSize 32 # T4 Cards
+	SetTextColor 0 0 0 255 # Cards - T4
+	SetBackgroundColor 97 97 97 210 # Cards - T4
+	SetBorderColor 0 0 0 255 # Cards - T4
+	SetFontSize 32 # Cards - T4
 Hide
 	AreaLevel > 72
 	Class = "Divination Card"
 	BaseType = "The Gambler" "The Lover" "Emperor's Luck" "Flora's Gift" "Her Mask" "The Catalyst" "Destined to Crumble" "The Inoculated" "The Road to Power" "The Sigil" "The Spoiled Prince" "Rain of Chaos" "Thunderous Skies" "The Twins" "Light and Truth" "Prosperity" "The Mercenary" "The Warden" "The Calling" "The Gemcutter" "The Lord in Black" "Struck by Lightning" "The Metalsmith's Gift" "Lantador's Lost Love" "The Scarred Meadow" "The Visionary" "The Incantation" "Dying Anguish" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "The Opulent" "A Mother's Parting Gift" "The Sun" "The Conduit" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Lysah's Respite" "The Lich" "The Feast" "The Witch" "Ruthless Ceinture" "The Siren" "Death" "Call to the First Ones" "The Hermit" "The Puzzle" "The Fathomless Depths" "Audacity" "Doedre's Madness" "Rain Tempter" "Anarchy's Price" "The Watcher" "The Coming Storm" "Dark Temptation" "Blazing Fire" "Tranquillity" "The Rabid Rhoa" "Forbidden Power" "Rats" "Thirst for Knowledge" "Tumbleweed" "Easy Stroll" "Army of Blood" "The Journalist" "The Gladiator" "The Golden Era" "The Harvester" "The Jester" "The Pact" "The Poet" "The Stormcaller" "The Tyrant" "The Unexpected Prize" "The Union" "The Deal" "Atziri's Arsenal" "Coveted Possession" "Dialla's Subjugation" "Echoes of Love" "Gemcutter's Promise" "Gift of the Gemling Queen" "Glimmer of Hope" "Grave Knowledge" "Hubris" "Loyalty" "The Arena Champion" "The Battle Born" "The Body" "The Cataclysm" "The Encroaching Darkness" "The Endurance" "The Explorer" "The Eye of the Dragon" "The Inventor" "The Lord of Celebration" "The Mountain" "The Oath" "The Standoff" "The Survivalist" "The Tower" "The Wolverine" "Three Faces in the Dark" "Treasure Hunter" "Vile Power" "Volatile Power" "Mitts" "Scholar of the Seas" "Shard of Fate" "The Dreamland" "The Drunken Aristocrat"
-	SetTextColor 0 0 0 255 # T4 Cards
-	SetBackgroundColor 97 97 97 210 # T4 Cards
-	SetBorderColor 0 0 0 255 # T4 Cards
+	SetTextColor 0 0 0 255 # Cards - T4
+	SetBackgroundColor 97 97 97 210 # Cards - T4
+	SetBorderColor 0 0 0 255 # Cards - T4
 	SetFontSize 20 # Cards Extra Small
 #-------------------------------------------------------------------------------
 # Subsection: [F.7] Hidden Cards
@@ -1878,9 +1878,9 @@ Hide
 Hide
 	Class = "Divination Card"
 	BaseType = "The Carrion Crow" "The Surgeon" "The King's Blade" "The Lunaris Priestess" "The Forsaken" "The Penitent" "The Traitor" "The Valley of Steel Boxes" "Assassin's Favour" "Blind Venture" "Boon of Justice" "Boundless Realms" "Hunter's Resolve" "Jack in the Box" "The Side Quest"
-	SetTextColor 0 0 0 255 # T4 Cards
-	SetBackgroundColor 97 97 97 210 # T4 Cards
-	SetBorderColor 0 0 0 255 # T4 Cards
+	SetTextColor 0 0 0 255 # Cards - T4
+	SetBackgroundColor 97 97 97 210 # Cards - T4
+	SetBorderColor 0 0 0 255 # Cards - T4
 	SetFontSize 20 # Cards Extra Small
 #-------------------------------------------------------------------------------
 # Subsection: [F.8] Fallbacks no tiered cards
