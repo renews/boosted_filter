@@ -25,9 +25,9 @@ Show
 	Rarity = Normal
 	ItemLevel >= 69
 	BaseType "Occultist's Vestment" "Glorious Plate" "Sorcerer Boots"
-	SetTextColor 240 240 240 160 # chance
-	SetBackgroundColor 255 123 0 60 # chance
-	SetBorderColor 199 184 184 160 # chance
+	SetTextColor 240 240 240 160 # Chance Base
+	SetBackgroundColor 255 123 0 60 # Chance Base
+	SetBorderColor 199 184 184 160 # Chance Base
 	SetFontSize 26
 # Subsection: [0.2] Favorite Maps
 Show
@@ -477,7 +477,7 @@ Show
 	Rarity = Unique
 	BaseType = "Simple Robe"
 	SetTextColor 255 255 255 255
-	SetBackgroundColor 204 105 0 210 # uniq
+	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 255 255 255 255
 	SetFontSize 45
 	PlayAlertSound 10 250
@@ -486,9 +486,9 @@ Show
 Show
 	LinkedSockets = 6
 	Rarity = Unique
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
 	PlayAlertSound 13 200 # item_extremo
 	MinimapIcon 0 Orange Hexagon
@@ -544,63 +544,63 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Glorious Plate" "Occultist's Vestment" "Sapphire Flask" "Crusader Boots" "Prophecy Wand" "Rawhide Boots" "Ornate Quiver" "Silk Gloves" "Fluted Bascinet"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
 	SetBorderColor 255 236 214 255
 	SetFontSize 45
-	PlayAlertSound 6 300 # uniq_t1_300
+	PlayAlertSound 6 300 # Unique Item_t1_300
 	MinimapIcon 0 Orange Hexagon
 	PlayEffect Orange
 Show
 	Rarity = Unique
 	BaseType = "Savant's Robe" "Wyrmscale Doublet" "Imperial Maul" "Titan Greaves" "Champion Kite Shield" "Void Axe" "Highborn Staff" "Cardinal Round Shield" "Siege Axe" "Jingling Spirit Shield" "Rawhide Tower Shield" "Jewelled Foil" "Savant's Robe" "Steelwood Bow" "Pinnacle Tower Shield" "Zodiac Leather" "Fossilised Spirit Shield" "Branded Kite Shield" "Stealth Boots" "Granite Flask" "Exquisite Leather" "Lathi" "Bone Helmet" "Crimson Round Shield" "Mirrored Spiked Shield"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 6 300 # uniq_t1_300
+	PlayAlertSound 6 300 # Unique Item_t1_300
 	MinimapIcon 0 Orange Hexagon
 	PlayEffect Orange
 Show
 	Rarity = Unique
 	BaseType = "Slink Boots" "Cutlass" "Topaz Flask" "Iron Sceptre" "Arcanist Slippers" "Clasped Mitts" "Carnal Sceptre" "Arcanist Gloves" "Zealot Gloves" "Vaal Blade" "Karui Maul" "Bronzescale Boots" "Clasped Mitts" "Timeworn Claw" "Tyrant's Sekhem" "Ezomyte Dagger" "Assassin's Boots" "Hydrascale Gauntlets" "Ambush Mitts" "Legion Gloves" "Royal Axe" "Ezomyte Tower Shield" "Magistrate Crown" "Bronzescale Boots" "Gladiator Plate" "Meatgrinder" "Serpentscale Gauntlets" "Blood Raiment" "Riveted Gloves" "Blood Sceptre"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 6 300 # uniq_t1_300
+	PlayAlertSound 6 300 # Unique Item_t1_300
 	MinimapIcon 0 Orange Hexagon
 	PlayEffect Orange
 Show
 	Rarity = Unique
 	BaseType = "Ritual Sceptre" "Ornate Quiver" "Judgement Staff" "Grand Mana Flask" "Vaal Rapier" "Deerskin Gloves"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 6 200 # uniq_t1_200
+	PlayAlertSound 6 200 # Unique Item_t1_200
 	MinimapIcon 1 Orange Hexagon
 	PlayEffect Orange
 Show
 	Sockets = "AA"
 	Rarity = Unique
 	BaseType = "Steelscale Gauntlets" "Murder Boots"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 6 200 # uniq_t1_200
+	PlayAlertSound 6 200 # Unique Item_t1_200
 	MinimapIcon 1 Orange Hexagon
 	PlayEffect Orange
 Show
 	Sockets = "A"
 	Rarity = Unique
 	BaseType = "Carnal Armour"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 6 200 # uniq_t1_200
+	PlayAlertSound 6 200 # Unique Item_t1_200
 	MinimapIcon 1 Orange Hexagon
 	PlayEffect Orange
 #-------------------------------------------------------------------------------
@@ -609,31 +609,31 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Onyx Amulet" "Ebony Tower Shield" "Imperial Bow" "Sadist Garb" "Lacquered Garb" "Carved Wand" "Goathide Boots" "Sorcerer Boots" "Fiend Dagger" "Ezomyte Staff" "Sage Wand" "Nightmare Bascinet" "Prophet Crown" "Studded Belt" "Cloth Belt" "Archon Kite Shield" "Sentinel Jacket" "Varnished Coat" "Gladius"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 6 100 # uniq_t2
+	PlayAlertSound 6 100 # Unique Item_t2
 	MinimapIcon 1 Orange Hexagon
 	PlayEffect Orange
 Show
 	CorruptedMods = 2
 	Rarity = Unique
-	SetTextColor 153 13 0 255 # mapa_corrupted
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 45
-	PlayAlertSound 6 100 # uniq_t2
+	PlayAlertSound 6 100 # Unique Item_t2
 	MinimapIcon 1 Orange Hexagon
 	PlayEffect Orange
 Show
 	Rarity = Unique
 	BaseType = "Iron Gauntlets" "Leather Cap" "Saintly Chainmail" "Nubuck Boots" "Imperial Staff" "Abyssal Axe" "Vanguard Belt" "Coiled Staff" "Ezomyte Burgonet" "Corsair Sword" "Vaal Regalia" "Sinner Tricorne" "Sorcerer Gloves" "Midnight Blade" "Blue Pearl Amulet" "Ancient Greaves" "Ancient Gauntlets" "Nubuck Gloves" "Festival Mask" "Hubris Circlet" "Large Hybrid Flask" "Amethyst Flask" "Vaal Gauntlets" "Corrugated Buckler" "Penetrating Arrow Quiver" "Vaal Sceptre" "Stibnite Flask" "Deicide Mask" "Demon Dagger" "Destiny Leather" "Crystal Belt" "Stygian Vise" "Embroidered Gloves" "Eternal Sword" "Quartz Flask" "Bismuth Flask" "Reinforced Tower Shield" "Crusader Plate" "Solaris Circlet" "Full Dragonscale" "Two-Toned Boots" "Ezomyte Burgonet" "Close Helmet" "Elegant Ringmail" "Callous Mask" "Polished Spiked Shield" "Lion Pelt" "Eelskin Gloves" "Hellion's Paw" "Saint's Hauberk" "War Sword" "Full Wyrmscale" "Astral Plate" "Butcher Axe" "Mesh Gloves"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 1 200 # uniq_normal_200
+	PlayAlertSound 1 200 # Unique Item_normal_200
 	MinimapIcon 2 Orange Hexagon
 	PlayEffect Orange Temp
 #-------------------------------------------------------------------------------
@@ -642,80 +642,80 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Spike-Point Arrow Quiver" "Gavel" "Gold Amulet" "Heavy Belt" "Iron Ring" "Paua Amulet" "Citrine Amulet" "Broadhead Arrow Quiver" "Ambusher"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 40
-	PlayAlertSound 1 200 # uniq_normal_200
+	PlayAlertSound 1 200 # Unique Item_normal_200
 	PlayEffect Orange Temp
 Show
 	Rarity = Unique
 	AreaLevel <= 77
 	ItemLevel <= 77
 	BaseType = "Driftwood Wand" "Goat's Horn" "Spiraled Wand" "Bronze Sceptre" "Long Bow" "Recurve Bow" "Death Bow" "Jade Amulet" "Rustic Sash" "Cleaver" "Decorative Axe" "Sabre" "War Sword" "Polished Spiked Shield" "Goathide Gloves" "Sharktooth Arrow Quiver" "Twilight Blade" "Gladius" "Sharktooth Arrow Quiver" "Silk Slippers"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 38
-	PlayAlertSound 1 200 # uniq_normal_200
+	PlayAlertSound 1 200 # Unique Item_normal_200
 	MinimapIcon 2 Orange Hexagon
 	PlayEffect Yellow Temp
 Show
 	Rarity = Unique
 	ItemLevel >= 85
 	Class = "Ring"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 6 300 # uniq_t1_300
+	PlayAlertSound 6 300 # Unique Item_t1_300
 	MinimapIcon 0 Orange Hexagon
 	PlayEffect Orange
 Show
 	Rarity = Unique
 	Class = "Ring"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 40
-	PlayAlertSound 1 200 # uniq_normal_200
+	PlayAlertSound 1 200 # Unique Item_normal_200
 #-------------------------------------------------------------------------------
 # Subsection: [J.5] T4
 #-------------------------------------------------------------------------------
 Show
 	Rarity = Unique
 	BaseType = "Lapis Amulet" "Blinder" "Thorium Spirit Shield" "Bone Bow" "Siege Helmet" "Coronal Leather" "Labrys" "Ezomyte Tower Shield" "Goliath Greaves" "Labrys" "Ezomyte Tower Shield" "Vaal Axe" "Coronal Leather" "Royal Burgonet" "Raven Mask" "Sharkskin Tunic" "Ritual Sceptre" "Jasper Chopper" "Ironscale Gauntlets" "Clasped Mitts" "Cedar Tower Shield" "Regicide Mask" "Steelhead" "Trapper Boots" "Serpentscale Boots" "Vaal Blade" "Agate Amulet" "Leather Belt" "Sanctified Life Flask" "Sanctified Mana Flask" "Crusader Helmet" "Shackled Boots" "Coral Amulet" "Steel Circlet" "Assassin Bow" "Sulphur Flask" "Murder Mitts" "Strapped Mitts" "Soldier Helmet" "Holy Chainmail" "Karui Chopper" "Imperial Skean" "Titanium Spirit Shield" "Loricated Ringmail" "Sulphur Flask" "Turquoise Amulet" "Silken Hood"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 38
-	PlayAlertSound 1 200 # uniq_normal_200
+	PlayAlertSound 1 200 # Unique Item_normal_200
 	MinimapIcon 2 Orange Hexagon
 Show
 	Rarity = Unique
 	BaseType = "Bronzescale Gauntlets" "Great Mallet" "Mind Cage" "Rustic Sash" "Jade Amulet" "Amber Amulet" "Two-Point Arrow Quiver" "Legion Boots" "Iron Circlet" "Bronzescale Gauntlets" "Imperial Claw" "Mind Cage" "Jade Amulet" "Spiraled Wand" "Chain Belt"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 40
-	PlayAlertSound 1 100 # uniq_normal
+	PlayAlertSound 1 100 # Unique Item_normal
 Show
 	Rarity = Unique
 	DropLevel = 64
 	BaseType = "Staff"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 38
-	PlayAlertSound 1 100 # uniq_normal
+	PlayAlertSound 1 100 # Unique Item_normal
 Show
 	Rarity = Unique
 	BaseType = "Driftwood Wand" "Wool Shoes" "Tornado Wand" "War Hammer" "Pine Buckler" "Destroyer Regalia" "Colossal Tower Shield" "Assassin's Garb" "Colossal Tower Shield" "Wool Gloves"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 38
-	PlayAlertSound 1 100 # uniq_normal
+	PlayAlertSound 1 100 # Unique Item_normal
 #-------------------------------------------------------------------------------
 # Subsection: [J.6] Others
 #-------------------------------------------------------------------------------
@@ -723,20 +723,20 @@ Show
 #Show
 #	Rarity = Unique
 #	BaseType = "Sharktooth Arrow Quiver" "Coral Amulet" "Moonstone Ring" "Leather Hood" "Ironscale Boots" "Royal Bow" "Brass Maul" "Gold Amulet" "Crystal Wand" "Coral Ring" "Cleaver" "Gavel" "Skinning Knife" "Reaver Sword" "Wild Leather" "Reinforced Greaves" "Gilded Sallet" "Latticed Ringmail" "Fire Arrow Quiver" "Goathide Gloves" "Velvet Slippers" "Serrated Arrow Quiver" "Strapped Leather" "War Buckler" "Plank Kite Shield" "Vine Circlet" "Spiraled Wand" "Woodsplitter" "Iron Circlet" "Clasped Boots" "Jade Hatchet" "Iron Staff" "Iron Hat" "Death Bow" "Rusted Sword" "Jagged Maul" "Scholar Boots" "Studded Belt" "Jade Amulet" "Plate Vest" "Velvet Gloves" "Ornate Sword" "Iron Mask" "Golden Buckler" "Long Bow" "Crude Bow" "Painted Buckler" "Royal Staff" "Gnarled Branch" "Sledgehammer" "Coral Ring"
-#	SetTextColor 255 196 129 255 # uniq
-#	SetBackgroundColor 204 105 0 210 # uniq
+#	SetTextColor 255 196 129 255 # Unique Item
+#	SetBackgroundColor 204 105 0 210 # Unique Item
 #	SetBorderColor 100 200 250 255 # item_enchanted
 #	SetFontSize 36
-#	PlayAlertSound 1 100 # uniq_normal
+#	PlayAlertSound 1 100 # Unique Item_normal
 #	MinimapIcon 2 Orange Hexagon
 Show
 	Rarity = Unique
 	BaseType = "Crusader Gloves" "Carnal Mitts" "Titan Gauntlets" "Void Sceptre" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Ruby Flask" "Silver Flask" "Legion Sword" "Royal Sceptre"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 36
-	PlayAlertSound 1 100 # uniq_normal
+	PlayAlertSound 1 100 # Unique Item_normal
 #===============================================================================
 # Section: C - Flasks
 #===============================================================================
@@ -748,9 +748,9 @@ Show
 	Mirrored = False
 	BaseType = "Quicksilver Flask" "Basalt Flask" "Granite Flask" "Jade Flask" "Diamond Flask" "Quartz Flask" "Stibnite Flask"
 	HasExplicitMod = "Chemist's"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
+	SetTextColor 33 33 33 255 # Flasks
+	SetBackgroundColor 180 173 225 255 # Flasks - Utility
+	SetBorderColor 33 33 33 255 # Flasks - Utility
 	SetFontSize 40
 	MinimapIcon 2 Blue Pentagon
 Show
@@ -758,9 +758,9 @@ Show
 	Mirrored = False
 	BaseType = "Quicksilver Flask"
 	HasExplicitMod = "Adrenaline"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
+	SetTextColor 33 33 33 255 # Flasks
+	SetBackgroundColor 180 173 225 255 # Flasks - Utility
+	SetBorderColor 33 33 33 255 # Flasks - Utility
 	SetFontSize 45
 	PlayAlertSound 1 100 # item_lvling
 	MinimapIcon 0 Blue Pentagon
@@ -779,77 +779,77 @@ Show
 Show
 	ItemLevel <= 67
 	BaseType = "Quicksilver Flask" "Silver Flask"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
+	SetTextColor 33 33 33 255 # Flasks
+	SetBackgroundColor 180 173 225 255 # Flasks - Utility
+	SetBorderColor 33 33 33 255 # Flasks - Utility
 	SetFontSize 40
-	PlayAlertSound 12 200 # flask_utility
+	PlayAlertSound 12 200 # Flasks - Utility
 Show
 	ItemLevel <= 72
 	BaseType = "Basalt Flask" "Granite Flask" "Quartz Flask" "Stibnite Flask" "Jade Flask" "Amethyst Flask"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
+	SetTextColor 33 33 33 255 # Flasks
+	SetBackgroundColor 180 173 225 255 # Flasks - Utility
+	SetBorderColor 33 33 33 255 # Flasks - Utility
 	SetFontSize 40
-	PlayAlertSound 12 200 # flask_utility
+	PlayAlertSound 12 200 # Flasks - Utility
 Show
 	ItemLevel <= 72
 	BaseType = "Diamond Flask" "Sulphur Flask"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
+	SetTextColor 33 33 33 255 # Flasks
+	SetBackgroundColor 180 173 225 255 # Flasks - Utility
+	SetBorderColor 33 33 33 255 # Flasks - Utility
 	SetFontSize 35
-	PlayAlertSound 12 200 # flask_utility
+	PlayAlertSound 12 200 # Flasks - Utility
 #-------------------------------------------------------------------------------
 # Subsection: [C.2] Flask - Quality
 #-------------------------------------------------------------------------------
 Show
 	Quality = 20
 	BaseType = "Divine Life Flask" "Eternal Mana Flask" "Basalt Flask" "Granite Flask" "Jade Flask" "Quicksilver Flask" "Silver Flask" "Quartz Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask"
-	SetTextColor 121 85 175 255 # flask_quality
-	SetBackgroundColor 36 35 57 240 # flask_quality
-	SetBorderColor 163 163 163 255 # flask_quality
+	SetTextColor 121 85 175 255 # Flasks - Quality
+	SetBackgroundColor 36 35 57 240 # Flasks - Quality
+	SetBorderColor 163 163 163 255 # Flasks - Quality
 	SetFontSize 40
-	PlayAlertSound 12 200 # flask_utility
+	PlayAlertSound 12 200 # Flasks - Utility
 Show
 	Quality >= 10
 	BaseType = "Jade Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Basalt Flask" "Granite Flask" "Jade Flask" "Quicksilver Flask" "Silver Flask" "Quartz Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask"
-	SetTextColor 121 85 175 255 # flask_quality
-	SetBackgroundColor 36 35 57 240 # flask_quality
-	SetBorderColor 163 163 163 255 # flask_quality
+	SetTextColor 121 85 175 255 # Flasks - Quality
+	SetBackgroundColor 36 35 57 240 # Flasks - Quality
+	SetBorderColor 163 163 163 255 # Flasks - Quality
 	SetFontSize 36
 Show
 	Quality >= 10
 	AreaLevel <= 62
 	Class = "Flask"
-	SetTextColor 121 85 175 255 # flask_quality
-	SetBackgroundColor 36 35 57 240 # flask_quality
-	SetBorderColor 163 163 163 255 # flask_quality
+	SetTextColor 121 85 175 255 # Flasks - Quality
+	SetBackgroundColor 36 35 57 240 # Flasks - Quality
+	SetBorderColor 163 163 163 255 # Flasks - Quality
 	SetFontSize 38
 Show
 	Quality >= 10
 	AreaLevel <= 72
 	Class = "Flask"
-	SetTextColor 121 85 175 255 # flask_quality
-	SetBackgroundColor 36 35 57 240 # flask_quality
-	SetBorderColor 163 163 163 255 # flask_quality
+	SetTextColor 121 85 175 255 # Flasks - Quality
+	SetBackgroundColor 36 35 57 240 # Flasks - Quality
+	SetBorderColor 163 163 163 255 # Flasks - Quality
 	SetFontSize 32
 Show
 	Quality >= 10
 	AreaLevel <= 77
 	Class = "Flask"
-	SetTextColor 121 85 175 255 # flask_quality
-	SetBackgroundColor 36 35 57 240 # flask_quality
-	SetBorderColor 163 163 163 255 # flask_quality
+	SetTextColor 121 85 175 255 # Flasks - Quality
+	SetBackgroundColor 36 35 57 240 # Flasks - Quality
+	SetBorderColor 163 163 163 255 # Flasks - Quality
 	SetFontSize 26
 Show
 	Quality >= 7
 	AreaLevel >= 40
 	AreaLevel <= 77
 	Class = "Flask"
-	SetTextColor 121 85 175 255 # flask_quality
-	SetBackgroundColor 36 35 57 240 # flask_quality
-	SetBorderColor 163 163 163 255 # flask_quality
+	SetTextColor 121 85 175 255 # Flasks - Quality
+	SetBackgroundColor 36 35 57 240 # Flasks - Quality
+	SetBorderColor 163 163 163 255 # Flasks - Quality
 	SetFontSize 18
 Show
 	Quality >= 10
@@ -862,15 +862,15 @@ Show
 Show
 	AreaLevel <= 77
 	BaseType = "Basalt Flask" "Granite Flask" "Jade Flask" "Quicksilver Flask" "Silver Flask" "Quartz Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
+	SetTextColor 33 33 33 255 # Flasks
+	SetBackgroundColor 180 173 225 255 # Flasks - Utility
+	SetBorderColor 33 33 33 255 # Flasks - Utility
 Show
 	AreaLevel <= 67
 	BaseType = "Bismuth Flask" "Aquamarine Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Amethyst Flask"
-	SetTextColor 33 33 33 255 # flask
-	SetBackgroundColor 180 173 225 255 # flask_utility
-	SetBorderColor 33 33 33 255 # flask_utility
+	SetTextColor 33 33 33 255 # Flasks
+	SetBackgroundColor 180 173 225 255 # Flasks - Utility
+	SetBorderColor 33 33 33 255 # Flasks - Utility
 	SetFontSize 38
 #-------------------------------------------------------------------------------
 # Subsection: [C.4] Flask - Leveling Life
@@ -1041,7 +1041,7 @@ Show
 	AreaLevel <= 2
 	BaseType = "Small Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Show
 	AreaLevel <= 5
@@ -1056,7 +1056,7 @@ Show
 	AreaLevel <= 5
 	BaseType = "Medium Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Show
 	AreaLevel <= 11
@@ -1071,7 +1071,7 @@ Show
 	AreaLevel <= 11
 	BaseType = "Large Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Show
 	AreaLevel <= 17
@@ -1086,7 +1086,7 @@ Show
 	AreaLevel <= 17
 	BaseType = "Greater Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Show
 	AreaLevel <= 23
@@ -1101,7 +1101,7 @@ Show
 	AreaLevel <= 23
 	BaseType = "Grand Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Show
 	AreaLevel <= 29
@@ -1116,7 +1116,7 @@ Show
 	AreaLevel <= 29
 	BaseType = "Giant Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Show
 	AreaLevel <= 35
@@ -1131,7 +1131,7 @@ Show
 	AreaLevel <= 35
 	BaseType = "Colossal Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Show
 	AreaLevel <= 41
@@ -1162,26 +1162,26 @@ Show
 	AreaLevel <= 49
 	BaseType = "Hallowed Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Hide
   AreaLevel >= 55
   Rarity <= Magic
   BaseType = "Hallowed Mana Flask"
   SetTextColor 255 255 255 255
-  SetBorderColor 75 150 255 255 # flask_mana
+  SetBorderColor 75 150 255 255 # Flasks - Mana
   SetFontSize 36
 Show
 	AreaLevel <= 59
 	BaseType = "Sanctified Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 Show
 	AreaLevel <= 64
 	BaseType = "Divine Mana Flask"
 	SetTextColor 255 255 255 255
-	SetBorderColor 75 150 255 255 # flask_mana
+	SetBorderColor 75 150 255 255 # Flasks - Mana
 	SetFontSize 36
 #-------------------------------------------------------------------------------
 # Subsection: [C.9] Flask - Endgame Mana
@@ -1229,20 +1229,20 @@ Hide
 Show
 	Rarity = Unique
 	BaseType = "Prismatic Jewel" "Timeless Jewel" "Large Cluster Jewel"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 6 300 # uniq_t1_300
+	PlayAlertSound 6 300 # Unique Item_t1_300
 	MinimapIcon 0 Orange Star
 	PlayEffect Orange
 Show
 	Rarity = Unique
 	Class = "Jewel"
 	BaseType = "Cluster Jewel"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
 	PlayAlertSound 5 150
 	MinimapIcon 0 Pink Triangle
@@ -1250,9 +1250,9 @@ Show
 Show
 	Rarity = Unique
 	Class = "Jewel"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 40
 	PlayAlertSound 7 150
 	MinimapIcon 2 Orange Star
@@ -1905,8 +1905,8 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Greatwolf Talisman"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 250 250 150 255 # item_jewellery
 	SetFontSize 45 # league_big_marker
 	PlayAlertSound 6 200 # league_big_marker
@@ -1916,10 +1916,10 @@ Show
 	Rarity = Unique
 	Class = "Amulet"
 	BaseType = "Talisman"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 250 250 150 255 # item_jewellery
-	SetFontSize 45 # uniq_big
+	SetFontSize 45 # Unique Item_big
 	PlayAlertSound 10 200 # league_medium_marker
 	MinimapIcon 1 Pink Triangle
 	PlayEffect Pink
@@ -1974,8 +1974,8 @@ Show
 	Rarity = Unique
 	Class = "Helmet"
 	HasEnchantment = "Additional" "Reservation" "Curse Effect" "Damage" "Duration" "Extra" "Attack Speed" "Cast Speed" "Critical Strike Chance" "Cooldown" "Resistance"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
 	SetBorderColor 129 50 85 255 # item_helmet
 	SetFontSize 45
 	PlayAlertSound 6 200 # league_big_marker
@@ -1985,8 +1985,8 @@ Show
 	AnyEnchantment = True
 	Rarity = Unique
 	Class = "Helm" "Boots" "Amulet"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 129 50 85 255 # item_helmet
 	SetFontSize 45
 	PlayAlertSound 10 200 # league_medium_marker
@@ -2292,10 +2292,10 @@ Show
 #-------------------------------------------------------------------------------
 Show
 	Class = "Piece"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
-	SetFontSize 45 # uniq_big
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
+	SetFontSize 45 # Unique Item_big
 	PlayAlertSound 10 200 # league_medium_marker
 	MinimapIcon 1 Pink Triangle
 	PlayEffect Pink
@@ -2672,10 +2672,10 @@ Show
 Show
 	Rarity = Unique
 	HasExplicitMod = "Veil"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
-	SetFontSize 45 # uniq_big
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
+	SetFontSize 45 # Unique Item_big
 	PlayAlertSound 6 200 # league_big_marker
 	MinimapIcon 0 Pink Triangle
 	PlayEffect Pink
@@ -2760,10 +2760,10 @@ Show
 Show
 	SynthesisedItem = True
 	Rarity = Unique
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
-	SetFontSize 45 # uniq_big
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
+	SetFontSize 45 # Unique Item_big
 	PlayAlertSound 4 100 # big_drop
 	MinimapIcon 0 Pink Triangle
 	PlayEffect Pink
@@ -3026,9 +3026,9 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Contract"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45 # big
 	PlayAlertSound 6 200 # league_big_marker
 	MinimapIcon 0 Pink Triangle
@@ -3156,10 +3156,10 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Butcher Axe" "Gladius"
-	SetTextColor 255 196 129 255 # uniq
-	SetBackgroundColor 204 105 0 210 # uniq
+	SetTextColor 255 196 129 255 # Unique Item
+	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 169 169 254 255 # item_weapon
-	SetFontSize 45 # uniq_big
+	SetFontSize 45 # Unique Item_big
 	PlayAlertSound 10 200 # league_medium_marker
 	MinimapIcon 1 Pink Triangle
 	PlayEffect Pink
@@ -3258,9 +3258,9 @@ Show
 Show
 	Sockets = "6"
 	Rarity = Unique
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45 # big
 	PlayAlertSound 6 300 # item_alto
 	MinimapIcon 0 White Hexagon
@@ -3546,10 +3546,10 @@ Show
 	Rarity = Unique
 	Class = "Map"
 	BaseType = "Chateau" "Relic Chambers" "Maze"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
 	SetBorderColor 250 0 0 255 # mapa_uniq
-	SetFontSize 45 # uniq_big
+	SetFontSize 45 # Unique Item_big
 	PlayAlertSound 6 250 # mapa_big
 	MinimapIcon 0 Red Circle
 	PlayEffect Red
@@ -3557,8 +3557,8 @@ Show
 	Rarity = Unique
 	Class = "Map"
 	BaseType = "Siege" "Basilica" "Courthouse" "Park" "Museum" "Harbinger" "Moon Temple"
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
 	SetBorderColor 250 0 0 255 # mapa_uniq
 	SetFontSize 45 # big
 	PlayAlertSound 6 250 # mapa_big
@@ -3709,9 +3709,9 @@ Show
 	Corrupted = True
 	MapTier >= 16
 	Class = "Map"
-	SetTextColor 153 13 0 255 # mapa_corrupted
-	SetBackgroundColor 146 67 58 240 # mapa_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
+	SetBackgroundColor 146 67 58 240 # Maps - Corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 45
 	PlayAlertSound 15 150 # map_extreme
 	MinimapIcon 0 Red Circle
@@ -3720,9 +3720,9 @@ Show
 	Corrupted = True
 	MapTier >= 11
 	Class = "Map"
-	SetTextColor 153 13 0 255 # mapa_corrupted
-	SetBackgroundColor 146 67 58 240 # mapa_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
+	SetBackgroundColor 146 67 58 240 # Maps - Corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 42
 	PlayAlertSound 6 250 # mapa_big
 	MinimapIcon 1 Red Circle
@@ -3731,9 +3731,9 @@ Show
 	Corrupted = True
 	MapTier >= 9
 	Class = "Map"
-	SetTextColor 153 13 0 255 # mapa_corrupted
-	SetBackgroundColor 146 67 58 240 # mapa_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
+	SetBackgroundColor 146 67 58 240 # Maps - Corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 40
 	PlayAlertSound 2 250 # mapa_medium
 	MinimapIcon 2 Red Circle
@@ -3742,17 +3742,17 @@ Show
 	Corrupted = True
 	MapTier >= 6
 	Class = "Map"
-	SetTextColor 153 13 0 255 # mapa_corrupted
-	SetBackgroundColor 146 67 58 240 # mapa_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
+	SetBackgroundColor 146 67 58 240 # Maps - Corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 38
 	PlayAlertSound 4 150 # mapa_normal
 Show
 	Corrupted = True
 	Class = "Map"
-	SetTextColor 153 13 0 255 # mapa_corrupted
-	SetBackgroundColor 146 67 58 240 # mapa_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
+	SetBackgroundColor 146 67 58 240 # Maps - Corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 36
 #-------------------------------------------------------------------------------
 # Subsection: [L.5] Zana Maps
@@ -3915,11 +3915,11 @@ Show
 Show
 	HasInfluence = "Crusader" "Redeemer" "Hunter" "Warlord" "Shaper" "Elder"
 	Rarity = Unique
-	SetTextColor 0 0 0 255 # uniq_extremo
-	SetBackgroundColor 225 100 0 240 # uniq_extremo
-	SetBorderColor 255 196 129 255 # uniq
-	SetFontSize 45 # uniq_big
-	PlayAlertSound 6 300 # uniq_t1_300
+	SetTextColor 0 0 0 255 # T0 Unique Items
+	SetBackgroundColor 225 100 0 240 # T0 Unique Items
+	SetBorderColor 255 196 129 255 # Unique Item
+	SetFontSize 45 # Unique Item_big
+	PlayAlertSound 6 300 # Unique Item_t1_300
 	MinimapIcon 0 Orange Diamond
 	PlayEffect Orange
 Show
@@ -5354,9 +5354,9 @@ Show
 Show
 	CorruptedMods = 2
 	Rarity = Rare
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 183 166 154 210 # item_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 45
 	PlayEffect Red Temp
 Show
@@ -5365,7 +5365,7 @@ Show
 	Class = "Jewel"
 	HasExplicitMod = "Vivid" "Shimmering" "Leadership" "Hale" "Healthy" "Sanguine" "Stalwart" "Shining" "Seething" "Incandescent" "Resplendent" "of Blinding" "of Onslaught" "of Phasing" "of Stifling" "of Distraction"
 	SetBackgroundColor 138 51 68 240 # jewel
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 40
 	PlayEffect Red Temp
 Show
@@ -5374,7 +5374,7 @@ Show
 	Class = "Jewel"
 	HasExplicitMod = "Vivid" "Shimmering" "Leadership" "Hale" "Healthy" "Sanguine" "Stalwart" "Shining" "Seething" "Incandescent" "Resplendent" "of Blinding" "of Onslaught" "of Phasing" "of Stifling" "of Distraction"
 	SetBackgroundColor 138 51 68 240 # jewel
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 40
 	PlayEffect Blue Temp
 Show
@@ -5382,19 +5382,19 @@ Show
 	Rarity = Rare
 	Class = "Jewel"
 	SetBackgroundColor 138 51 68 240 # jewel
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 36
 Show
 	Corrupted = True
 	Rarity = Magic
 	Class = "Jewel"
 	SetBackgroundColor 138 51 68 240 # jewel
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 36
 Show
 	BaseType = "Breach Ring"
 	HasExplicitMod = "of Exile" "of Bameth"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 183 166 154 210 # item_corrupted
 	SetBorderColor 250 250 150 255 # item_jewellery
 	SetFontSize 36
@@ -5409,7 +5409,7 @@ Show
 	Rarity = Magic
 	BaseType = "Leather Belt"
 	HasExplicitMod = "Fecund"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 183 166 154 210 # item_corrupted
 	SetBorderColor 250 250 150 255 # item_jewellery
 	SetFontSize 38
@@ -5418,7 +5418,7 @@ Show
 	Rarity = Magic
 	Class = "Ring"
 	HasExplicitMod = "Virile" "Rotund" "Athlete's"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 183 166 154 210 # item_corrupted
 	SetBorderColor 250 250 150 255 # item_jewellery
 	SetFontSize 38
@@ -5426,7 +5426,7 @@ Show
 	Corrupted = True
 	Rarity = Magic
 	Class = "Ring" "Belt"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 183 166 154 210 # item_corrupted
 	SetBorderColor 250 250 150 255 # item_jewellery
 	SetFontSize 38
@@ -8126,9 +8126,9 @@ Show
 	GemLevel >= 20
 	Class = "Gem"
 	BaseType = "Vaal"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 45
 	PlayAlertSound 6 300 # item_alto
 	MinimapIcon 1 Grey Cross
@@ -8139,9 +8139,9 @@ Show
 	GemLevel >= 18
 	Class = "Gem"
 	BaseType = "Vaal"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 42
 	PlayAlertSound 12 200 # item_normal
 	MinimapIcon 2 Grey Cross
@@ -8152,9 +8152,9 @@ Show
 	GemLevel >= 18
 	Class = "Gem"
 	BaseType = "Vaal"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 40
 	PlayAlertSound 12 200 # item_normal
 Show
@@ -8162,9 +8162,9 @@ Show
 	Quality >= 10
 	Class = "Gem"
 	BaseType = "Vaal"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 40
 	PlayAlertSound 12 200 # item_normal
 Show
@@ -8172,9 +8172,9 @@ Show
 	GemLevel >= 20
 	Class = "Gem"
 	BaseType = "Vaal"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 40
 	PlayAlertSound 12 200
 	MinimapIcon 2 Grey Cross
@@ -8184,9 +8184,9 @@ Show
 	GemLevel >= 18
 	Class = "Gem"
 	BaseType = "Vaal"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 40
 	PlayAlertSound 12 200 # item_normal
 Show
@@ -8194,9 +8194,9 @@ Show
 	Quality >= 7
 	Class = "Gem"
 	BaseType = "Vaal"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 38
 #-------------------------------------------------------------------------------
 # Subsection: [AE.5] Others with Quality
@@ -8288,18 +8288,18 @@ Show
 	Corrupted = True
 	Class = "Gem"
 	BaseType = "Vaal Haste" "Vaal Grace" "Vaal Discipline"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 36
 	PlayAlertSound 3 200 # gem_generic
 Show
 	Corrupted = True
 	Class = "Gem"
 	BaseType = "Vaal"
-	SetTextColor 153 13 0 255 # mapa_corrupted
+	SetTextColor 153 13 0 255 # Maps - Corrupted
 	SetBackgroundColor 141 129 129 240 # gem_corrupted
-	SetBorderColor 153 13 0 255 # mapa_corrupted
+	SetBorderColor 153 13 0 255 # Maps - Corrupted
 	SetFontSize 36
 Show
 	AreaLevel <= 1
@@ -8358,7 +8358,7 @@ Show
 	SetBackgroundColor 200 75 0 240
 	SetBorderColor 0 0 0 255
 	SetFontSize 36
-	PlayAlertSound 1 100 # uniq_normal
+	PlayAlertSound 1 100 # Unique Item_normal
 #-------------------------------------------------------------------------------
 # Subsection: [ZZ.2] - Disable Drop Sounds
 #-------------------------------------------------------------------------------
