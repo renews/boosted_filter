@@ -2939,51 +2939,51 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [G.17] Harvest
 #-------------------------------------------------------------------------------
-Show
-	Class = "Harvest Seed"
-	BaseType = "Thornfruit" "Scalefruit" "Blisterfruit"
-	SetTextColor 33 33 33 255 # league_big_marker
-	SetBackgroundColor 242 181 212 240 # league_big_marker
-	SetBorderColor 33 33 33 255 # league_big_marker
-	SetFontSize 45 # league_big_marker
-	PlayAlertSound 6 200 # league_big_marker
-	MinimapIcon 0 Pink Triangle
-	PlayEffect Pink
-Show
-	Class = "Harvest Seed"
-	BaseType = "Bulb"
-	SetTextColor 33 33 33 255 # league_normal
-	SetBackgroundColor 251 122 166 255 # league_normal
-	SetBorderColor 246 152 189 255 # league_normal
-	SetFontSize 40 # league_normal
-Show
-	Class = "Harvest Seed"
-	BaseType = "Grain"
-	SetTextColor 33 33 33 255 # league_normal
-	SetBackgroundColor 251 122 166 255 # league_normal
-	SetBorderColor 246 152 189 255 # league_normal
-	SetFontSize 40 # league_normal
-Show
-	Class = "Harvest Seed"
-	BaseType = "Seed"
-	SetTextColor 33 33 33 255 # league_normal
-	SetBackgroundColor 251 122 166 255 # league_normal
-	SetBorderColor 246 152 189 255 # league_normal
-	SetFontSize 40 # league_normal
-Show
-	Class = "Harvest Seed"
-	SetTextColor 225 225 225 210 # league_small
-	SetBackgroundColor 255 93 143 210 # league_small
-	SetFontSize 32 # league_lowest
-Show
-	Class = "Seed Enhancer"
-	SetTextColor 33 33 33 255 # league_medium_marker
-	SetBackgroundColor 246 152 189 240 # league_medium_marker
-	SetBorderColor 255 93 143 255 # league_medium_marker
-	SetFontSize 45 # league_medium_marker
-	PlayAlertSound 10 200 # league_medium_marker
-	MinimapIcon 1 Pink Triangle
-	PlayEffect Pink Temp
+# Show
+# 	Class = "Harvest Seed"
+# 	BaseType = "Thornfruit" "Scalefruit" "Blisterfruit"
+# 	SetTextColor 33 33 33 255 # league_big_marker
+# 	SetBackgroundColor 242 181 212 240 # league_big_marker
+# 	SetBorderColor 33 33 33 255 # league_big_marker
+# 	SetFontSize 45 # league_big_marker
+# 	PlayAlertSound 6 200 # league_big_marker
+# 	MinimapIcon 0 Pink Triangle
+# 	PlayEffect Pink
+# Show
+# 	Class = "Harvest Seed"
+# 	BaseType = "Bulb"
+# 	SetTextColor 33 33 33 255 # league_normal
+# 	SetBackgroundColor 251 122 166 255 # league_normal
+# 	SetBorderColor 246 152 189 255 # league_normal
+# 	SetFontSize 40 # league_normal
+# Show
+# 	Class = "Harvest Seed"
+# 	BaseType = "Grain"
+# 	SetTextColor 33 33 33 255 # league_normal
+# 	SetBackgroundColor 251 122 166 255 # league_normal
+# 	SetBorderColor 246 152 189 255 # league_normal
+# 	SetFontSize 40 # league_normal
+# Show
+# 	Class = "Harvest Seed"
+# 	BaseType = "Seed"
+# 	SetTextColor 33 33 33 255 # league_normal
+# 	SetBackgroundColor 251 122 166 255 # league_normal
+# 	SetBorderColor 246 152 189 255 # league_normal
+# 	SetFontSize 40 # league_normal
+# Show
+# 	Class = "Harvest Seed"
+# 	SetTextColor 225 225 225 210 # league_small
+# 	SetBackgroundColor 255 93 143 210 # league_small
+# 	SetFontSize 32 # league_lowest
+# Show
+# 	Class = "Seed Enhancer"
+# 	SetTextColor 33 33 33 255 # league_medium_marker
+# 	SetBackgroundColor 246 152 189 240 # league_medium_marker
+# 	SetBorderColor 255 93 143 255 # league_medium_marker
+# 	SetFontSize 45 # league_medium_marker
+# 	PlayAlertSound 10 200 # league_medium_marker
+# 	MinimapIcon 1 Pink Triangle
+# 	PlayEffect Pink Temp
 Show
 	BaseType = "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll"
 	SetTextColor 33 33 33 255 # league_big_marker
