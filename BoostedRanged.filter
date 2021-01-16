@@ -1,5 +1,5 @@
 # >===============================================================================
-# 15.01.2021 | BOOSTED - BoostedRanged v1.313.004
+# 16.01.2021 | BOOSTED - BoostedRanged v1.313.004
 # ================================================================================
 # Dúvidas? Questions? https://br.pathofexile.com/forum/view-thread/3009849
 #
@@ -26,7 +26,7 @@ Show
 	ItemLevel >= 69
 	BaseType "Occultist's Vestment" "Glorious Plate" "Sorcerer Boots"
 	SetTextColor 240 240 240 160 # Chance Base
-	SetBackgroundColor 255 123 0 60 # Chance Base
+	SetBackgroundColor 255 123 0 210 # Chance Base
 	SetBorderColor 199 184 184 160 # Chance Base
 	SetFontSize 26
 # Subsection: [0.2] Favorite Maps
@@ -43,13 +43,13 @@ Show
 	MinimapIcon 0 Brown Circle
 	PlayEffect Brown
 # Subsection: [0.3] Highlight this please Coder
-Show
+Hide
 	BaseType "Sapphire Ring"
 	SetTextColor 250 200 100 255 # item_extremo
 	SetBackgroundColor 100 75 25 240 # item_extremo
 	SetBorderColor 250 200 100 255 # item_extremo
 	SetFontSize 45
-	PlayAlertSound 1 150
+	PlayAlertSound 1 250
 	MinimapIcon 0 Purple Diamond
 # ===============================================================================
 # Section: A - Racing links
@@ -1487,14 +1487,14 @@ Show
 	BaseType = "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance" "Blessed Orb" "Silver Coin"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 179
-	SetFontSize 32
+	SetFontSize 40
 Show
 	AreaLevel <= 72
 	AreaLevel > 67
 	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 179
-	SetFontSize 32
+	SetFontSize 40
 # [E.3] Low Currency
 Show
 	AreaLevel <= 72
@@ -1550,7 +1550,7 @@ Show
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 92 153 115 240
 	SetFontSize 45
-	PlayAlertSound 3 150
+	PlayAlertSound 3 250
 	PlayEffect Green Temp
 Show
 	AreaLevel <= 78
@@ -1612,7 +1612,7 @@ Show
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 92 153 115 240
 	SetFontSize 40
-	PlayAlertSound 3 100
+	PlayAlertSound 3 200
 Show
 	AreaLevel > 77
 	BaseType = "Orb of Binding" "Engineer's Orb" "Orb of Fusing" "Orb of Scouring" "Perandus Coin"
@@ -2037,7 +2037,7 @@ Show
 	SetBackgroundColor 165 194 233 240 # Quest Items
 	SetBorderColor 77 121 178 255 # Quest Items
 	SetFontSize 45
-	PlayAlertSound 16 100 # Quest Items
+	PlayAlertSound 16 250 # Quest Items
 	MinimapIcon 0 Blue Pentagon
 	PlayEffect Blue
 Show
@@ -2046,7 +2046,7 @@ Show
 	SetBackgroundColor 165 194 233 240 # Quest Items
 	SetBorderColor 77 121 178 255 # Quest Items
 	SetFontSize 45
-	PlayAlertSound 16 100 # Quest Items
+	PlayAlertSound 16 250 # Quest Items
 	MinimapIcon 0 Blue Pentagon
 	PlayEffect Blue
 #-------------------------------------------------------------------------------
@@ -2385,7 +2385,7 @@ Show
 	SetBackgroundColor 165 194 233 240 # Quest Items
 	SetBorderColor 77 121 178 255 # Quest Items
 	SetFontSize 45
-	PlayAlertSound 16 100 # Quest Items
+	PlayAlertSound 16 250 # Quest Items
 	MinimapIcon 2 Pink Triangle
 	PlayEffect Pink Temp
 Show
@@ -3047,7 +3047,7 @@ Show
 	SetBackgroundColor 165 194 233 240 # Quest Items
 	SetBorderColor 77 121 178 255 # Quest Items
 	SetFontSize 45 # big
-	PlayAlertSound 16 100 # Quest Items
+	PlayAlertSound 16 250 # Quest Items
 	MinimapIcon 1 Blue Pentagon
 	PlayEffect Blue
 # G.18 - rogue loot (4 tiers)
@@ -3239,7 +3239,7 @@ Show
 	SetBackgroundColor 136 68 68 210 # mapas_fragmentos
 	SetBorderColor 255 148 148 255 # mapas_fragmentos
 	SetFontSize 42 # mapas_fragmentos
-	PlayAlertSound 3 125 # normal_drop
+	PlayAlertSound 3 250 # normal_drop
 	PlayEffect Pink Temp
 Show
 	Class = "Pantheon Soul"
@@ -3247,7 +3247,7 @@ Show
 	SetBackgroundColor 136 68 68 210 # mapas_fragmentos
 	SetBorderColor 255 148 148 255 # mapas_fragmentos
 	SetFontSize 42 # mapas_fragmentos
-	PlayAlertSound 3 125 # normal_drop
+	PlayAlertSound 3 250 # normal_drop
 	PlayEffect Pink Temp
 #===============================================================================
 # Section: I - Items | 6 Sockets/5L
@@ -8330,7 +8330,7 @@ Show
 	SetBackgroundColor 165 194 233 240 # Quest Items
 	SetBorderColor 77 121 178 255 # Quest Items
 	SetFontSize 45
-	PlayAlertSound 16 100 # Quest Items
+	PlayAlertSound 16 250 # Quest Items
 	MinimapIcon 0 Blue Pentagon
 	PlayEffect Blue
 Show
