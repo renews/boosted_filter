@@ -43,14 +43,6 @@ Show
 	MinimapIcon 0 Brown Circle
 	PlayEffect Brown
 # Subsection: [0.3] Highlight this please Coder
-Hide
-	BaseType "Sapphire Ring"
-	SetTextColor 250 200 100 255 # item_extremo
-	SetBackgroundColor 100 75 25 240 # item_extremo
-	SetBorderColor 250 200 100 255 # item_extremo
-	SetFontSize 45
-	PlayAlertSound 1 250
-	MinimapIcon 0 Purple Diamond
 # ===============================================================================
 # Section: A - Racing links
 # ===============================================================================
