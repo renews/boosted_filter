@@ -1,3 +1,9 @@
+## Version (1.313.006) 
+
+* Adjustments on currency - fusing, scouring, alchemy. 
+* Adjustments on chance bases colors. 
+* Watchstones. 
+* Qaulity 18+ show on reds. 
 ## Version (1.313.005) 
 
 * New forum link. 
