@@ -1,3 +1,7 @@
+## Version (1.313.007) 
+
+* Adjustments on chance bases colors. 
+* Change high map drop sound to 13. 
 ## Version (1.313.006) 
 
 * Adjustments on currency - fusing, scouring, alchemy. 
