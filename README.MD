@@ -1,3 +1,6 @@
+## Version (1.313.008) 
+
+* Good jewellery bases must show in all rarities. 
 ## Version (1.313.007) 
 
 * Adjustments on chance bases colors. 
