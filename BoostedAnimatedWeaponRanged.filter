@@ -1,5 +1,5 @@
 # >===============================================================================
-# 19.01.2021 | BOOSTED - BoostedAnimatedWeaponRanged v1.313.008
+# 21.01.2021 | BOOSTED - BoostedAnimatedWeaponRanged v1.313.008
 # ================================================================================
 # Dúvidas? Questions? https://br.pathofexile.com/forum/view-thread/3009849
 #
@@ -1396,7 +1396,7 @@ Show
 # Subsection: [E.2] ~ Blood aquaducts
 #-------------------------------------------------------------------------------
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Vaal Orb" "Orb of Regret"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 92 153 115 240
@@ -1405,62 +1405,62 @@ Show
 	PlayAlertSound 3 200
 	PlayEffect Green Temp
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Orb of Binding" "Engineer's Orb" "Orb of Fusing" "Cartographer's Chisel" "Orb of Scouring" "Orb of Alchemy" "Perandus Coin"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 210
 	SetFontSize 45
 	PlayAlertSound 12 150
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Chromatic Orb" "Orb of Alteration" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance" "Blessed Orb" "Silver Coin"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 210
 	SetFontSize 45
 	PlayAlertSound 12 150
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Orb of Transmutation" "Orb of Augmentation" "Armourer's Scrap" "Blacksmith's Whetstone"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 210
 	SetFontSize 40
 # [E.2] Low Currency
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Scroll of Wisdom"
 	SetTextColor 65 65 65 255
 	SetBackgroundColor 241 220 167 210
 	SetFontSize 45
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Portal Scroll"
 	SetTextColor 65 65 65 255
 	SetBackgroundColor 241 220 167 210
 	SetFontSize 45
 # [E.2] Shards
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Horizon Shard"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 179
 	SetBorderColor 165 255 214 255
 	SetFontSize 32
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Chaos Shard" "Regal Shard"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 179
 	SetBorderColor 165 255 214 255
 	SetFontSize 32
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Engineer's Shard"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 179
 	SetBorderColor 165 255 214 255
 	SetFontSize 32
 Show
-	AreaLevel <= 62
+	AreaLevel <= 66
 	BaseType = "Binding Shard" "Alchemy Shard"
 	SetTextColor 165 255 214 255
 	SetBackgroundColor 74 128 90 179
