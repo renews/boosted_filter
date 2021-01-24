@@ -1,3 +1,6 @@
+## Version (1.313.009) 
+
+* Show card -The Hoarder- on T10+. 
 ## Version (1.313.008) 
 
 * Good jewellery bases must show in all rarities. 
