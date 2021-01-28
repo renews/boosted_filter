@@ -1,3 +1,8 @@
+## Version (1.313.010) 
+
+* Normalizing sounds for high value drops. 
+* Better sizes for portals. 
+* Better sounds for convoking wands. 
 ## Version (1.313.009) 
 
 * Show card -The Hoarder- on T10+. 
