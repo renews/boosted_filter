@@ -1,3 +1,9 @@
+## Version (1.313.011) 
+
+* Stricter rules for tier 15/16. 
+* Card The Iron Bard in T2. 
+* Fix card the Hoarder. 
+* More highlight for crescent splinter. 
 ## Version (1.313.010) 
 
 * Normalizing sounds for high value drops. 
