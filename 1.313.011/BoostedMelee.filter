@@ -1679,7 +1679,7 @@ Show
 	SetFontSize 32
 Show
 	AreaLevel > 77
-	AreaLevel <=81
+	AreaLevel <= 81
 	BaseType = "Portal Scroll"
 	SetTextColor 65 65 65 255 # Currency - Utility
 	SetBackgroundColor 241 220 167 150
