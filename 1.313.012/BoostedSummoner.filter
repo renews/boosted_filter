@@ -672,9 +672,6 @@ Hide
 	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 255 196 129 255 # Unique Item
 	SetFontSize 45
-	PlayAlertSound 1 200 # Unique Item_normal_200
-	MinimapIcon 2 Orange Hexagon
-	PlayEffect Orange Temp
 #-------------------------------------------------------------------------------
 # Subsection: [J.4] T3
 #-------------------------------------------------------------------------------
@@ -780,7 +777,6 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Driftwood Wand" "Wool Shoes" "Tornado Wand" "War Hammer" "Pine Buckler" "Destroyer Regalia" "Colossal Tower Shield" "Assassin's Garb" "Wool Gloves"
-	AreaLevel <= 81
 	SetTextColor 255 196 129 255 # Unique Item
 	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 255 196 129 255 # Unique Item
@@ -7812,6 +7808,7 @@ Hide
 #-------------------------------------------------------------------------------
 # Emergency fall-through block. Catches any item class not recongized by the filter and shows it with an all black highlight and icon. If this is ever visible either you fucked up, I fucked up, or GGG fucked up. Check the item filter thread for updates and redownload if you've made edits.
 Show
+	Rarity < Unique
 	SetTextColor 0 0 0 255 # fallback
 	SetBackgroundColor 255 0 0 100 # fallback
 	SetBorderColor 0 0 0 100 # fallback
