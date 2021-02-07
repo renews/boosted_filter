@@ -7764,13 +7764,13 @@ Show
 	SetFontSize 40
 	PlayEffect White Temp
 #Unique Catchall
-Show
-	Rarity = Unique
-	SetTextColor 0 0 0 210
-	SetBackgroundColor 200 75 0 100
-	SetBorderColor 0 0 0 100
-	SetFontSize 36
-	PlayAlertSound 1 100 # Unique Item_normal
+# Show
+# 	Rarity = Unique
+# 	SetTextColor 0 0 0 210
+# 	SetBackgroundColor 200 75 0 100
+# 	SetBorderColor 0 0 0 100
+# 	SetFontSize 36
+# 	PlayAlertSound 1 100 # Unique Item_normal
 #-------------------------------------------------------------------------------
 # Subsection: [ZZ.2] - Disable Drop Sounds
 #-------------------------------------------------------------------------------
