@@ -1748,6 +1748,12 @@ Show
 	SetBackgroundColor 241 220 167 150
 	SetFontSize 26
 Hide
+	AreaLevel > 81
+	BaseType = "Chromatic Orb" "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
+	SetTextColor 165 255 214 170
+	SetBackgroundColor 74 128 90 170
+	SetFontSize 32
+Hide
 	AreaLevel > 77
 	BaseType = "Glassblower's Bauble" "Jeweller's Orb" "Blessed Orb" "Orb of Augmentation" "Armourer's Scrap"
 	SetTextColor 165 255 214 170
@@ -3572,28 +3578,28 @@ Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Hubris Circlet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt"
-	SetBorderColor 129 50 85 255 # Items - Helmets
+	SetBorderColor 129 50 85 170 # Items - Helmets - Faded
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Astral Plate" "Vaal Regalia" "Sadist Garb"
-	SetBorderColor 255 255 255 255 # Items - Body Armour
+	SetBorderColor 255 255 255 170 # Items - Body Armour - Faded
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Sorcerer Boots" "Titan Greaves" "Slink Boots"
-	SetBorderColor 8 150 96 255 # Items - Boots
+	SetBorderColor 8 150 96 170 # Items - Boots - Faded
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Sorcerer Gloves" "Titan Gauntlets" "Slink Gloves"
-	SetBorderColor 199 99 0 255 # Items - Gloves
+	SetBorderColor 199 99 0 170 # Items - Gloves - Faded
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 36
 Show
@@ -3607,27 +3613,29 @@ Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Broadhead Arrow Quiver" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ezomyte Tower Shield"
-	SetBorderColor 38 29 154 255 # Items - Shields
+	SetBorderColor 38 29 154 170 # Items - Shields - Faded
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Vaal Axe" "Karui Chopper" "Siege Axe" "Runic Hatchet" "Citadel Bow" "Spine Bow" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre"
-	SetBorderColor 169 169 254 255 # Items - Weapons
+	SetBorderColor 169 169 254 170 # Items - Weapons - Faded
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 36
 #-------------------------------------------------------------------------------
 # Subsection: [K.5] 84 Bases
 #-------------------------------------------------------------------------------
 Show
+	AreaLevel <= 81
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Hubris Circlet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt"
-	SetBorderColor 129 50 85 170 # Items - Helmets - Faded - Faded
+	SetBorderColor 129 50 85 170 # Items - Helmets - Faded
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
+	AreaLevel <= 81
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Astral Plate" "Vaal Regalia" "Sadist Garb"
@@ -3635,6 +3643,7 @@ Show
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
+	AreaLevel <= 81
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Sorcerer Boots" "Titan Greaves" "Slink Boots"
@@ -3642,6 +3651,7 @@ Show
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
+  AreaLevel <= 81
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Sorcerer Gloves" "Titan Gauntlets" "Slink Gloves"
@@ -3649,6 +3659,7 @@ Show
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
+	AreaLevel <= 81
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Two-Stone Ring" "Prismatic Ring" "Unset Ring"
@@ -3656,6 +3667,7 @@ Show
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
+	AreaLevel <= 81
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Broadhead Arrow Quiver" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ezomyte Tower Shield"
@@ -3663,6 +3675,7 @@ Show
 	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
+	AreaLevel <= 81
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Vaal Axe" "Karui Chopper" "Siege Axe" "Runic Hatchet" "Citadel Bow" "Spine Bow" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre"
