@@ -1,5 +1,5 @@
 # >===============================================================================
-# 06.02.2021 | BOOSTED - BoostedMelee v1.313.011
+# 07.02.2021 | BOOSTED - BoostedMelee v1.313.011
 # ================================================================================
 # Dúvidas? Questions? https://br.pathofexile.com/forum/view-thread/3009849
 #
@@ -295,7 +295,7 @@ Show
 	ItemLevel <= 67
 	Class = "Gloves"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 199 99 0 210 # Items - Gloves - Catchall
+	SetBorderColor 199 99 0 170 # Items - Gloves - Catchall
 	SetFontSize 32
 Show
 	LinkedSockets = 4
@@ -304,7 +304,7 @@ Show
 	ItemLevel <= 67
 	Class = "Helm"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 129 50 85 210 # Items - Helmets - Catchall
+	SetBorderColor 129 50 85 170 # Items - Helmets - Catchall
 	SetFontSize 32
 Show
 	LinkedSockets = 4
@@ -313,7 +313,7 @@ Show
 	ItemLevel <= 67
 	Class = "Boots"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 8 150 96 210 # Items - Boots - Catchall
+	SetBorderColor 8 150 96 170 # Items - Boots - Catchall
 	SetFontSize 32
 Show
 	LinkedSockets = 4
@@ -322,7 +322,7 @@ Show
 	ItemLevel <= 67
 	Class = "Body Armour"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 255 255 255 210 # Items - Body Armour - Catchall
+	SetBorderColor 255 255 255 170 # Items - Body Armour - Catchall
 	SetFontSize 40
 Show
 	LinkedSockets = 4
@@ -331,7 +331,7 @@ Show
 	ItemLevel <= 67
 	Class = "Bow" "Two Hand"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 169 169 254 210 # Items - Weapons - Catchall
+	SetBorderColor 169 169 254 170 # Items - Weapons - Catchall
 	SetFontSize 32
 # Subsection: [A.6] Racing - Safety Blocks 3L - DO NOT CHANGE
 Show
@@ -340,7 +340,7 @@ Show
 	ItemLevel <= 15
 	Class = "Gloves"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 199 99 0 210 # Items - Gloves - Catchall
+	SetBorderColor 199 99 0 170 # Items - Gloves - Catchall
 	SetFontSize 36
 Show
 	LinkedSockets = 3
@@ -348,7 +348,7 @@ Show
 	ItemLevel <= 15
 	Class = "Helm"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 129 50 85 210 # Items - Helmets - Catchall
+	SetBorderColor 129 50 85 170 # Items - Helmets - Catchall
 	SetFontSize 36
 Show
 	LinkedSockets = 3
@@ -356,7 +356,7 @@ Show
 	ItemLevel <= 15
 	Class = "Boots"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 8 150 96 210 # Items - Boots
+	SetBorderColor 8 150 96 170 # Items - Boots
 	SetFontSize 36
 Show
 	LinkedSockets = 3
@@ -364,7 +364,7 @@ Show
 	ItemLevel <= 15
 	Class = "Body Armour"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 255 255 255 210 # Items - Body Armour - Catchall
+	SetBorderColor 255 255 255 170 # Items - Body Armour - Catchall
 	SetFontSize 36
 Show
 	LinkedSockets = 3
@@ -372,7 +372,7 @@ Show
 	ItemLevel <= 25
 	Class = "Gloves"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 199 99 0 210 # Items - Gloves - Catchall
+	SetBorderColor 199 99 0 170 # Items - Gloves - Catchall
 	SetFontSize 34
 Show
 	LinkedSockets = 3
@@ -380,7 +380,7 @@ Show
 	ItemLevel <= 25
 	Class = "Helm"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 129 50 85 210 # Items - Helmets - Catchall
+	SetBorderColor 129 50 85 170 # Items - Helmets - Catchall
 	SetFontSize 34
 Show
 	LinkedSockets = 3
@@ -388,7 +388,7 @@ Show
 	ItemLevel <= 25
 	Class = "Boots"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 8 150 96 210 # Items - Boots - Catchall
+	SetBorderColor 8 150 96 170 # Items - Boots - Catchall
 	SetFontSize 34
 Show
 	LinkedSockets = 3
@@ -396,7 +396,7 @@ Show
 	ItemLevel <= 25
 	Class = "Body Armour"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 255 255 255 210 # Items - Body Armour - Catchall
+	SetBorderColor 255 255 255 170 # Items - Body Armour - Catchall
 	SetFontSize 34
 Show
 	LinkedSockets = 3
@@ -405,7 +405,7 @@ Show
 	ItemLevel <= 47
 	Class = "Gloves"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 199 99 0 210 # Items - Gloves - Catchall
+	SetBorderColor 199 99 0 170 # Items - Gloves - Catchall
 Show
 	LinkedSockets = 3
 	Sockets < "6"
@@ -413,7 +413,7 @@ Show
 	ItemLevel <= 47
 	Class = "Helm"
 	SetBackgroundColor 33 33 33 100 # item_catchall
-	SetBorderColor 129 50 85 210 # Items - Helmets - Catchall
+	SetBorderColor 129 50 85 170 # Items - Helmets - Catchall
 # Section: B - Chromatic Items
 Show
 	Sockets < "6"
@@ -647,6 +647,7 @@ Show
 	PlayEffect Orange
 Show
 	Rarity = Unique
+	AreaLevel <= 81
 	BaseType = "Iron Gauntlets" "Leather Cap" "Saintly Chainmail" "Nubuck Boots" "Imperial Staff" "Abyssal Axe" "Vanguard Belt" "Coiled Staff" "Ezomyte Burgonet" "Corsair Sword" "Vaal Regalia" "Sinner Tricorne" "Sorcerer Gloves" "Midnight Blade" "Blue Pearl Amulet" "Ancient Greaves" "Ancient Gauntlets" "Nubuck Gloves" "Festival Mask" "Hubris Circlet" "Large Hybrid Flask" "Amethyst Flask" "Vaal Gauntlets" "Corrugated Buckler" "Penetrating Arrow Quiver" "Vaal Sceptre" "Stibnite Flask" "Deicide Mask" "Demon Dagger" "Destiny Leather" "Crystal Belt" "Stygian Vise" "Embroidered Gloves" "Eternal Sword" "Quartz Flask" "Bismuth Flask" "Reinforced Tower Shield" "Crusader Plate" "Solaris Circlet" "Full Dragonscale" "Two-Toned Boots" "Ezomyte Burgonet" "Close Helmet" "Elegant Ringmail" "Callous Mask" "Polished Spiked Shield" "Lion Pelt" "Eelskin Gloves" "Hellion's Paw" "Saint's Hauberk" "War Sword" "Full Wyrmscale" "Astral Plate" "Butcher Axe" "Mesh Gloves"
 	SetTextColor 255 196 129 255 # Unique Item
 	SetBackgroundColor 204 105 0 210 # Unique Item
@@ -705,6 +706,7 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Lapis Amulet" "Blinder" "Thorium Spirit Shield" "Bone Bow" "Siege Helmet" "Coronal Leather" "Labrys" "Ezomyte Tower Shield" "Goliath Greaves" "Labrys" "Ezomyte Tower Shield" "Vaal Axe" "Coronal Leather" "Royal Burgonet" "Raven Mask" "Sharkskin Tunic" "Ritual Sceptre" "Jasper Chopper" "Ironscale Gauntlets" "Clasped Mitts" "Cedar Tower Shield" "Regicide Mask" "Steelhead" "Trapper Boots" "Serpentscale Boots" "Vaal Blade" "Agate Amulet" "Leather Belt" "Sanctified Life Flask" "Sanctified Mana Flask" "Crusader Helmet" "Shackled Boots" "Coral Amulet" "Steel Circlet" "Assassin Bow" "Sulphur Flask" "Murder Mitts" "Strapped Mitts" "Soldier Helmet" "Holy Chainmail" "Karui Chopper" "Imperial Skean" "Titanium Spirit Shield" "Loricated Ringmail" "Sulphur Flask" "Turquoise Amulet" "Silken Hood"
+	AreaLevel <= 81
 	SetTextColor 255 196 129 255 # Unique Item
 	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 255 196 129 255 # Unique Item
@@ -731,7 +733,8 @@ Show
 	PlayAlertSound 1 100 # Unique Item_normal
 Show
 	Rarity = Unique
-	BaseType = "Driftwood Wand" "Wool Shoes" "Tornado Wand" "War Hammer" "Pine Buckler" "Destroyer Regalia" "Colossal Tower Shield" "Assassin's Garb" "Colossal Tower Shield" "Wool Gloves"
+	BaseType = "Driftwood Wand" "Wool Shoes" "Tornado Wand" "War Hammer" "Pine Buckler" "Destroyer Regalia" "Colossal Tower Shield" "Assassin's Garb" "Wool Gloves"
+	AreaLevel <= 81
 	SetTextColor 255 196 129 255 # Unique Item
 	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 255 196 129 255 # Unique Item
@@ -753,6 +756,7 @@ Show
 Show
 	Rarity = Unique
 	BaseType = "Crusader Gloves" "Carnal Mitts" "Titan Gauntlets" "Void Sceptre" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Ruby Flask" "Silver Flask" "Legion Sword" "Royal Sceptre"
+	AreaLevel <= 81
 	SetTextColor 255 196 129 255 # Unique Item
 	SetBackgroundColor 204 105 0 210 # Unique Item
 	SetBorderColor 255 196 129 255 # Unique Item
@@ -875,6 +879,7 @@ Show
 	SetBorderColor 163 163 163 255 # Flasks - Quality
 	SetFontSize 18
 Show
+	AreaLevel <= 81
 	Quality >= 18
 	ItemLevel >= 78
 	Class = "Flask"
@@ -3510,43 +3515,50 @@ Show
 	ItemLevel = 85
 	BaseType = "Hubris Circlet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt"
 	SetBorderColor 129 50 85 255 # Items - Helmets
-	SetFontSize 32
+	SetBackgroundColor 33 33 33 170 # Items - Faded
+	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Astral Plate" "Vaal Regalia" "Sadist Garb"
 	SetBorderColor 255 255 255 255 # Items - Body Armour
-	SetFontSize 32
+	SetBackgroundColor 33 33 33 170 # Items - Faded
+	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Sorcerer Boots" "Titan Greaves" "Slink Boots"
 	SetBorderColor 8 150 96 255 # Items - Boots
-	SetFontSize 32
+	SetBackgroundColor 33 33 33 170 # Items - Faded
+	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Sorcerer Gloves" "Titan Gauntlets" "Slink Gloves"
 	SetBorderColor 199 99 0 255 # Items - Gloves
-	SetFontSize 32
+	SetBackgroundColor 33 33 33 170 # Items - Faded
+	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Two-Stone Ring" "Prismatic Ring" "Unset Ring"
 	SetBorderColor 250 250 150 255 # item_jewellery
-	SetFontSize 32
+	SetBackgroundColor 33 33 33 170 # Items - Faded
+	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Broadhead Arrow Quiver" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ezomyte Tower Shield"
 	SetBorderColor 38 29 154 255 # Items - Shields
-	SetFontSize 32
+	SetBackgroundColor 33 33 33 170 # Items - Faded
+	SetFontSize 36
 Show
 	Corrupted = False
 	ItemLevel = 85
 	BaseType = "Vaal Axe" "Karui Chopper" "Siege Axe" "Runic Hatchet" "Citadel Bow" "Spine Bow" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre"
 	SetBorderColor 169 169 254 255 # Items - Weapons
-	SetFontSize 32
+	SetBackgroundColor 33 33 33 170 # Items - Faded
+	SetFontSize 36
 #-------------------------------------------------------------------------------
 # Subsection: [K.5] 84 Bases
 #-------------------------------------------------------------------------------
@@ -3554,43 +3566,50 @@ Show
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Hubris Circlet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt"
-	SetBorderColor 129 50 85 255 # Items - Helmets
+	SetBorderColor 129 50 85 170 # Items - Helmets - Faded - Faded
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Astral Plate" "Vaal Regalia" "Sadist Garb"
-	SetBorderColor 255 255 255 255 # Items - Body Armour
+	SetBorderColor 255 255 255 170 # Items - Body Armour - Faded
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Sorcerer Boots" "Titan Greaves" "Slink Boots"
-	SetBorderColor 8 150 96 255 # Items - Boots
+	SetBorderColor 8 150 96 170 # Items - Boots - Faded
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Sorcerer Gloves" "Titan Gauntlets" "Slink Gloves"
-	SetBorderColor 199 99 0 255 # Items - Gloves
+	SetBorderColor 199 99 0 170 # Items - Gloves - Faded
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Two-Stone Ring" "Prismatic Ring" "Unset Ring"
-	SetBorderColor 250 250 150 255 # item_jewellery
+	SetBorderColor 250 250 150 170 # item_jewellery - Faded
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Broadhead Arrow Quiver" "Titanium Spirit Shield" "Fossilised Spirit Shield" "Ezomyte Tower Shield"
-	SetBorderColor 38 29 154 255 # Items - Shields
+	SetBorderColor 38 29 154 170 # Items - Shields - Faded
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 Show
 	Corrupted = False
 	ItemLevel = 84
 	BaseType = "Vaal Axe" "Karui Chopper" "Siege Axe" "Runic Hatchet" "Citadel Bow" "Spine Bow" "Imbued Wand" "Opal Wand" "Opal Sceptre" "Void Sceptre"
-	SetBorderColor 169 169 254 255 # Items - Weapons
+	SetBorderColor 169 169 254 170 # Items - Weapons - Faded
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetFontSize 32
 #===============================================================================
 # Section: L - Maps
@@ -5127,7 +5146,7 @@ Show
 	Rarity = Normal
 	ItemLevel >= 84
 	BaseType = "Bone Helmet"
-	SetBackgroundColor 100 75 25 240 # item_extremo
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetBorderColor 129 50 85 255 # Items - Helmets
 	SetFontSize 45
 	PlayAlertSound 12 200
@@ -5137,7 +5156,7 @@ Show
 	Rarity = Normal
 	ItemLevel >= 84
 	BaseType = "Two-Toned Boots"
-	SetBackgroundColor 100 75 25 240 # item_extremo
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetBorderColor 8 150 96 255 # Items - Boots
 	SetFontSize 45
 	PlayAlertSound 12 200
@@ -5147,7 +5166,7 @@ Show
 	Rarity = Normal
 	ItemLevel >= 84
 	BaseType = "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-	SetBackgroundColor 100 75 25 240 # item_extremo
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetBorderColor 199 99 0 255 # Items - Gloves
 	SetFontSize 45
 	PlayAlertSound 12 200
@@ -5157,7 +5176,7 @@ Show
 	Rarity = Normal
 	ItemLevel >= 84
 	BaseType = "Convoking Wand"
-	SetBackgroundColor 100 75 25 240 # item_extremo
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetBorderColor 169 169 254 255 # Items - Weapons
 	SetFontSize 45
 	PlayAlertSound 12 200
@@ -5169,28 +5188,28 @@ Show
 Show
 	Rarity <= Rare
 	BaseType = "Bone Helmet"
-	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetBorderColor 129 50 85 255 # Items - Helmets
 	SetFontSize 40
 	PlayAlertSound 12 100
 Show
 	Rarity <= Rare
 	BaseType = "Two-Toned Boots"
-	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetBorderColor 8 150 96 255 # Items - Boots
 	SetFontSize 40
 	PlayAlertSound 12 100
 Show
 	Rarity <= Rare
 	BaseType = "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
-	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetBorderColor 199 99 0 255 # Items - Gloves
 	SetFontSize 40
 	PlayAlertSound 12 100
 Show
 	Rarity <= Rare
 	BaseType = "Convoking Wand"
-	SetBackgroundColor 43 32 23 240 # item_t1
+	SetBackgroundColor 33 33 33 170 # Items - Faded
 	SetBorderColor 169 169 254 255 # Items - Weapons
 	SetFontSize 40
 	PlayAlertSound 12 100
@@ -8491,6 +8510,7 @@ Show
 	SetFontSize 36
 	PlayAlertSound 3 200 # Gems
 Show
+	AreaLevel <= 77
 	Corrupted = True
 	Class = "Gem"
 	BaseType = "Vaal"
@@ -8551,9 +8571,9 @@ Show
 #Unique Catchall
 Show
 	Rarity = Unique
-	SetTextColor 0 0 0 255
-	SetBackgroundColor 200 75 0 240
-	SetBorderColor 0 0 0 255
+	SetTextColor 0 0 0 100
+	SetBackgroundColor 200 75 0 100
+	SetBorderColor 0 0 0 100
 	SetFontSize 36
 	PlayAlertSound 1 100 # Unique Item_normal
 #-------------------------------------------------------------------------------
@@ -8595,7 +8615,7 @@ Hide
 Show
 	SetTextColor 0 0 0 255 # fallback
 	SetBackgroundColor 255 0 0 100 # fallback
-	SetBorderColor 0 0 0 255 # fallback
+	SetBorderColor 0 0 0 100 # fallback
 	SetFontSize 40 # fallback
 	PlayAlertSound 11 200 # fallback
 #EOL
