@@ -2696,6 +2696,7 @@ Show
 	MinimapIcon 0 Pink Triangle
 	PlayEffect Pink
 Show
+	AreaLevel < 82
 	Class = "Currency"
 	BaseType = "Potent Chaotic Resonator"
 	SetTextColor 33 33 33 255 # league_medium_marker
@@ -2715,6 +2716,7 @@ Hide
 	SetFontSize 45 # league_medium_marker
 	DisableDropSound
 Show
+	AreaLevel < 77
 	Class = "Currency"
 	BaseType = "Primitive Chaotic Resonator"
 	SetTextColor 33 33 33 255 # league_medium_marker
@@ -2744,6 +2746,7 @@ Show
 	MinimapIcon 2 Pink Triangle
 	PlayEffect Pink Temp
 Show
+	AreaLevel < 82
 	Class = "Currency"
 	BaseType = "Potent Alchemical Resonator"
 	SetTextColor 33 33 33 255 # league_small_marker
@@ -2763,6 +2766,7 @@ Hide
 	SetFontSize 40 # league_small_marker
 	DisableDropSound
 Show
+	AreaLevel < 77
 	Class = "Currency"
 	BaseType = "Primitive Alchemical Resonator"
 	SetTextColor 33 33 33 255 # league_small_marker
@@ -2802,6 +2806,7 @@ Show
 	MinimapIcon 1 Pink Triangle
 	PlayEffect Pink
 Show
+	AreaLevel < 77
 	Class = "Currency"
 	BaseType = "Pristine Fossil" "Dense Fossil" "Bound Fossil" "Shuddering Fossil" "Lucent Fossil"
 	SetTextColor 33 33 33 255 # league_small_marker
@@ -2821,6 +2826,7 @@ Hide
 	SetFontSize 40 # league_small_marker
 	DisableDropSound
 Show
+	AreaLevel < 77
 	Class = "Currency"
 	BaseType = "Prismatic Fossil" "Encrusted Fossil" "Enchanted Fossil" "Jagged Fossil" "Perfect Fossil" "Aetheric Fossil" "Perfect Fossil" "Gilded Fossil" "Corroded Fossil"
 	SetTextColor 33 33 33 255 # league_normal
@@ -2837,6 +2843,7 @@ Hide
 	SetFontSize 40
 	DisableDropSound
 Show
+	AreaLevel < 77
 	Class = "Currency"
 	BaseType = "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Aberrant Fossil" "Serrated Fossil"
 	SetTextColor 225 225 225 210 # league_small
