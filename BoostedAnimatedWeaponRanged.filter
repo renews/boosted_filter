@@ -24,7 +24,7 @@ Show
 	Sockets < "6"
 	Rarity = Normal
 	ItemLevel >= 69
-	AreaLevel > 77
+	AreaLevel < 77
 	BaseType "Occultist's Vestment" "Glorious Plate" "Sorcerer Boots"
 	SetTextColor 240 240 240 210 # Chance Base
 	SetBackgroundColor 255 123 0 120 # Chance Base
@@ -656,6 +656,7 @@ Show
 	MinimapIcon 1 Orange Hexagon
 	PlayEffect Orange
 Show
+	AreaLevel <= 81
 	Rarity = Unique
 	BaseType = "Iron Gauntlets" "Leather Cap" "Saintly Chainmail" "Nubuck Boots" "Imperial Staff" "Abyssal Axe" "Vanguard Belt" "Coiled Staff" "Ezomyte Burgonet" "Corsair Sword" "Vaal Regalia" "Sinner Tricorne" "Sorcerer Gloves" "Midnight Blade" "Blue Pearl Amulet" "Ancient Greaves" "Ancient Gauntlets" "Nubuck Gloves" "Festival Mask" "Hubris Circlet" "Large Hybrid Flask" "Amethyst Flask" "Vaal Gauntlets" "Corrugated Buckler" "Penetrating Arrow Quiver" "Vaal Sceptre" "Stibnite Flask" "Deicide Mask" "Demon Dagger" "Destiny Leather" "Crystal Belt" "Stygian Vise" "Embroidered Gloves" "Eternal Sword" "Quartz Flask" "Bismuth Flask" "Reinforced Tower Shield" "Crusader Plate" "Solaris Circlet" "Full Dragonscale" "Two-Toned Boots" "Ezomyte Burgonet" "Close Helmet" "Elegant Ringmail" "Callous Mask" "Polished Spiked Shield" "Lion Pelt" "Eelskin Gloves" "Hellion's Paw" "Saint's Hauberk" "War Sword" "Full Wyrmscale" "Astral Plate" "Butcher Axe" "Mesh Gloves"
 	SetTextColor 255 196 129 255 # Unique Item
@@ -678,6 +679,7 @@ Hide
 # Subsection: [J.4] T3
 #-------------------------------------------------------------------------------
 Show
+	AreaLevel <= 77
 	Rarity = Unique
 	BaseType = "Spike-Point Arrow Quiver" "Gavel" "Gold Amulet" "Heavy Belt" "Iron Ring" "Paua Amulet" "Citrine Amulet" "Broadhead Arrow Quiver" "Ambusher"
 	SetTextColor 255 196 129 255 # Unique Item
@@ -696,6 +698,7 @@ Hide
 	SetFontSize 40
 	DisableDropSound
 Show
+	AreaLevel <= 77
 	Rarity = Unique
 	BaseType = "Driftwood Wand" "Goat's Horn" "Spiraled Wand" "Bronze Sceptre" "Long Bow" "Recurve Bow" "Death Bow" "Jade Amulet" "Rustic Sash" "Cleaver" "Decorative Axe" "Sabre" "War Sword" "Polished Spiked Shield" "Goathide Gloves" "Sharktooth Arrow Quiver" "Twilight Blade" "Gladius" "Sharktooth Arrow Quiver" "Silk Slippers"
 	SetTextColor 255 196 129 255 # Unique Item
@@ -737,6 +740,7 @@ Show
 # Subsection: [J.5] T4
 #-------------------------------------------------------------------------------
 Show
+	AreaLevel <= 77
 	Rarity = Unique
 	BaseType = "Lapis Amulet" "Blinder" "Thorium Spirit Shield" "Bone Bow" "Siege Helmet" "Coronal Leather" "Labrys" "Ezomyte Tower Shield" "Goliath Greaves" "Labrys" "Ezomyte Tower Shield" "Vaal Axe" "Coronal Leather" "Royal Burgonet" "Raven Mask" "Sharkskin Tunic" "Ritual Sceptre" "Jasper Chopper" "Ironscale Gauntlets" "Clasped Mitts" "Cedar Tower Shield" "Regicide Mask" "Steelhead" "Trapper Boots" "Serpentscale Boots" "Vaal Blade" "Agate Amulet" "Leather Belt" "Sanctified Life Flask" "Sanctified Mana Flask" "Crusader Helmet" "Shackled Boots" "Coral Amulet" "Steel Circlet" "Assassin Bow" "Sulphur Flask" "Murder Mitts" "Strapped Mitts" "Soldier Helmet" "Holy Chainmail" "Karui Chopper" "Imperial Skean" "Titanium Spirit Shield" "Loricated Ringmail" "Sulphur Flask" "Turquoise Amulet" "Silken Hood"
 	SetTextColor 255 196 129 255 # Unique Item
@@ -755,6 +759,7 @@ Hide
 	SetFontSize 38
 	DisableDropSound
 Show
+	AreaLevel <= 77
 	Rarity = Unique
 	BaseType = "Bronzescale Gauntlets" "Great Mallet" "Mind Cage" "Rustic Sash" "Jade Amulet" "Amber Amulet" "Two-Point Arrow Quiver" "Legion Boots" "Iron Circlet" "Bronzescale Gauntlets" "Imperial Claw" "Mind Cage" "Jade Amulet" "Spiraled Wand" "Chain Belt"
 	SetTextColor 255 196 129 255 # Unique Item
@@ -781,6 +786,7 @@ Show
 	SetFontSize 38
 	PlayAlertSound 1 100 # Unique Item_normal
 Show
+	AreaLevel <= 77
 	Rarity = Unique
 	BaseType = "Driftwood Wand" "Wool Shoes" "Tornado Wand" "War Hammer" "Pine Buckler" "Destroyer Regalia" "Colossal Tower Shield" "Assassin's Garb" "Wool Gloves"
 	SetTextColor 255 196 129 255 # Unique Item
@@ -811,6 +817,7 @@ Hide
 #	PlayAlertSound 1 100 # Unique Item_normal
 #	MinimapIcon 2 Orange Hexagon
 Show
+	AreaLevel <= 81
 	Rarity = Unique
 	BaseType = "Crusader Gloves" "Carnal Mitts" "Titan Gauntlets" "Void Sceptre" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Ruby Flask" "Silver Flask" "Legion Sword" "Royal Sceptre"
 	SetTextColor 255 196 129 255 # Unique Item
@@ -1663,6 +1670,7 @@ Hide
 	AreaLevel <= 72
 	AreaLevel > 67
 	BaseType = "Binding Shard" "Alchemy Shard"
+	DisableDropSound
 #-------------------------------------------------------------------------------
 # Subsection: [E.4] T5 ~ T10
 #-------------------------------------------------------------------------------
@@ -1735,6 +1743,7 @@ Hide
 	AreaLevel <= 77
 	AreaLevel > 72
 	BaseType = "Chaos Shard" "Regal Shard" "Binding Shard" "Alchemy Shard"
+	DisableDropSound
 #-------------------------------------------------------------------------------
 # Subsection: [E.5] T11 ~ T14
 #-------------------------------------------------------------------------------
@@ -1765,31 +1774,37 @@ Hide
 	SetTextColor 165 255 214 170
 	SetBackgroundColor 74 128 90 170
 	SetFontSize 32
+	DisableDropSound
 Hide
 	AreaLevel > 77
 	BaseType = "Portal Scroll"
 	SetTextColor 65 65 65 255 # Currency - Utility
 	SetBackgroundColor 241 220 167 150
 	SetFontSize 26
+	DisableDropSound
 Hide
 	AreaLevel > 77
 	BaseType = "Chromatic Orb" "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
 	SetTextColor 165 255 214 170
 	SetBackgroundColor 74 128 90 170
 	SetFontSize 32
+	DisableDropSound
 Hide
 	AreaLevel > 77
 	BaseType = "Glassblower's Bauble" "Jeweller's Orb" "Blessed Orb" "Orb of Augmentation" "Armourer's Scrap"
 	SetTextColor 165 255 214 170
 	SetBackgroundColor 74 128 90 170
+	DisableDropSound
 Hide
 	AreaLevel > 77
 	BaseType = "Scroll of Wisdom"
 	SetTextColor 65 65 65 255 # Currency - Utility
 	SetBackgroundColor 241 220 167 150
+	DisableDropSound
 Hide
 	AreaLevel > 77
 	BaseType = "Chaos Shard" "Regal Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Alchemy Shard"
+	DisableDropSound
 #-------------------------------------------------------------------------------
 # Subsection: [E.5] T15 ~ T16
 #-------------------------------------------------------------------------------
@@ -1814,18 +1829,21 @@ Hide
 	SetBackgroundColor 74 128 90 170
 	SetBorderColor 165 255 214 170
 	SetFontSize 40
+	DisableDropSound
 Hide
 	AreaLevel > 81
 	BaseType = "Chromatic Orb" "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
 	SetTextColor 165 255 214 170
 	SetBackgroundColor 74 128 90 170
 	SetFontSize 32
+	DisableDropSound
 Hide
 	AreaLevel > 81
 	BaseType = "Portal Scroll"
 	SetTextColor 65 65 65 255 # Currency - Utility
 	SetBackgroundColor 241 220 167 150
 	SetFontSize 26
+	DisableDropSound
 #-------------------------------------------------------------------------------
 # Subsection: [E.6] High tier currency
 #-------------------------------------------------------------------------------
@@ -2284,6 +2302,7 @@ Show
 Hide
 	Class = "Currency"
 	Prophecy = "Lasting Impressions" "Defiled in the Sceptre" "Holding the Bridge" "The Child of Lunaris" "The Forgotten Soldiers" "The Forgotten Garrison" "Gilded Within" "Risen Blood" "The Invader" "Rebirth" "Path of Betrayal" "Living Fires" "In the Grasp of Corruption" "Pools of Wealth" "Ending the Torment" "Echoes of Witchcraft" "The Hardened Armour" "The Sharpened Blade" "The Bloody Flowers Redux" "A Valuable Combination"
+	DisableDropSound
 Show
 	Class = "Currency"
 	BaseType = "Prophecy"
@@ -3097,6 +3116,7 @@ Show
 	MinimapIcon 1 Pink Raindrop
 	PlayEffect Pink
 Show
+	AreaLevel <= 81
 	BaseType = "Crimson Oil" "Indigo Oil" "Violet Oil" "Azure Oil" "Teal Oil"
 	SetTextColor 33 33 33 210
 	SetBackgroundColor 251 122 166 210
@@ -3114,6 +3134,7 @@ Hide
 	SetFontSize 40
 	DisableDropSound
 Show
+	AreaLevel <= 77
 	BaseType = "Verdant Oil" "Clear Oil" "Sepia Oil" "Amber Oil"
 	SetTextColor 225 225 225 210 # league_small
 	SetBackgroundColor 255 93 143 210 # league_small
