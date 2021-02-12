@@ -2335,6 +2335,15 @@ Show
 	PlayAlertSound 10 200 # league_medium_marker
 	MinimapIcon 1 Pink Moon
 	PlayEffect Pink
+Hide
+	AreaLevel > 81
+	Class = "Currency"
+	BaseType = "Shrieking Essence" "Deafening Essence" "Remnant of Corruption"
+	SetTextColor 33 33 33 255 # league_medium_marker
+	SetBackgroundColor 246 152 189 240 # league_medium_marker
+	SetBorderColor 33 33 33 255 # league_medium_marker
+	SetFontSize 45 # league_medium_marker
+	DisableDropSound
 Show
 	AreaLevel <= 77
 	Class = "Currency"
@@ -2345,6 +2354,14 @@ Show
 	PlayAlertSound 11 150 # league_small_marker
 	MinimapIcon 2 Pink Moon
 	PlayEffect Pink Temp
+Hide
+	AreaLevel > 77
+	Class = "Currency"
+	BaseType = "Screaming Essence"
+	SetTextColor 33 33 33 255 # league_small_marker
+	SetBackgroundColor 251 122 166 210 # league_small_marker
+	SetFontSize 40 # league_small_marker
+	DisableDropSound
 Show
 	AreaLevel <= 72
 	Class = "Currency"
@@ -2354,6 +2371,15 @@ Show
 	SetBorderColor 246 152 189 255 # league_normal
 	SetFontSize 40 # league_normal
 	PlayAlertSound 3 125 # league_normal
+Hide
+	AreaLevel > 72
+	Class = "Currency"
+	BaseType = "Wailing Essence"
+	SetTextColor 33 33 33 255 # league_normal
+	SetBackgroundColor 251 122 166 255 # league_normal
+	SetBorderColor 246 152 189 255 # league_normal
+	SetFontSize 40 # league_normal
+	DisableDropSound
 Show
 	AreaLevel <= 67
 	Class = "Currency"
@@ -2362,6 +2388,14 @@ Show
 	SetBackgroundColor 255 93 143 210 # league_small
 	SetFontSize 32 # league_small
 	PlayAlertSound 12 125 # small_drop
+Hide
+	AreaLevel > 67
+	Class = "Currency"
+	BaseType = "Essence"
+	SetTextColor 225 225 225 210 # league_small
+	SetBackgroundColor 255 93 143 210 # league_small
+	SetFontSize 32 # league_small
+	DisableDropSound
 #-------------------------------------------------------------------------------
 # Subsection: [G.6] Breach
 #-------------------------------------------------------------------------------
