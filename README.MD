@@ -1,3 +1,13 @@
+## Version (1.313.013) 
+
+* Disable sound from hided uniques. 
+* Hide portal from t11 +. 
+* Hide quality flask from t11+. 
+* Hide transmutations, chances orbs, whetstones. for t11+
+* Sticter rules for essences, oils and fossils. for t11+
+* Hide base chances for t11+. 
+* Hide Humilitty and The dragon cards for t11+. 
+* New color for 6 sockets. 
 ## Version (1.313.012) 
 
 * Hiding uniques. 
