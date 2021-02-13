@@ -1,3 +1,6 @@
+## Version (1.313.014) 
+
+* Change 6L colors. 
 ## Version (1.313.013) 
 
 * Disable sound from hided uniques. 
