@@ -1,3 +1,8 @@
+## Version (1.313.015) 
+
+* Show portal and wisdow scrolls on high tier. 
+* More faded bases at higher level. 
+* More special maps. 
 ## Version (1.313.014) 
 
 * Change 6L colors. 
