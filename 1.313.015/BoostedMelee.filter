@@ -1644,7 +1644,7 @@ Show
 	BaseType = "Binding Shard" "Alchemy Shard"
 	DisableDropSound
 Hide
-	StackSize <=4
+	StackSize <= 4
 	AreaLevel <= 72
 	AreaLevel > 67
 	BaseType = "Binding Shard" "Alchemy Shard"
@@ -1724,7 +1724,7 @@ Show
 	BaseType = "Chaos Shard" "Regal Shard" "Binding Shard" "Alchemy Shard"
 	DisableDropSound
 Hide
-	StackSize <=4
+	StackSize <= 4
 	AreaLevel <= 77
 	AreaLevel > 72
 	BaseType = "Chaos Shard" "Regal Shard" "Binding Shard" "Alchemy Shard"
