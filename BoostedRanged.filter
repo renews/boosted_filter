@@ -1637,8 +1637,14 @@ Show
 	SetBorderColor 165 255 214 255
 	SetFontSize 32
 # [E.3] Hidden
+Show
+	StackSize > 4
+	AreaLevel <= 72
+	AreaLevel > 67
+	BaseType = "Binding Shard" "Alchemy Shard"
+	DisableDropSound
 Hide
-	StackSize = 1
+	StackSize <=4
 	AreaLevel <= 72
 	AreaLevel > 67
 	BaseType = "Binding Shard" "Alchemy Shard"
@@ -1711,8 +1717,14 @@ Show
 	SetBorderColor 165 255 214 255
 	SetFontSize 24
 # [E.4] Hidden
+Show
+	StackSize > 4
+	AreaLevel <= 77
+	AreaLevel > 72
+	BaseType = "Chaos Shard" "Regal Shard" "Binding Shard" "Alchemy Shard"
+	DisableDropSound
 Hide
-	StackSize = 1
+	StackSize <=4
 	AreaLevel <= 77
 	AreaLevel > 72
 	BaseType = "Chaos Shard" "Regal Shard" "Binding Shard" "Alchemy Shard"
@@ -1741,7 +1753,7 @@ Show
 	SetBackgroundColor 74 128 90 170
 	SetBorderColor 165 255 214 170
 	SetFontSize 40
-Hide
+Show
 	AreaLevel > 77
 	StackSize = 1
 	BaseType = "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
@@ -1752,6 +1764,14 @@ Hide
 Hide
 	AreaLevel > 77
 	StackSize = 1
+	BaseType = "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
+	SetTextColor 165 255 214 170
+	SetBackgroundColor 74 128 90 170
+	SetFontSize 32
+	DisableDropSound
+Show
+	AreaLevel > 77
+	StackSize > 1
 	BaseType = "Portal Scroll"
 	SetTextColor 65 65 65 255 # Currency - Utility
 	SetBackgroundColor 241 220 167 150
@@ -1760,10 +1780,33 @@ Hide
 Hide
 	AreaLevel > 77
 	StackSize = 1
+	BaseType = "Portal Scroll"
+	SetTextColor 65 65 65 255 # Currency - Utility
+	SetBackgroundColor 241 220 167 150
+	SetFontSize 26
+	DisableDropSound
+Show
+	AreaLevel > 77
+	StackSize > 1
 	BaseType = "Chromatic Orb" "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
 	SetTextColor 165 255 214 170
 	SetBackgroundColor 74 128 90 170
 	SetFontSize 32
+	DisableDropSound
+Hide
+	AreaLevel > 77
+	StackSize = 1
+	BaseType = "Chromatic Orb" "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
+	SetTextColor 165 255 214 170
+	SetBackgroundColor 74 128 90 170
+	SetFontSize 32
+	DisableDropSound
+Show
+	AreaLevel > 77
+	StackSize > 1
+	BaseType = "Glassblower's Bauble" "Jeweller's Orb" "Blessed Orb" "Orb of Augmentation" "Armourer's Scrap"
+	SetTextColor 165 255 214 170
+	SetBackgroundColor 74 128 90 170
 	DisableDropSound
 Hide
 	AreaLevel > 77
@@ -1779,9 +1822,14 @@ Hide
 	SetTextColor 65 65 65 255 # Currency - Utility
 	SetBackgroundColor 241 220 167 150
 	DisableDropSound
+Show
+	AreaLevel > 77
+	StackSize > 4
+	BaseType = "Chaos Shard" "Regal Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Alchemy Shard"
+	DisableDropSound
 Hide
 	AreaLevel > 77
-	StackSize = 1
+	StackSize <= 4
 	BaseType = "Chaos Shard" "Regal Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Alchemy Shard"
 	DisableDropSound
 #-------------------------------------------------------------------------------
@@ -1801,9 +1849,9 @@ Show
 	SetBackgroundColor 74 128 90 210
 	SetBorderColor 165 255 214 255
 	SetFontSize 40
-Hide
+Show
 	AreaLevel > 81
-	StackSize = 1
+	StackSize > 1
 	BaseType = "Orb of Binding" "Engineer's Orb" "Orb of Fusing" "Perandus Coin" "Orb of Alteration"
 	SetTextColor 165 255 214 170
 	SetBackgroundColor 74 128 90 170
@@ -1813,10 +1861,35 @@ Hide
 Hide
 	AreaLevel > 81
 	StackSize = 1
+	BaseType = "Orb of Binding" "Engineer's Orb" "Orb of Fusing" "Perandus Coin" "Orb of Alteration"
+	SetTextColor 165 255 214 170
+	SetBackgroundColor 74 128 90 170
+	SetBorderColor 165 255 214 170
+	SetFontSize 40
+	DisableDropSound
+Show
+	AreaLevel > 81
+	StackSize > 1
 	BaseType = "Chromatic Orb" "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
 	SetTextColor 165 255 214 170
 	SetBackgroundColor 74 128 90 170
 	SetFontSize 32
+	DisableDropSound
+Hide
+	AreaLevel > 81
+	StackSize = 1
+	BaseType = "Chromatic Orb" "Orb of Chance" "Orb of Transmutation" "Blacksmith's Whetstone" "Silver Coin"
+	SetTextColor 165 255 214 170
+	SetBackgroundColor 74 128 90 170
+	SetFontSize 32
+	DisableDropSound
+Show
+	AreaLevel > 81
+	StackSize > 1
+	BaseType = "Portal Scroll"
+	SetTextColor 65 65 65 255 # Currency - Utility
+	SetBackgroundColor 241 220 167 150
+	SetFontSize 26
 	DisableDropSound
 Hide
 	AreaLevel > 81
@@ -1914,22 +1987,14 @@ Show
 	SetFontSize 42 # currency_normal
 	PlayAlertSound 2 200 # currency_normal
 Show
-	StackSize >= 5
-	Class = "Currency"
-	BaseType = "Perandus Coin"
-	SetTextColor 56 102 65 255 # currency_small
-	SetBackgroundColor 129 204 164 240 # currency_small
-	SetBorderColor 56 102 65 255 # currency_small
-	SetFontSize 38 # currency_small
-Show
 	StackSize >= 2
 	Class = "Currency"
 	BaseType = "Perandus Coin"
 	SetTextColor 56 102 65 255 # currency_small
 	SetBackgroundColor 129 204 164 240 # currency_small
 	SetBorderColor 56 102 65 255 # currency_small
-	SetFontSize 38 # currency_small
-Show
+	SetFontSize 36 # currency_small
+Hide
 	Class = "Currency"
 	BaseType = "Perandus Coin"
 	SetTextColor 56 102 65 255 # currency_small
