@@ -1,3 +1,10 @@
+## Versão (3.19.01) 
+
+* Ready for 3.19 Lake of Kalandra. 
+* More emphasis on Ward items. 
+* New tier for Divine Orb. 
+* Tainted currency is back. 
+* Tier for uniques kinda unified while we work on all uniques. 
 ## Versão (3.19.00)
 
 * Better unique filtering.
