@@ -1,0 +1,16 @@
+
+Todo:
+  ✔ Replace nas variaveis $filter_name, $forum_link. @done(21-04-15 02:28)
+  ✔ Colocar a data que o script foi gerado. @done(21-04-15 02:28)
+  ✔ Gerar o nome de acordo com as variants. @done(21-04-15 02:28)
+  ✔ Colocar a versão. @done(21-04-15 02:28)
+  ✔ Changelog por variant no filtro gerado. @done(21-04-15 02:28)
+  ✔ Remover comentários e linhas em branco na versão final. @done(21-04-15 02:28)
+  ✔ Opções desativadas devem ser removidas (chisel/low chance) @done(21-04-15 02:28)
+  ✔ Gerar uma versão para o filterblast @done(21-04-15 02:29)
+  Atualizar automaticamente na GGG.
+  Atualizar automaticamente o post sobre o filtro com os dados do change log.
+  Avisar no discord sobre a atualização.
+    configurar webhook
+    link para o perfil/filterblast e forum
+
