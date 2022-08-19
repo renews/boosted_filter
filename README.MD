@@ -1,3 +1,6 @@
+## Versão (3.19.02) 
+
+* Fixed a typo on Lethean Temptation card. 
 ## Versão (3.19.01) 
 
 * Ready for 3.19 Lake of Kalandra. 
