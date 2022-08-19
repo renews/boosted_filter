@@ -1,5 +1,5 @@
 # >===============================================================================
-# 18.08.2022 | BOOSTED - BoostedAnimatedWeapon v3.19.01
+# 17.08.2022 | BOOSTED - BoostedRanged v3.19.00
 # ================================================================================
 # Dúvidas? Questions? https://poe.overnight.games/nosso-filtro/
 #
@@ -146,10 +146,19 @@ Show
 	SetBackgroundColor 33 33 33 200 # Item - 4L
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
+Show
+	LinkedSockets = 4
+	Sockets < "6"
+	Rarity <= Magic
+	ItemLevel <= 67
+	Class = "Bow" 
+	SetBackgroundColor 33 33 33 200 # Item - 4L
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 40
 # Subsection: [A.1] 3 links with good colors ~ Dominus
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "GGG" "GGR"
 	AreaLevel <= 23
 	Class = "Gloves"
 	SetBackgroundColor 128 77 23 255 # Item - T1
@@ -160,7 +169,7 @@ Show
 	MinimapIcon 2 Grey Star # Item - T1
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "GGG" "GGR"
 	AreaLevel <= 23
 	Class = "Helm"
 	SetBackgroundColor 128 77 23 255 # Item - T1
@@ -171,7 +180,7 @@ Show
 	MinimapIcon 2 Grey Star # Item - T1
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "GGG" "GGR"
 	AreaLevel <= 23
 	Class = "Boots"
 	SetBackgroundColor 128 77 23 255 # Item - T1
@@ -182,7 +191,7 @@ Show
 	MinimapIcon 2 Grey Star # Item - T1
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "GGG" "GGR"
 	AreaLevel <= 23
 	Class = "Body Armour"
 	SetBackgroundColor 128 77 23 255 # Item - T1
@@ -193,22 +202,12 @@ Show
 	MinimapIcon 2 Grey Star # Item - T1
 Show
 	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
+	SocketGroup = "RRG" "GGR" "GGG"
+	Rarity = Normal
 	AreaLevel <= 23
-	Class = "Wand" "Sceptre"
+	Class = "Bows"
 	SetBackgroundColor 128 77 23 255 # Item - T1
 	SetBorderColor 169 169 254 255 # Item - Weapons
-	SetFontSize 45
-	PlayAlertSound 1 100 # Item - Leveling
-	PlayEffect Grey
-	MinimapIcon 2 Grey Star # Item - T1
-Show
-	LinkedSockets = 3
-	SocketGroup = "BBB" "BBG" "BBR"
-	AreaLevel <= 23
-	Class = "Shield"
-	SetBackgroundColor 128 77 23 255 # Item - T1
-	SetBorderColor 38 29 154 255 # Item - Shields
 	SetFontSize 45
 	PlayAlertSound 1 100 # Item - Leveling
 	PlayEffect Grey
@@ -5867,15 +5866,51 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [P.3] Evasion
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Rare
+	BaseType = "Slink Gloves" "Stealth Gloves"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
+Show
+	Rarity = Rare
+	BaseType = "Shagreen Gloves" "Sharkskin Gloves"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
+Show
+	Rarity = Rare
+	BaseType = "Slink Boots" "Stealth Boots"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 8 150 96 255 # Item - Boots
+	SetFontSize 45
+Show
+	Rarity = Rare
+	BaseType = "Shagreen Boots" "Sharkskin Boots"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 8 150 96 255 # Item - Boots
+	SetFontSize 45
+Show
+	Rarity = Rare
+	BaseType = "Lion Pelt" "Sinner Tricorne"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	BaseType = "Silken Hood" "Ursine Pelt"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	BaseType = "Coral Ring" "Leather Belt" "Agate Amulet"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 250 250 150 255 # item_jewellery
+	SetFontSize 45
 #-------------------------------------------------------------------------------
 # Subsection: [P.4] Shield
 #-------------------------------------------------------------------------------
-Show
-	Rarity = Rare
-	BaseType = "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ezomyte Tower Shield" "Bronze Tower Shield" "Copper Tower Shield" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Ornate Spiked Shield"
-	SetBackgroundColor 59 36 51 255 # Item - T2
-	SetBorderColor 38 29 154 255 # Item - Shields
-	SetFontSize 40
 #-------------------------------------------------------------------------------
 # Subsection: [P.5] Life Chests
 #-------------------------------------------------------------------------------
@@ -6019,12 +6054,6 @@ Show
 #-------------------------------------------------------------------------------
 Show
 	Rarity = Rare
-	BaseType = "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield" "Fossilised Spirit Shield" "Ivory Spirit Shield" "Bone Spirit Shield" "Ezomyte Tower Shield" "Bronze Tower Shield" "Copper Tower Shield" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Ornate Spiked Shield"
-	SetBackgroundColor 59 36 51 255 # Item - T2
-	SetBorderColor 38 29 154 255 # Item - Shields
-	SetFontSize 45
-Show
-	Rarity = Rare
 	BaseType = "Assassin's Garb" "Sadist Garb"
 	SetBackgroundColor 59 36 51 255 # Item - T2
 	SetBorderColor 255 255 255 255 # Item - Body Armours
@@ -6063,16 +6092,9 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [R.2] Ranged
 #-------------------------------------------------------------------------------
-# Quivers 3.17
-#-------------------------------------------------------------------------------
-# Subsection: [R.3] Melee
-#-------------------------------------------------------------------------------
-#-------------------------------------------------------------------------------
-# Subsection: [R.4] Summoner
-#-------------------------------------------------------------------------------
 Show
 	Rarity = Rare
-	BaseType = "Convoking Wand"
+	BaseType = "Citadel Bow" "Thicket Bow" "Spine Bow"
 	SetFontSize 45
 	SetBackgroundColor 128 77 23 255 # Item - T1
 	SetBorderColor 169 169 254 255 # Item - Weapons
@@ -6080,12 +6102,31 @@ Show
 	PlayEffect Grey
 Show
 	Rarity = Rare
-	BaseType = "Bone Ring"
+	BaseType = "Imperial Bow" "Spine Bow" "Assassin Bow"
+	SetFontSize 40
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+# Quivers 3.17
+Show
+	Rarity = Rare
+	BaseType = "Spike-Point Arrow Quiver" "Blazing Arrow Quiver"  "Heavy Arrow Quiver"
 	SetFontSize 45
 	SetBackgroundColor 128 77 23 255 # Item - T1
-	SetBorderColor 250 250 150 255 # item_jewellery
+	SetBorderColor 38 29 154 255 # Item - Shields
 	MinimapIcon 2 Grey Star # Item - T1
 	PlayEffect Grey
+Show
+	Rarity = Rare
+	BaseType = "Broadhead Arrow Quiver" "Fire Arrow Quiver" "Feathered Arrow Quiver" "Vile Arrow Quiver" "Primal Arrow Quiver"
+	SetFontSize 40
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 38 29 154 255 # Item - Shields
+#-------------------------------------------------------------------------------
+# Subsection: [R.3] Melee
+#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
+# Subsection: [R.4] Summoner
+#-------------------------------------------------------------------------------
 #===============================================================================
 # Section: S - Items | Rare Jewellery Highlighting
 #===============================================================================
@@ -6348,53 +6389,6 @@ Show
 #===============================================================================
 # Section: [W] Leveling | Summoner
 #===============================================================================
-Show
-	AreaLevel <= 74
-	BaseType = "Pagan Wand" "Calling Wand" "Convening Wand"
-	SetBackgroundColor 128 77 23 255 # Item - T1
-	SetBorderColor 169 169 254 255 # Item - Weapons
-	SetFontSize 45
-	PlayAlertSound 12 200 # item_normal
-	MinimapIcon 2 Grey Star # Item - T1
-	PlayEffect Grey
-Show
-	Rarity = Magic
-	AreaLevel <= 15
-	Class = "Wand" "Sceptre"
-	SetBackgroundColor 59 36 51 255 # Item - T2
-	SetBorderColor 169 169 254 255 # Item - Weapons
-	SetFontSize 45
-Show
-	ItemLevel <= 15
-	ItemLevel >= 2
-	Class = "Wand"
-	SetBackgroundColor 59 36 51 255 # Item - T2
-	SetBorderColor 169 169 254 255 # Item - Weapons
-Show
-	AreaLevel <= 67
-	BaseType = "Helmet"
-	HasExplicitMod = "Reanimator's"
-	SetBackgroundColor 59 36 51 255 # Item - T2
-	SetBorderColor 129 50 85 255 # Item - Helmets
-	SetFontSize 45
-Show
-	AreaLevel <= 75
-	BaseType = "Helmet"
-	HasExplicitMod = "Summoner's"
-	SetBackgroundColor 59 36 51 255 # Item - T2
-	SetBorderColor 129 50 85 255 # Item - Helmets
-	SetFontSize 45
-Show
-	ItemLevel <= 45
-	BaseType = "Sparkling Claw" "Double Claw" "Gouger"
-	SetBackgroundColor 59 36 51 255 # Item - T2
-	SetBorderColor 169 169 254 255 # Item - Weapons
-Show
-	ItemLevel <= 67
-	BaseType = "Gut Ripper"
-	SetBackgroundColor 59 36 51 255 # Item - T2
-	SetBorderColor 169 169 254 255 # Item - Weapons
-	SetFontSize 45
 #===============================================================================
 # Section: [X] Leveling | 1h Melee
 #===============================================================================
@@ -6455,21 +6449,373 @@ Show
 #===============================================================================
 # Section: [Z] Leveling | Ranged
 #===============================================================================
+Show
+	Rarity = Magic
+	AreaLevel <= 15
+	BaseType = "Quiver"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 38 29 154 255 # Item - Shields
+	SetFontSize 45
+Show
+	AreaLevel <= 25
+	BaseType = "Quiver"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 38 29 154 255 # Item - Shields
+	SetFontSize 45
+Show
+	AreaLevel <= 47
+	BaseType = "Quiver" 
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 38 29 154 255 # Item - Shields
+	SetFontSize 45
+Show
+	AreaLevel <= 67
+	BaseType = "Quiver" 
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 38 29 154 255 # Item - Shields
+	SetFontSize 45
 #-------------------------------------------------------------------------------
 # Subsection: [Z.1] Elemental Bows
 #-------------------------------------------------------------------------------
+Show
+	AreaLevel <= 49
+	BaseType = "Royal Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 65
+	BaseType = "Highborn Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 67
+	BaseType = "Imperial Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
 #-------------------------------------------------------------------------------
 # Subsection: [Z.2] Chaos Bows
 #-------------------------------------------------------------------------------
+Show
+	AreaLevel <= 34
+	BaseType = "Short Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 55
+	BaseType = "Grove Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 67
+	BaseType = "Thicket Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
 #-------------------------------------------------------------------------------
 # Subsection: [Z.3] Bleed Bows
 #-------------------------------------------------------------------------------
+Show
+	AreaLevel <= 8
+	BaseType = "Short Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 13
+	BaseType = "Long Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 17
+	BaseType = "Composite Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 22
+	BaseType = "Recurve Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 22
+	BaseType = "Recurve Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 27
+	BaseType = "Bone Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 27
+	BaseType = "Bone Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 31
+	BaseType = "Royal Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 31
+	BaseType = "Royal Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 37
+	BaseType = "Death Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 37
+	BaseType = "Death Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 52
+	BaseType = "Decurve Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 52
+	BaseType = "Decurve Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 57
+	BaseType = "Decimation Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 57
+	BaseType = "Decimation Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 67
+	BaseType = "Citadel Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 67
+	BaseType = "Citadel Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
 #-------------------------------------------------------------------------------
 # Subsection: [Z.4] Physical Bows
 #-------------------------------------------------------------------------------
+Show
+	AreaLevel <= 8
+	BaseType = "Short Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 13
+	BaseType = "Long Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 17
+	BaseType = "Composite Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 22
+	BaseType = "Recurve Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 22
+	BaseType = "Recurve Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 27
+	BaseType = "Bone Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 27
+	BaseType = "Bone Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 31
+	BaseType = "Royal Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 31
+	BaseType = "Royal Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 34
+	BaseType = "Death Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 34
+	BaseType = "Death Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 37
+	BaseType = "Grove Bow" "Reflex Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 37
+	BaseType = "Grove Bow" "Reflex Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 43
+	BaseType = "Decurve Bow" "Compound Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 43
+	BaseType = "Decurve Bow" "Compound Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 46
+	BaseType = "Sniper Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 46
+	BaseType = "Sniper Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 49
+	BaseType = "Ivory Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 49
+	BaseType = "Ivory Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 52
+	BaseType = "Highborn Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 52
+	BaseType = "Highborn Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 55
+	BaseType = "Decimation Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 55
+	BaseType = "Decimation Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 55
+	BaseType = "Thicket Bow" "Steelwood Bow"
+	SetBackgroundColor 128 77 23 255 # Item - T1
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 55
+	BaseType = "Thicket Bow" "Steelwood Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
 #-------------------------------------------------------------------------------
 # Subsection: [Z.5] Physical Bows | Endgame
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Rare
+	DropLevel >= 60
+	AreaLevel <= 72
+	Class = "Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	Rarity = Rare
+	AreaLevel <= 65
+	BaseType = "Spine Bow" "Assassin Bow" "Citadel Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
+Show
+	AreaLevel <= 67
+	BaseType = "Spine Bow" "Assassin Bow" "Citadel Bow"
+	SetBackgroundColor 59 36 51 255 # Item - T2
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
 #===============================================================================
 # Section: [AA] Leveling | Armor
 #===============================================================================
@@ -6608,8 +6954,21 @@ Show
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
 Show
+	Rarity = Magic
+	ItemLevel <= 15
+	BaseType = "Strapped Leather"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
 	ItemLevel <= 15
 	BaseType = "Light Brigandine"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	ItemLevel <= 15
+	BaseType = "Strapped Leather"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
@@ -6619,9 +6978,54 @@ Show
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
+Show
+	ItemLevel <= 18
+	BaseType = "Strapped Leather"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
 #-------------------------------------------------------------------------------
 # Subsection: [AA.2] Merveil Race Cap
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Magic
+	ItemLevel <= 25
+	BaseType = "Tricorne" "Sallet" "Barbute Helmet"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Magic
+	ItemLevel <= 25
+	BaseType = "Goathide Boots"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 8 150 96 255 # Item - Boots
+	SetFontSize 45
+Show
+	Rarity = Magic
+	ItemLevel <= 25
+	BaseType = "Goathide Gloves"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
+Show
+	ItemLevel <= 25
+	BaseType = "Tricorne" "Sallet" "Barbute Helmet"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	ItemLevel <= 25
+	BaseType = "Goathide Boots"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 8 150 96 255 # Item - Boots
+	SetFontSize 45
+Show
+	ItemLevel <= 25
+	BaseType = "Goathide Gloves"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
 #-------------------------------------------------------------------------------
 # Subsection: [AA.3] Vaal Race Cap | ilvl 30
 #-------------------------------------------------------------------------------
@@ -6635,7 +7039,21 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 30
+	BaseType = "Leather Hood"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 30
 	BaseType = "Infantry Brigandine"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 30
+	BaseType = "Buckskin Tunic" "Scale Doublet" "Wild Leather"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
@@ -6649,13 +7067,31 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 30
+	BaseType = "Deerskin Gloves"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 30
 	BaseType = "Ironscale Boots"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 8 150 96 255 # Item - Boots
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 30
+	BaseType = "Deerskin Boots"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 8 150 96 255 # Item - Boots
 	SetFontSize 45
 Show
 	ItemLevel <= 32
 	BaseType = "Visored Sallet"
+	SetBorderColor 129 50 85 255 # Item - Helmets
+Show
+	ItemLevel <= 32
+	BaseType = "Leather Hood"
 	SetBorderColor 129 50 85 255 # Item - Helmets
 Show
 	ItemLevel <= 32
@@ -6682,6 +7118,13 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 35
+	BaseType = "Full Leather"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 35
 	BaseType = "Bronzescale Gauntlets"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 199 99 0 255 # Item - Gloves
@@ -6689,6 +7132,10 @@ Show
 Show
 	ItemLevel <= 37
 	BaseType = "Full Scale Armour"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 37
+	BaseType = "Full Leather"
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 Show
 	ItemLevel <= 37
@@ -6700,7 +7147,21 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 37
+	BaseType = "Wolf Pelt"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 37
 	BaseType = "Soldier's Brigandine"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 37
+	BaseType = "Sun Leather"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
@@ -6713,7 +7174,15 @@ Show
 	SetFontSize 45
 Show
 	ItemLevel <= 39
+	BaseType = "Wolf Pelt"
+	SetBorderColor 129 50 85 255 # Item - Helmets
+Show
+	ItemLevel <= 39
 	BaseType = "Soldier's Brigandine"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 39
+	BaseType = "Sun Leather"
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 Show
 	ItemLevel <= 39
@@ -6737,6 +7206,27 @@ Show
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
 Show
+	Rarity = Rare
+	ItemLevel <= 40
+	BaseType = "Thief's Garb"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 40
+	BaseType = "Nubuck Gloves"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 40
+	BaseType = "Nubuck Boots"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 8 150 96 255 # Item - Boots
+	SetFontSize 45
+Show
 	ItemLevel <= 43
 	BaseType = "Gilded Sallet"
 	SetBorderColor 129 50 85 255 # Item - Helmets
@@ -6744,6 +7234,18 @@ Show
 	ItemLevel <= 43
 	BaseType = "Field Lamellar"
 	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 43
+	BaseType = "Thief's Garb"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 43
+	BaseType = "Nubuck Gloves"
+	SetBorderColor 199 99 0 255 # Item - Gloves
+Show
+	ItemLevel <= 43
+	BaseType = "Nubuck Boots"
+	SetBorderColor 8 150 96 255 # Item - Boots
 #-------------------------------------------------------------------------------
 # Subsection: [AA.7]ilvl 43
 #-------------------------------------------------------------------------------
@@ -6764,6 +7266,20 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 43
+	BaseType = "Eelskin Tunic"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 43
+	BaseType = "Eelskin Gloves"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 43
 	BaseType = "Steelscale Gauntlets"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 199 99 0 255 # Item - Gloves
@@ -6781,8 +7297,16 @@ Show
 	SetBorderColor 129 50 85 255 # Item - Helmets
 Show
 	ItemLevel <= 45
+	BaseType = "Eelskin Tunic"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 45
 	BaseType = "Wyrmscale Doublet"
 	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 45
+	BaseType = "Eelskin Gloves"
+	SetBorderColor 199 99 0 255 # Item - Gloves
 Show
 	ItemLevel <= 45
 	BaseType = "Steelscale Gauntlets"
@@ -6794,6 +7318,39 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [AA.8]ilvl 45
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Rare
+	ItemLevel <= 45
+	BaseType = "Hunter Hood"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 45
+	BaseType = "Frontier Leather"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 45
+	BaseType = "Eelskin Boots"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 8 150 96 255 # Item - Boots
+	SetFontSize 45
+Show
+	ItemLevel <= 47
+	BaseType = "Hunter Hood"
+	SetBorderColor 129 50 85 255 # Item - Helmets
+Show
+	ItemLevel <= 47
+	BaseType = "Frontier Leather"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 47
+	BaseType = "Eelskin Boots"
+	SetBorderColor 8 150 96 255 # Item - Boots
 #-------------------------------------------------------------------------------
 # Subsection: [AA.9]ilvl 47
 #-------------------------------------------------------------------------------
@@ -6814,6 +7371,13 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 47
+	BaseType = "Glorious Leather"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 47
 	BaseType = "Serpentscale Gauntlets"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 199 99 0 255 # Item - Gloves
@@ -6835,6 +7399,10 @@ Show
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 Show
 	ItemLevel <= 50
+	BaseType = "Glorious Leather"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 50
 	BaseType = "Serpentscale Gauntlets"
 	SetBorderColor 199 99 0 255 # Item - Gloves
 Show
@@ -6847,13 +7415,50 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 48
+	BaseType = "Noble Tricorne"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 48
 	BaseType = "Full Wyrmscale"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 48
+	BaseType = "Sharkskin Gloves"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
+Show
+	ItemLevel <= 51
+	BaseType = "Noble Tricorne"
+	SetBorderColor 129 50 85 255 # Item - Helmets
+Show
+	ItemLevel <= 51
+	BaseType = "Full Wyrmscale"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 51
+	BaseType = "Sharkskin Gloves"
+	SetBorderColor 199 99 0 255 # Item - Gloves
 #-------------------------------------------------------------------------------
 # Subsection: [AA.11]ilvl 51
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Rare
+	ItemLevel <= 51
+	BaseType = "Coronal Leather"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	ItemLevel <= 53
+	BaseType = "Coronal Leather"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
 #-------------------------------------------------------------------------------
 # Subsection: [AA.12]ilvl 53
 #-------------------------------------------------------------------------------
@@ -6907,14 +7512,47 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 56
+	BaseType = "Ursine Pelt"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 56
 	BaseType = "Battle Lamellar"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 45
 Show
+	Rarity = Rare
+	ItemLevel <= 56
+	BaseType = "Cutthroat's Garb"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 56
+	BaseType = "Shagreen Gloves"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 199 99 0 255 # Item - Gloves
+	SetFontSize 45
+Show
+	ItemLevel <= 59
+	BaseType = "Ursine Pelt"
+	SetBorderColor 129 50 85 255 # Item - Helmets
+Show
 	ItemLevel <= 59
 	BaseType = "Battle Lamellar"
 	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 59
+	BaseType = "Cutthroat's Garb"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 59
+	BaseType = "Shagreen Gloves"
+	SetBorderColor 199 99 0 255 # Item - Gloves
 #-------------------------------------------------------------------------------
 # Subsection: [AA.14]ilvl 59
 #-------------------------------------------------------------------------------
@@ -6924,6 +7562,13 @@ Show
 	BaseType = "Fluted Bascinet"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 40
+Show
+	Rarity = Rare
+	ItemLevel <= 59
+	BaseType = "Sharkskin Tunic"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
 	SetFontSize 40
 Show
 	Rarity = Rare
@@ -6944,6 +7589,11 @@ Show
 	ItemLevel <= 62
 	BaseType = "Fluted Bascinet"
 	SetBorderColor 129 50 85 255 # Item - Helmets
+Show
+	Rarity = Rare
+	ItemLevel <= 62
+	BaseType = "Sharkskin Tunic"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
 Show
 	Rarity = Rare
 	ItemLevel <= 62
@@ -6989,9 +7639,30 @@ Show
 Show
 	Rarity = Rare
 	ItemLevel <= 62
+	BaseType = "Silken Hood"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 62
+	BaseType = "Destiny Leather"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 62
 	BaseType = "Desert Brigandine"
 	SetBackgroundColor 93 72 55 170 # item_t4
 	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 62
+	BaseType = "Stealth Gloves"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 199 99 0 255 # Item - Gloves
 	SetFontSize 45
 Show
 	Rarity = Rare
@@ -7002,15 +7673,60 @@ Show
 	SetFontSize 45
 Show
 	ItemLevel <= 66
+	BaseType = "Silken Hood"
+	SetBorderColor 129 50 85 255 # Item - Helmets
+Show
+	ItemLevel <= 66
 	BaseType = "Desert Brigandine"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 66
+	BaseType = "Destiny Leather"
 	SetBorderColor 255 255 255 255 # Item - Body Armours
 Show
 	ItemLevel <= 66
 	BaseType = "Hydrascale Gauntlets"
 	SetBorderColor 199 99 0 255 # Item - Gloves
+Show
+	ItemLevel <= 66
+	BaseType = "Stealth Gloves"
+	SetBorderColor 199 99 0 255 # Item - Gloves
 #-------------------------------------------------------------------------------
 # Subsection: [AA.16]ilvl 67
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Rare
+	ItemLevel <= 67
+	BaseType = "Sinner Tricorne"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 129 50 85 255 # Item - Helmets
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 67
+	BaseType = "Exquisite Leather"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+	SetFontSize 45
+Show
+	Rarity = Rare
+	ItemLevel <= 67
+	BaseType = "Dragonscale Boots"
+	SetBackgroundColor 93 72 55 170 # item_t4
+	SetBorderColor 8 150 96 255 # Item - Boots
+	SetFontSize 45
+Show
+	ItemLevel <= 67
+	BaseType = "Sinner Tricorne"
+	SetBorderColor 129 50 85 255 # Item - Helmets
+Show
+	ItemLevel <= 67
+	BaseType = "Exquisite Leather"
+	SetBorderColor 255 255 255 255 # Item - Body Armours
+Show
+	ItemLevel <= 67
+	BaseType = "Dragonscale Boots"
+	SetBorderColor 8 150 96 255 # Item - Boots
 #-------------------------------------------------------------------------------
 # Subsection: [AA.17]ilvl 70
 #-------------------------------------------------------------------------------
@@ -7030,10 +7746,6 @@ Show
 	ItemLevel <= 70
 	BaseType = "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots"
 	SetBorderColor 8 150 96 255 # Item - Boots
-Show
-	ItemLevel <= 70
-	BaseType = "Titanium Spirit Shield"
-	SetBorderColor 38 29 154 255 # Item - Shields
 #===============================================================================
 # Section: [AB] Race | Catch-Alls
 #===============================================================================
@@ -7132,6 +7844,13 @@ Show
 # Subsection: [AB.3] Low Level Exceptions
 #-------------------------------------------------------------------------------
 # Starter weapons, hillock items, shields for brutus kill races.
+Show
+	LinkedSockets = 2
+	Rarity = Normal
+	ItemLevel = 1
+	Class = "Bow"
+	SetBorderColor 169 169 254 255 # Item - Weapons
+	SetFontSize 45
 Show
 	Sockets = "RGB"
 	Rarity = Normal
@@ -7313,18 +8032,6 @@ Hide
 #===============================================================================
 # Section: [AD] - Animated Weapon
 #===============================================================================
-Show
-	Rarity = Normal
-	Class = "Axes" "Swords" "Maces" "Claws" "Staves" "Sceptres" "Daggers"
-	SetBackgroundColor 210 0 0 148 # Animated Weapon Melee
-	SetBorderColor 100 100 100 255 # Aniamted Weapon
-	SetFontSize 18
-Hide
-	Rarity = Normal
-	Class = "Wands" "Bows"
-	SetBackgroundColor 0 210 24 148 # Animated Weapon Ranged
-	SetBorderColor 100 100 100 255 # Aniamted Weapon
-	SetFontSize 18
 #===============================================================================
 # Section: [AE] - Gems
 #===============================================================================

@@ -1,5 +1,5 @@
 # >===============================================================================
-# 18.08.2022 | BOOSTED - BoostedAnimatedWeapon v3.19.01
+# 17.08.2022 | BOOSTED - BoostedSummoner v3.19.00
 # ================================================================================
 # Dúvidas? Questions? https://poe.overnight.games/nosso-filtro/
 #
@@ -7313,7 +7313,7 @@ Hide
 #===============================================================================
 # Section: [AD] - Animated Weapon
 #===============================================================================
-Show
+Hide
 	Rarity = Normal
 	Class = "Axes" "Swords" "Maces" "Claws" "Staves" "Sceptres" "Daggers"
 	SetBackgroundColor 210 0 0 148 # Animated Weapon Melee

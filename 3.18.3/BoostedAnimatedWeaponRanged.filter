@@ -1,5 +1,5 @@
 # >===============================================================================
-# 18.08.2022 | BOOSTED - BoostedAnimatedWeapon v3.19.01
+# 17.08.2022 | BOOSTED - BoostedAnimatedWeaponRanged v3.19.00
 # ================================================================================
 # Dúvidas? Questions? https://poe.overnight.games/nosso-filtro/
 #
@@ -7319,7 +7319,7 @@ Show
 	SetBackgroundColor 210 0 0 148 # Animated Weapon Melee
 	SetBorderColor 100 100 100 255 # Aniamted Weapon
 	SetFontSize 18
-Hide
+Show
 	Rarity = Normal
 	Class = "Wands" "Bows"
 	SetBackgroundColor 0 210 24 148 # Animated Weapon Ranged
