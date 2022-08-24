@@ -1,3 +1,7 @@
+## Versão (3.19.03) 
+
+* Removed Sundering Axe and Convoking Wand from caster filter. 
+* Lower exalted filter. 
 ## Versão (3.19.02) 
 
 * Fixed a typo on Lethean Temptation card. 
