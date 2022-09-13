@@ -1,5 +1,5 @@
 # >===============================================================================
-# 24.08.2022 | BOOSTED - BoostedAnimatedWeapon v3.19.03
+# 12.09.2022 | BOOSTED - BoostedAnimatedWeapon v3.19.03
 # ================================================================================
 # Dúvidas? Questions? https://poe.overnight.games/nosso-filtro/
 #
@@ -588,6 +588,16 @@ Show
 #-------------------------------------------------------------------------------
 # Subsection: [O.4] Flasks
 #-------------------------------------------------------------------------------
+Show
+	Rarity = Unique
+	BaseType = "Flask"
+	SetTextColor 0 0 0 255 # Flasks - Unique
+	SetBackgroundColor 225 100 0 255 # Flasks - Unique
+	SetBorderColor 0 0 0 255 # Flasks - Unique
+	SetFontSize 45
+	PlayAlertSound 13 300 # Flasks - Unique
+	MinimapIcon 0 Orange Hexagon
+	PlayEffect Orange
 Show
 	Corrupted = False
 	Mirrored = False
@@ -1204,15 +1214,17 @@ Show
 # Section: E - Currency
 #===============================================================================
 # Scourge League
-# Show
-# 	Class = "Stackable Currency"
-# 	BaseType = "Tainted"
-# 	SetTextColor 87 30 6 255 # league_normal
-# 	SetBackgroundColor 19 156 57 255 # league_normal
-# 	SetBorderColor 87 30 6 255 # league_normal
-# 	PlayAlertSound 3 200
-# 	MinimapIcon 2 Pink Triangle
-# 	PlayEffect Pink
+Show
+	Class = "Stackable Currency"
+	BaseType = "Tainted"
+	SetTextColor 87 30 6 255 # Currency - Tainted
+	SetBackgroundColor 19 156 57 255 # Currency - Tainted
+	SetBorderColor 87 30 6 255 # Currency - Tainted
+	SetFontSize 45
+ # Currency - Tainted
+	PlayAlertSound 3 200 # Currency - Tainted
+	MinimapIcon 2 Pink Triangle # Currency - Tainted
+	PlayEffect Pink # Currency - Tainted
 Show
 	Class = "Stackable Currency"
 	BaseType = "Eldritch Chaos Orb"
@@ -1724,7 +1736,7 @@ Show
 # Subsection: [F.3] T1 Cards
 #-------------------------------------------------------------------------------
 Show
-	BaseType = "The Apothecary" "The One That Got Away" "House of Mirrors" "Judging Voices" "The Doctor" "Alluring Bounty" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" "Fateful Meeting" "Eternal Bonds" "The Scout" "Love Through Ice"
+	BaseType = "The Sephirot" "The Apothecary" "The One That Got Away" "House of Mirrors" "Judging Voices" "The Doctor" "Alluring Bounty" "The Fiend" "Immortal Resolve" "The Demon" "Nook's Crown" "Beauty Through Death" "The Samurai's Eye" "Succor of the Sinless" "The Cheater" "Brother's Stash" "Unrequited Love" "Fateful Meeting" "Eternal Bonds" "The Scout" "Love Through Ice"
 	SetTextColor 65 65 65 255 # Cards - T1
 	SetBackgroundColor 181 244 195 255 # Cards - T1
 	SetBorderColor 65 65 65 255 # Cards - T1
@@ -1750,7 +1762,7 @@ Show
 Show
 	AreaLevel <= 77
 	Class = "Divination Card"
-	BaseType = "Rebirth and Renewal" "The Brawny Battle Mage" "Further Invention" "A Stone Perfected" "Desperate Crusade" "The Magma Crab" "Silence and Frost" "Bijoux" "Misery in Darkness" "The Tireless Extractor" "Imperial Legacy" "Humility" "The Devastator" "The Artist" "The Dapper Prodigy" "The Sephirot" "The Warlord" "The Vast" "The Throne" "The Aesthete" "The Wolf" "The Valkyrie" "The Soul" "Emperor of Purity" "Heterochromia" "Chaotic Disposition" "The Chains that Bind" "The Dark Mage" "Bowyer's Dream" "Lucky Deck" "Time-Lost Relic" "The Cartographer" "The Breach" "The Dreamer" "The Obscured" "Harmony of Souls" "The Admirer" "The Undaunted" "The Professor" "The Jeweller's Boon" "The Hale Heart" "The Beast" "The Innocent" "The Price of Protection" "The Cacophony" "The Wilted Rose" "Merciless Armament" "Rebirth" "Left to Fate" "The Thaumaturgist" "Dab of Ink" "The Journey" "The Landing" "The Messenger" "Monochrome" "The Seeker" "Alone in the Darkness" "The Porcupine" "The Soul" "The Last One Standing" "Buried Treasure" "Demigod's Wager" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "The Bargain" "Remembrance" "The Heroic Shot" "The Formless Sea" "Mawr Blaid" "The Brittle Emperor" "The Hunger" "The Undisputed" "Perfection" "The Master" "The Celestial Stone" "The Wind" "The Endless Darkness" "The Mayor" "The Queen" "The Mad King" "Seven Years Bad Luck" "The Life Thief" "The Risk" "Earth Drinker" "Blessing of God" "The Deep Ones" "Baited Expectations" "Deathly Designs" "The Chosen" "Cameria's Cut" "Divine Justice" "The Fishmonger" "The Bones" "Friendship" "Squandered Prosperity" "Underground Forest" "The Escape" "Boon of the First Ones" "The Wolven King's Bite" "Council of Cats" "The Eldritch Decay" "Peaceful Moments" "The Greatest Intentions" "The Sustenance" "The Betrayal" "The Sacrifice" "The World Eater" "The Bitter Blossom" "The Academic" "Unchained" "The Archmage's Right Hand" "A Familiar Call" "The Awakened" "The Cache" "The Avenger" "Triskaidekaphobia" "Hope" "Last Hope" "Lost Worlds" "The Darkest Dream" "The Deceiver" "The Insatiable" "The Rite of Elements" "The Surveyor" "Three Voices" "The Lion" "Arrogance of the Vaal" "Lucky Connections" "The Cursed King" "The Doppelganger" "The Garish Power" "The Fool" "The One With All" "The Scavenger" "The Skeleton" "The Summoner" "The Sword King's Salute" "The Tinkerer's Table" "The Twilight Moon" "The Wrath" "The Wretched" "Vinia's Token" "Might is Right" "More is Never Enough" "No Traces" "The Fletcher" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "The Enthusiasts" "Brush, Paint and Palette" "The Eternal War" "The Shortcut" "A Modest Request"  "Society's Remorse" "Dying Light" "Draped in Dreams" "Brotherhood in Exile" "The Offspring" "The Price of Prescience" "The Mind's Eyes" "Terrible Secret of Space" "Lachrymal Necrosis" "Ambitious Obsession"
+	BaseType = "Rebirth and Renewal" "The Brawny Battle Mage" "Further Invention" "A Stone Perfected" "Desperate Crusade" "The Magma Crab" "Silence and Frost" "Bijoux" "Misery in Darkness" "The Tireless Extractor" "Imperial Legacy" "Humility" "The Devastator" "The Artist" "The Dapper Prodigy" "The Warlord" "The Vast" "The Throne" "The Aesthete" "The Wolf" "The Valkyrie" "The Soul" "Emperor of Purity" "Heterochromia" "Chaotic Disposition" "The Chains that Bind" "The Dark Mage" "Bowyer's Dream" "Lucky Deck" "Time-Lost Relic" "The Cartographer" "The Breach" "The Dreamer" "The Obscured" "Harmony of Souls" "The Admirer" "The Undaunted" "The Professor" "The Jeweller's Boon" "The Hale Heart" "The Beast" "The Innocent" "The Price of Protection" "The Cacophony" "The Wilted Rose" "Merciless Armament" "Rebirth" "Left to Fate" "The Thaumaturgist" "Dab of Ink" "The Journey" "The Landing" "The Messenger" "Monochrome" "The Seeker" "Alone in the Darkness" "The Porcupine" "The Soul" "The Last One Standing" "Buried Treasure" "Demigod's Wager" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "The Bargain" "Remembrance" "The Heroic Shot" "The Formless Sea" "Mawr Blaid" "The Brittle Emperor" "The Hunger" "The Undisputed" "Perfection" "The Master" "The Celestial Stone" "The Wind" "The Endless Darkness" "The Mayor" "The Queen" "The Mad King" "Seven Years Bad Luck" "The Life Thief" "The Risk" "Earth Drinker" "Blessing of God" "The Deep Ones" "Baited Expectations" "Deathly Designs" "The Chosen" "Cameria's Cut" "Divine Justice" "The Fishmonger" "The Bones" "Friendship" "Squandered Prosperity" "Underground Forest" "The Escape" "Boon of the First Ones" "The Wolven King's Bite" "Council of Cats" "The Eldritch Decay" "Peaceful Moments" "The Greatest Intentions" "The Sustenance" "The Betrayal" "The Sacrifice" "The World Eater" "The Bitter Blossom" "The Academic" "Unchained" "The Archmage's Right Hand" "A Familiar Call" "The Awakened" "The Cache" "The Avenger" "Triskaidekaphobia" "Hope" "Last Hope" "Lost Worlds" "The Darkest Dream" "The Deceiver" "The Insatiable" "The Rite of Elements" "The Surveyor" "Three Voices" "The Lion" "Arrogance of the Vaal" "Lucky Connections" "The Cursed King" "The Doppelganger" "The Garish Power" "The Fool" "The One With All" "The Scavenger" "The Skeleton" "The Summoner" "The Sword King's Salute" "The Tinkerer's Table" "The Twilight Moon" "The Wrath" "The Wretched" "Vinia's Token" "Might is Right" "More is Never Enough" "No Traces" "The Fletcher" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "The Enthusiasts" "Brush, Paint and Palette" "The Eternal War" "The Shortcut" "A Modest Request"  "Society's Remorse" "Dying Light" "Draped in Dreams" "Brotherhood in Exile" "The Offspring" "The Price of Prescience" "The Mind's Eyes" "Terrible Secret of Space" "Lachrymal Necrosis" "Ambitious Obsession"
 	SetTextColor 65 65 65 255 # Cards - T3 
 	SetBackgroundColor 225 225 225 255 # Cards - T3
 	SetBorderColor 65 65 65 255 # Cards - T3
@@ -1761,7 +1773,7 @@ Show
 Show
 	AreaLevel > 77
 	Class = "Divination Card"
-	BaseType = "Rebirth and Renewal" "The Brawny Battle Mage" "Further Invention" "A Stone Perfected" "Desperate Crusade" "The Magma Crab" "Silence and Frost" "Bijoux" "Misery in Darkness" "The Tireless Extractor" "Imperial Legacy" "Humility" "The Devastator" "The Artist" "The Dapper Prodigy" "The Sephirot" "The Warlord" "The Vast" "The Throne" "The Aesthete" "The Wolf" "The Valkyrie" "The Soul" "Emperor of Purity" "Heterochromia" "Chaotic Disposition" "The Chains that Bind" "The Dark Mage" "Bowyer's Dream" "Lucky Deck" "Time-Lost Relic" "The Cartographer" "The Breach" "The Dreamer" "The Obscured" "Harmony of Souls" "The Admirer" "The Undaunted" "The Professor" "The Jeweller's Boon" "The Hale Heart" "The Beast" "The Innocent" "The Price of Protection" "The Cacophony" "The Wilted Rose" "Merciless Armament" "Rebirth" "Left to Fate" "The Thaumaturgist" "Dab of Ink" "The Journey" "The Landing" "The Messenger" "Monochrome" "The Seeker" "Alone in the Darkness" "The Porcupine" "The Soul" "The Last One Standing" "Buried Treasure" "Demigod's Wager" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "The Bargain" "Remembrance" "The Heroic Shot" "The Formless Sea" "Mawr Blaid" "The Brittle Emperor" "The Hunger" "The Undisputed" "Perfection" "The Master" "The Celestial Stone" "The Wind" "The Endless Darkness" "The Mayor" "The Queen" "The Mad King" "Seven Years Bad Luck" "The Life Thief" "The Risk" "Earth Drinker" "Blessing of God" "The Deep Ones" "Baited Expectations" "Deathly Designs" "The Chosen" "Cameria's Cut" "Divine Justice" "The Fishmonger" "The Bones" "Friendship" "Squandered Prosperity" "Underground Forest" "The Escape" "Boon of the First Ones" "The Wolven King's Bite" "Council of Cats" "The Eldritch Decay" "Peaceful Moments" "The Greatest Intentions" "The Sustenance" "The Betrayal" "The Sacrifice" "The World Eater" "The Bitter Blossom" "The Academic" "Unchained" "The Archmage's Right Hand" "A Familiar Call" "The Awakened" "The Cache" "The Avenger" "Triskaidekaphobia" "Hope" "Last Hope" "Lost Worlds" "The Darkest Dream" "The Deceiver" "The Insatiable" "The Rite of Elements" "The Surveyor" "Three Voices" "The Lion" "Arrogance of the Vaal" "Lucky Connections" "The Cursed King" "The Doppelganger" "The Garish Power" "The Fool" "The One With All" "The Scavenger" "The Skeleton" "The Summoner" "The Sword King's Salute" "The Tinkerer's Table" "The Twilight Moon" "The Wrath" "The Wretched" "Vinia's Token" "Might is Right" "More is Never Enough" "No Traces" "The Fletcher" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "The Enthusiasts" "Brush, Paint and Palette" "The Eternal War" "The Shortcut" "A Modest Request"  "Society's Remorse" "Dying Light" "Draped in Dreams" "Brotherhood in Exile" "The Offspring" "The Price of Prescience" "The Mind's Eyes" "Terrible Secret of Space" "Lachrymal Necrosis" "Ambitious Obsession"
+	BaseType = "Rebirth and Renewal" "The Brawny Battle Mage" "Further Invention" "A Stone Perfected" "Desperate Crusade" "The Magma Crab" "Silence and Frost" "Bijoux" "Misery in Darkness" "The Tireless Extractor" "Imperial Legacy" "Humility" "The Devastator" "The Artist" "The Dapper Prodigy" "The Warlord" "The Vast" "The Throne" "The Aesthete" "The Wolf" "The Valkyrie" "The Soul" "Emperor of Purity" "Heterochromia" "Chaotic Disposition" "The Chains that Bind" "The Dark Mage" "Bowyer's Dream" "Lucky Deck" "Time-Lost Relic" "The Cartographer" "The Breach" "The Dreamer" "The Obscured" "Harmony of Souls" "The Admirer" "The Undaunted" "The Professor" "The Jeweller's Boon" "The Hale Heart" "The Beast" "The Innocent" "The Price of Protection" "The Cacophony" "The Wilted Rose" "Merciless Armament" "Rebirth" "Left to Fate" "The Thaumaturgist" "Dab of Ink" "The Journey" "The Landing" "The Messenger" "Monochrome" "The Seeker" "Alone in the Darkness" "The Porcupine" "The Soul" "The Last One Standing" "Buried Treasure" "Demigod's Wager" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "The Bargain" "Remembrance" "The Heroic Shot" "The Formless Sea" "Mawr Blaid" "The Brittle Emperor" "The Hunger" "The Undisputed" "Perfection" "The Master" "The Celestial Stone" "The Wind" "The Endless Darkness" "The Mayor" "The Queen" "The Mad King" "Seven Years Bad Luck" "The Life Thief" "The Risk" "Earth Drinker" "Blessing of God" "The Deep Ones" "Baited Expectations" "Deathly Designs" "The Chosen" "Cameria's Cut" "Divine Justice" "The Fishmonger" "The Bones" "Friendship" "Squandered Prosperity" "Underground Forest" "The Escape" "Boon of the First Ones" "The Wolven King's Bite" "Council of Cats" "The Eldritch Decay" "Peaceful Moments" "The Greatest Intentions" "The Sustenance" "The Betrayal" "The Sacrifice" "The World Eater" "The Bitter Blossom" "The Academic" "Unchained" "The Archmage's Right Hand" "A Familiar Call" "The Awakened" "The Cache" "The Avenger" "Triskaidekaphobia" "Hope" "Last Hope" "Lost Worlds" "The Darkest Dream" "The Deceiver" "The Insatiable" "The Rite of Elements" "The Surveyor" "Three Voices" "The Lion" "Arrogance of the Vaal" "Lucky Connections" "The Cursed King" "The Doppelganger" "The Garish Power" "The Fool" "The One With All" "The Scavenger" "The Skeleton" "The Summoner" "The Sword King's Salute" "The Tinkerer's Table" "The Twilight Moon" "The Wrath" "The Wretched" "Vinia's Token" "Might is Right" "More is Never Enough" "No Traces" "The Fletcher" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "The Enthusiasts" "Brush, Paint and Palette" "The Eternal War" "The Shortcut" "A Modest Request"  "Society's Remorse" "Dying Light" "Draped in Dreams" "Brotherhood in Exile" "The Offspring" "The Price of Prescience" "The Mind's Eyes" "Terrible Secret of Space" "Lachrymal Necrosis" "Ambitious Obsession"
 	SetTextColor 0 0 0 255 # Cards - T4
 	SetBackgroundColor 190 190 190 255 # Cards - T4
 	SetBorderColor 0 0 0 255 # Cards - T4
@@ -3076,12 +3088,12 @@ Show
 	PlayAlertSound 3 125 # normal_drop
 Show
 	BaseType =  "Blueprint"
-	SetTextColor 33 33 33 255 # league_normal
-	SetBackgroundColor 251 122 166 255 # league_normal
-	SetBorderColor 246 152 189 255 # league_normal
+	SetTextColor 153 13 0 255 # Heist - Blueprint
+	SetBackgroundColor 146 67 58 240 # Heist - Blueprint
+	SetBorderColor 153 13 0 255 # Heist - Blueprint
 	SetFontSize 45
-	PlayAlertSound 3 225 # normal_drop
-	MinimapIcon 1 Pink Triangle
+	PlayAlertSound 13 300 # Heist - Blueprint
+	MinimapIcon 0 Pink Triangle
 	PlayEffect Pink
 # G.18 - Heist Target
 Show
@@ -3169,21 +3181,21 @@ Show
 Show
 	Replica = True
 	SetTextColor 33 33 33 255 # league_small_marker
-	SetBackgroundColor 251 122 166 210 # league_small_marker
+	SetBackgroundColor 251 122 166 255 # league_small_marker
 	SetBorderColor 33 33 33 255 # league_small_marker
 	SetFontSize 45
-	PlayAlertSound 11 200 # league_small_marker
-	MinimapIcon 2 Pink Triangle
+	PlayAlertSound 11 300 # league_small_marker
+	MinimapIcon 0 Pink Triangle
 	PlayEffect Pink
 # G.18 - Alternate quality gems
 Show
 	AlternateQuality = True
 	Class = "Gem"
 	SetTextColor 33 33 33 255 # league_small_marker
-	SetBackgroundColor 251 122 166 210 # league_small_marker
+	SetBackgroundColor 251 122 166 255 # league_small_marker
 	SetBorderColor 33 33 33 255 # league_small_marker
 	SetFontSize 45
-	PlayAlertSound 11 200 # league_small_marker
+	PlayAlertSound 11 300 # league_small_marker
 	MinimapIcon 2 Pink Triangle
 	PlayEffect Pink
 # G.18 - New currency that GGG added at the last fucking second lmao
@@ -3311,11 +3323,11 @@ Show
 Show
 	Class = "Expedition Logbook"
 	BaseType = "Expedition Logbook"
-	SetTextColor 255 148 148 255 # Expedition - General
-	SetBackgroundColor 136 68 68 240 # Expedition - General
-	SetBorderColor 246 152 189 255 # Expedition - General
-	SetFontSize 46 # Expedition - General
-	PlayAlertSound 3 300 # Expedition - General
+	SetTextColor 153 13 0 255 # Expedition - Logbook
+	SetBackgroundColor 146 67 58 240 # Expedition - Logbook
+	SetBorderColor 153 13 0 255 # Expedition - Logbook
+	SetFontSize 45
+	PlayAlertSound 13 300 # Expedition - Logbook
 	MinimapIcon 0 Pink Triangle
 	PlayEffect Pink
 Show
@@ -3393,17 +3405,16 @@ Show
 # 	SetBackgroundColor 19 156 57 255 # league_normal
 # 	SetBorderColor 87 30 6 255 # league_normal
 # 	PlayEffect Pink Temp
-# Reintorduced in Lake of Kalandra - 3.19
-Show
-	Class = "Stackable Currency"
-	BaseType = "Tainted"
-	SetTextColor 87 30 6 255 # league_normal
-	SetBackgroundColor 19 156 57 255 # league_normal
-	SetBorderColor 87 30 6 255 # league_normal
-	SetFontSize 45
-	PlayAlertSound 3 200
-	MinimapIcon 2 Pink Triangle
-	PlayEffect Pink
+# Reintorduced in Lake of Kalandra - 3.19, moved to currency section
+# Show
+# 	Class = "Stackable Currency"
+# 	BaseType = "Tainted"
+# 	SetTextColor 87 30 6 255 # league_normal
+# 	SetBackgroundColor 19 156 57 255 # league_normal
+# 	SetBorderColor 87 30 6 255 # league_normal
+# 	PlayAlertSound 3 200
+# 	MinimapIcon 2 Pink Triangle
+# 	PlayEffect Pink
 #-------------------------------------------------------------------------------
 # Subsection: [G.23] Archnemesis League - 3.17
 #-------------------------------------------------------------------------------
@@ -3419,40 +3430,48 @@ Show
 	PlayEffect Pink
 Show
 	Class = "Stackable Currency"
-	BaseType = "Lesser Eldritch Ember" "Greater Eldritch Ember"
+	BaseType = "Lesser Eldritch Ember" "Greater Eldritch Ember" "Grand Eldritch Ember" 
 	SetTextColor 126 12 35 255 # eldritch_ember
 	SetBackgroundColor 246 152 189 240 # league_medium_marker
 	SetBorderColor 126 12 35 255 # eldritch_ember
 	SetFontSize 42
  # league_medium_marker
 	PlayAlertSound 3 200
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink
 Show
 	Class = "Stackable Currency"
-	BaseType = "Grand Eldritch Ember" "Exceptional Eldritch Ember"
+	BaseType = "Exceptional Eldritch Ember"
 	SetTextColor 126 12 35 255 # eldritch_ember
 	SetBackgroundColor 246 152 189 240 # league_medium_marker
 	SetBorderColor 126 12 35 255 # eldritch_ember
 	SetFontSize 45
  # league_medium_marker
-	PlayAlertSound 3 200
+	PlayAlertSound 12 300
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink
 Show
 	Class = "Stackable Currency"
-	BaseType = "Lesser Eldritch Ichor" "Greater Eldritch Ichor"
+	BaseType = "Lesser Eldritch Ichor" "Greater Eldritch Ichor" "Grand Eldritch Ichor"
 	SetTextColor 13 10 118 255 # eldritch_ichor
 	SetBackgroundColor 246 152 189 240 # league_medium_marker
 	SetBorderColor 13 10 118 255 # eldritch_ichor
 	SetFontSize 42
  # league_medium_marker
-	PlayAlertSound 3 200
+	PlayAlertSound 3 300
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink
 Show
 	Class = "Stackable Currency"
-	BaseType = "Grand Eldritch Ichor" "Exceptional Eldritch Ichor"
+	BaseType = "Exceptional Eldritch Ichor"
 	SetTextColor 13 10 118 255 # eldritch_ichor
 	SetBackgroundColor 246 152 189 240 # league_medium_marker
 	SetBorderColor 13 10 118 255 # eldritch_ichor
 	SetFontSize 45
  # league_medium_marker
-	PlayAlertSound 3 200
+	PlayAlertSound 12 300
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink
 # Removed in Archnemesis - 3.17
 # Show
 # 	Class = "Atlas Book of Skill" "Flesh Compass" "Luminous Astrolabe" "Writhing Invitation" "Screaming Invitation" "Polaric Invitation" "Incandescent Invitation"
