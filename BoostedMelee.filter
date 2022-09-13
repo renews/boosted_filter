@@ -8508,9 +8508,9 @@ Show
 	SetTextColor 0 0 0 255 # Items - Unique
 	SetBackgroundColor 225 100 0 255 # Items - Unique
 	SetBorderColor 0 0 0 255 # Items - Unique
-	SetFontSize 42
+	SetFontSize 45
  # Items - Unique
-	PlayAlertSound 1 100 # Items - Unique
+	PlayAlertSound 1 200 # Items - Unique
 	DisableDropSound
 #-------------------------------------------------------------------------------
 # Subsection: [ZZ.2] - Disable Drop Sounds
