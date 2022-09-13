@@ -1,3 +1,10 @@
+## Versão (3.19.04) 
+
+* New colors for Blueprints and Logbooks. 
+* New tier for the "The Sephirot" card (divines). 
+* Better highlight unique flasks. 
+* Fix tainted currencies. 
+* Add map icons for warlord/eldritch. 
 ## Versão (3.19.03) 
 
 * Removed Sundering Axe and Convoking Wand from caster filter. 
