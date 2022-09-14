@@ -1,3 +1,7 @@
+## Versão (3.19.05) 
+
+* New colors for Blueprints and Logbooks. 
+* New tier for the "The Artist" card (enhance 4). 
 ## Versão (3.19.04) 
 
 * New colors for Blueprints and Logbooks. 
