@@ -1746,7 +1746,7 @@ Show
 # Subsection: [F.4] T2 Cards (11c ~ 60c)
 #-------------------------------------------------------------------------------
 Show
-	BaseType = "Home" "The Destination" "A Fate Worse Than Death" "Altered Perception" "Winter's Embrace" "Imperfect Memories" "Magnum Opus" "Justified Ambition" "Duality" "A Note in the Wind" "The Offering" "The Saint's Treasure" "Pride Before the Fall" "The King's Heart" "Hunter's Reward" "The Immortal" "The Celestial Justicar" "Wealth and Power" "The Polymath" "Abandoned Wealth" "The Iron Bard" "The Spark and the Flame" "The Dragon's Heart" "The Nurse" "The Ethereal" "Dark Dreams" "The Eye of Terror" "Void of the Elements" "The Damned" "The Old Man" "The Price of Loyalty" "Burning Blood" "Pride of the First Ones" "Etched in Blood" "The Craving" "The Enlightened" "The Progeny of Lunaris" "The Strategist" "The White Knight" "Hive of Knowledge" "Gift of Asenath" "The Long Con" "The Gulf" "Desecrated Virtue" "Lingering Remnants" "Prometheus' Armoury" "The Hoarder" "Broken Promises" "Deadly Joy" "Luminous Trove" "The Astromancer" "Keeper's Corruption" "The Patient" "Dementophobia"
+	BaseType = "Home" "The Destination" "A Fate Worse Than Death" "Altered Perception" "Winter's Embrace" "Imperfect Memories" "Magnum Opus" "Justified Ambition" "Duality" "A Note in the Wind" "The Offering" "The Saint's Treasure" "Pride Before the Fall" "The King's Heart" "Hunter's Reward" "The Immortal" "The Celestial Justicar" "Wealth and Power" "The Polymath" "Abandoned Wealth" "The Spark and the Flame" "The Dragon's Heart" "The Nurse" "The Ethereal" "Dark Dreams" "The Eye of Terror" "Void of the Elements" "The Damned" "The Old Man" "The Price of Loyalty" "Burning Blood" "Pride of the First Ones" "Etched in Blood" "The Craving" "The Enlightened" "The Progeny of Lunaris" "The Strategist" "The White Knight" "Hive of Knowledge" "Gift of Asenath" "The Long Con" "The Gulf" "Desecrated Virtue" "Lingering Remnants" "Prometheus' Armoury" "The Hoarder" "Broken Promises" "Deadly Joy" "Luminous Trove" "The Astromancer" "Keeper's Corruption" "The Patient" "Dementophobia"
 	SetTextColor 33 33 33 255 # Cards - T2
 	SetBackgroundColor 255 255 255 255 # Cards - T2
 	SetBorderColor 33 33 33 255 # Cards - T2
@@ -8283,7 +8283,7 @@ Show
 	PlayEffect Grey # Gems - T2
 Show
 	GemLevel >= 21
-	Class = "Active Skill Gem"
+	Class = "Gem"
 	SetTextColor 66 66 66 255 # Gems - lvl 21
 	SetBackgroundColor 207 206 206 255 # Gems - lvl 21
 	SetFontSize 45
