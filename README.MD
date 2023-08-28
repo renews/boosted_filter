@@ -1,28 +1,31 @@
-## Versão (3.19.05) 
+## Version (3.22.0)
+* update everything from the last 3 leagues :|
 
-* New colors for Blueprints and Logbooks. 
-* New tier for the "The Artist" card (enhance 4). 
-## Versão (3.19.04) 
+## Versão (3.22.00)
 
-* New colors for Blueprints and Logbooks. 
-* New tier for the "The Sephirot" card (divines). 
-* Better highlight unique flasks. 
-* Fix tainted currencies. 
-* Add map icons for warlord/eldritch. 
-## Versão (3.19.03) 
+* New colors for Blueprints and Logbooks.
+* New tier for the "The Artist" card (enhance 4).
+## Versão (3.19.04)
 
-* Removed Sundering Axe and Convoking Wand from caster filter. 
-* Lower exalted filter. 
-## Versão (3.19.02) 
+* New colors for Blueprints and Logbooks.
+* New tier for the "The Sephirot" card (divines).
+* Better highlight unique flasks.
+* Fix tainted currencies.
+* Add map icons for warlord/eldritch.
+## Versão (3.19.03)
 
-* Fixed a typo on Lethean Temptation card. 
-## Versão (3.19.01) 
+* Removed Sundering Axe and Convoking Wand from caster filter.
+* Lower exalted filter.
+## Versão (3.19.02)
 
-* Ready for 3.19 Lake of Kalandra. 
-* More emphasis on Ward items. 
-* New tier for Divine Orb. 
-* Tainted currency is back. 
-* Tier for uniques kinda unified while we work on all uniques. 
+* Fixed a typo on Lethean Temptation card.
+## Versão (3.19.01)
+
+* Ready for 3.19 Lake of Kalandra.
+* More emphasis on Ward items.
+* New tier for Divine Orb.
+* Tainted currency is back.
+* Tier for uniques kinda unified while we work on all uniques.
 ## Versão (3.19.00)
 
 * Better unique filtering.

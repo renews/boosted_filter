@@ -1,5 +1,5 @@
 # >===============================================================================
-# 14.09.2022 | BOOSTED - BoostedMelee v3.19.05
+# 14.09.2022 | BOOSTED - BoostedMelee v3.22.00
 # ================================================================================
 # Dúvidas? Questions? https://poe.overnight.games/nosso-filtro/
 #
@@ -535,7 +535,7 @@ Show
 Show
 	AreaLevel <= 77
 	Rarity = Unique
-	BaseType = "Bronzescale Gauntlets" "Great Mallet" "Mind Cage" "Rustic Sash" "Jade Amulet" "Amber Amulet" "Two-Point Arrow Quiver" "Legion Boots" "Iron Circlet" "Bronzescale Gauntlets" "Imperial Claw" "Mind Cage" "Jade Amulet" "Spiraled Wand" "Chain Belt" 
+	BaseType = "Bronzescale Gauntlets" "Great Mallet" "Mind Cage" "Rustic Sash" "Jade Amulet" "Amber Amulet" "Two-Point Arrow Quiver" "Legion Boots" "Iron Circlet" "Bronzescale Gauntlets" "Imperial Claw" "Mind Cage" "Jade Amulet" "Spiraled Wand" "Chain Belt"
 	SetTextColor 0 0 0 255 # Items - Unique
 	SetBackgroundColor 225 100 0 230 # Items - Unique T2
 	SetBorderColor 0 0 0 255 # Items - Unique
@@ -1358,7 +1358,7 @@ Hide
 	BaseType = "Binding Shard" "Alchemy Shard"
 	SetTextColor 0 0 0 255 # Currency - Stacked Shards Bad72<=
 	SetBackgroundColor 74 128 120 255 # Currency - Stacked Shards Bad72<=
-	DisableDropSound	
+	DisableDropSound
 #-------------------------------------------------------------------------------
 # Subsection: [E.4] T5 ~ T10
 #-------------------------------------------------------------------------------
@@ -1374,7 +1374,7 @@ Show
 	MinimapIcon 2 Green Kite # Currency - T1(77<=)
 Show
 	AreaLevel <= 77
-	BaseType = "Cartographer's Chisel" "Orb of Scouring" "Orb of Alchemy" "Orb of Alteration" "Blessed Orb" 
+	BaseType = "Cartographer's Chisel" "Orb of Scouring" "Orb of Alchemy" "Orb of Alteration" "Blessed Orb"
 	SetTextColor 165 255 214 255 # Currency - T2(77<=)
 	SetBackgroundColor 74 128 120 255 # Currency - T2(77<=)
 	SetBorderColor 165 255 214 255 # Currency - T2(77<=)
@@ -1457,7 +1457,7 @@ Show
 Show
 	AreaLevel > 77
 	StackSize > 1
-	BaseType = "Orb of Transmutation" "Blacksmith's Whetstone" 
+	BaseType = "Orb of Transmutation" "Blacksmith's Whetstone"
 	SetTextColor 165 255 214 255 # Currency - T4(77>)
 	SetBackgroundColor 74 128 120 255 # Currency - T4(77>)
 	SetFontSize 45
@@ -1465,7 +1465,7 @@ Show
 Hide
 	AreaLevel > 77
 	StackSize = 1
-	BaseType = "Orb of Transmutation" "Blacksmith's Whetstone" 
+	BaseType = "Orb of Transmutation" "Blacksmith's Whetstone"
 	SetTextColor 165 255 214 255 # Currency - T4(77>)
 	SetBackgroundColor 74 128 120 255 # Currency - T4(77>)
 	SetFontSize 45
@@ -1488,7 +1488,7 @@ Show
 	DisableDropSound
 Hide
 	AreaLevel > 77
-	StackSize <= 3 
+	StackSize <= 3
 	BaseType = "Portal Scroll" "Scroll of Wisdom"
 	SetTextColor 65 65 65 255 # Currency - Utility(77>)
 	SetBackgroundColor 241 220 167 255 # Currency - Utility(77>)
@@ -1511,7 +1511,7 @@ Hide
 	SetFontSize 45
 	DisableDropSound
 Show
-	AreaLevel > 77	
+	AreaLevel > 77
 	BaseType = "Annulment Shard"
 	SetTextColor 0 0 0 255 # Currency - T1(77<=)
 	SetBackgroundColor 74 128 120 255 # Currency - T1(77<=)
@@ -1527,7 +1527,7 @@ Show
 Show
 	AreaLevel > 77
 	StackSize > 5
-	BaseType = "Binding Shard" "Alchemy Shard" 
+	BaseType = "Binding Shard" "Alchemy Shard"
 	DisableDropSound
 Hide
 	AreaLevel > 77
@@ -1633,14 +1633,14 @@ Show
 	SetFontSize 45
 	PlayAlertSound 6 300
 	MinimapIcon 0 Pink Triangle
-	PlayEffect Pink	
+	PlayEffect Pink
 Show
 	BaseType = "Divine Orb"
 	SetTextColor 219 40 0 255 # Currency - Divine
 	SetBackgroundColor 0 230 23 240 # Currency - Divine
 	SetBorderColor 219 40 0 255 # Currency - Divine
 	SetFontSize 45
-	PlayAlertSound 6 300 # Currency - Divine
+	PlayAlertSound ShDivine 300 # Currency - Divine
 	MinimapIcon 1 Green Kite
 	PlayEffect Green
 Show
@@ -1662,7 +1662,7 @@ Show
 	MinimapIcon 2 Green Kite
 	PlayEffect Green
 Show
-	BaseType = "Veiled Chaos Orb"
+	BaseType = "Veiled Chaos Orb" "Silver Coin"
 	SetTextColor 32 86 43 255 # Currency - Veiled Chaos
 	SetBackgroundColor 4 217 83 255 # Currency - Veiled Chaos
 	SetBorderColor 32 86 43 255 # Currency - Veiled Chaos
@@ -1761,7 +1761,7 @@ Show
 	AreaLevel <= 77
 	Class = "Divination Card"
 	BaseType = "Rebirth and Renewal" "The Brawny Battle Mage" "Further Invention" "A Stone Perfected" "Desperate Crusade" "The Magma Crab" "Silence and Frost" "Bijoux" "Misery in Darkness" "The Tireless Extractor" "Imperial Legacy" "Humility" "The Devastator" "The Dapper Prodigy" "The Warlord" "The Vast" "The Throne" "The Aesthete" "The Wolf" "The Valkyrie" "The Soul" "Emperor of Purity" "Heterochromia" "Chaotic Disposition" "The Chains that Bind" "The Dark Mage" "Bowyer's Dream" "Lucky Deck" "Time-Lost Relic" "The Cartographer" "The Breach" "The Dreamer" "The Obscured" "Harmony of Souls" "The Admirer" "The Undaunted" "The Professor" "The Jeweller's Boon" "The Hale Heart" "The Beast" "The Innocent" "The Price of Protection" "The Cacophony" "The Wilted Rose" "Merciless Armament" "Rebirth" "Left to Fate" "The Thaumaturgist" "Dab of Ink" "The Journey" "The Landing" "The Messenger" "Monochrome" "The Seeker" "Alone in the Darkness" "The Porcupine" "The Soul" "The Last One Standing" "Buried Treasure" "Demigod's Wager" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "The Bargain" "Remembrance" "The Heroic Shot" "The Formless Sea" "Mawr Blaid" "The Brittle Emperor" "The Hunger" "The Undisputed" "Perfection" "The Master" "The Celestial Stone" "The Wind" "The Endless Darkness" "The Mayor" "The Queen" "The Mad King" "Seven Years Bad Luck" "The Life Thief" "The Risk" "Earth Drinker" "Blessing of God" "The Deep Ones" "Baited Expectations" "Deathly Designs" "The Chosen" "Cameria's Cut" "Divine Justice" "The Fishmonger" "The Bones" "Friendship" "Squandered Prosperity" "Underground Forest" "The Escape" "Boon of the First Ones" "The Wolven King's Bite" "Council of Cats" "The Eldritch Decay" "Peaceful Moments" "The Greatest Intentions" "The Sustenance" "The Betrayal" "The Sacrifice" "The World Eater" "The Bitter Blossom" "The Academic" "Unchained" "The Archmage's Right Hand" "A Familiar Call" "The Awakened" "The Cache" "The Avenger" "Triskaidekaphobia" "Hope" "Last Hope" "Lost Worlds" "The Darkest Dream" "The Deceiver" "The Insatiable" "The Rite of Elements" "The Surveyor" "Three Voices" "The Lion" "Arrogance of the Vaal" "Lucky Connections" "The Cursed King" "The Doppelganger" "The Garish Power" "The Fool" "The One With All" "The Scavenger" "The Skeleton" "The Summoner" "The Sword King's Salute" "The Tinkerer's Table" "The Twilight Moon" "The Wrath" "The Wretched" "Vinia's Token" "Might is Right" "More is Never Enough" "No Traces" "The Fletcher" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "The Enthusiasts" "Brush, Paint and Palette" "The Eternal War" "The Shortcut" "A Modest Request"  "Society's Remorse" "Dying Light" "Draped in Dreams" "Brotherhood in Exile" "The Offspring" "The Price of Prescience" "The Mind's Eyes" "Terrible Secret of Space" "Lachrymal Necrosis" "Ambitious Obsession"
-	SetTextColor 65 65 65 255 # Cards - T3 
+	SetTextColor 65 65 65 255 # Cards - T3
 	SetBackgroundColor 225 225 225 255 # Cards - T3
 	SetBorderColor 65 65 65 255 # Cards - T3
 	SetFontSize 45
@@ -1811,13 +1811,13 @@ Hide
 # Disabled Cards
 Hide
 	Class = "Divination Card"
-	BaseType = "The Card Sharp" "The Hook"	
+	BaseType = "The Card Sharp" "The Hook"
 	SetTextColor 0 0 0 255 # Cards - T4
 	SetBackgroundColor 97 97 97 210 # Cards - T4
 	SetBorderColor 0 0 0 255 # Cards - T4
 	SetFontSize 38
 #-------------------------------------------------------------------------------
-# Subsection: [F.8] Untiered League Cards 
+# Subsection: [F.8] Untiered League Cards
 #-------------------------------------------------------------------------------
 #  - Added in Sentinel - 3.18
 # Show
@@ -1833,6 +1833,17 @@ Hide
 Show
 	Class = "Divination Card"
 	BaseType =  "Broken Truce" "Doryani's Epiphany" "Endless Night" "The Shieldbearer" "Choking Guilt" "The Enforcer" "The Shepherd's Sandals" "Azure Rage" "The Leviathan" "The Price of Devotion" "Astral Protection" "Gemcutter's Mercy" "Checkmate" "Lethean Temptation" "Something Dark"
+	SetTextColor 33 33 33 255 # card_medium_mark
+	SetBackgroundColor 193 193 193 240 # card_medium_mark
+	SetBorderColor 33 33 33 255 # card_medium_mark
+	SetFontSize 45
+	PlayAlertSound 2 200 # card_medium_mark
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink
+# -- Added in Trial of the Ancestors - 3.22
+Show
+	Class = "Divination Card"
+	BaseType =  "Fire of Unknown Origin" "The Fortunate"
 	SetTextColor 33 33 33 255 # card_medium_mark
 	SetBackgroundColor 193 193 193 240 # card_medium_mark
 	SetBorderColor 33 33 33 255 # card_medium_mark
@@ -2598,7 +2609,7 @@ Show
 	PlayAlertSound 8 200 # Item - Medium Value
 	MinimapIcon 0 Pink Triangle
 	PlayEffect Pink
-# added scourge fossils	
+# added scourge fossils
 Show
 	Class = "Currency"
 	BaseType = "Sanctified Fossil" "Tangled Fossil" "Bloodstained Fossil" "Deft Fossil" "Fundamental Fossil"
@@ -3239,7 +3250,7 @@ Show
 	PlayAlertSound 11 250 # league_small_marker
 	MinimapIcon 2 Pink Triangle
 	PlayEffect Pink
-# Removed on Archnemesis - 3.17	
+# Removed on Archnemesis - 3.17
 # Show
 # 	Class "Atlas Region Upgrade Item"
 # 	BaseType = "Platinum" "Titanium" "Chromium"
@@ -3357,7 +3368,7 @@ Show
 	SetFontSize 45
  # league_medium_marker
 	PlayAlertSound 3 200
-# Removed in Archnemesis - 3.17	
+# Removed in Archnemesis - 3.17
 # Show
 # 	Class = "Stackable Currency"
 # 	BaseType = "Common Sun Artifact" "Common Black Scythe Artifact" "Common Broken Circle Artifact" "Common Order Artifact"
@@ -3428,7 +3439,7 @@ Show
 	PlayEffect Pink
 Show
 	Class = "Stackable Currency"
-	BaseType = "Lesser Eldritch Ember" "Greater Eldritch Ember" "Grand Eldritch Ember" 
+	BaseType = "Lesser Eldritch Ember" "Greater Eldritch Ember" "Grand Eldritch Ember"
 	SetTextColor 126 12 35 255 # eldritch_ember
 	SetBackgroundColor 246 152 189 240 # league_medium_marker
 	SetBorderColor 126 12 35 255 # eldritch_ember
@@ -3509,7 +3520,7 @@ Show
 # 	PlayEffect Pink Temp
 # Has the new implicits 3.17?
 Show
-	HasSearingExarchImplicit >= 1	
+	HasSearingExarchImplicit >= 1
 	SetFontSize 45
 	MinimapIcon 2 Red Cross
 Show
@@ -3608,6 +3619,45 @@ Show
 	PlayAlertSound 7 200 # Oil - Reflective
 	MinimapIcon 0 Pink Raindrop
 	PlayEffect Pink
+#-------------------------------------------------------------------------------
+# Subsection: [G.25] Trial of the Ancestors League - 3.22
+#-------------------------------------------------------------------------------
+Show
+	Class = "Sanctum Research"
+	SetTextColor 62 101 163 255 # Quest Items
+	SetBackgroundColor 165 194 233 240 # Quest Items
+	SetBorderColor 77 121 178 255 # Quest Items
+	PlayAlertSound 16 200 # Quest Items
+	MinimapIcon 0 Pink Pentagon
+	PlayEffect Pink
+Show
+	Class = "Relic"
+	SetTextColor 62 101 163 255 # Quest Items
+	SetBackgroundColor 165 194 233 240 # Quest Items
+	SetBorderColor 77 121 178 255 # Quest Items
+	PlayAlertSound 16 200 # Quest Items
+	MinimapIcon 0 Pink Pentagon
+	PlayEffect Pink
+Show
+	Class = "Stackable Currency"
+	BaseType = "Tattoo"
+	SetTextColor 126 12 35 255 # tatoo
+	SetBackgroundColor 246 152 189 240 # league_medium_marker
+	SetBorderColor 126 12 35 255 # tatoo
+	SetFontSize 42
+	PlayAlertSound 3 200
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink
+Show
+	Class = "Stackable Currency"
+	BaseType = "Omen of" "Hinekora's Lock"
+	SetTextColor 126 12 35 255 # omen_of
+	SetBackgroundColor 246 152 189 240 # league_medium_marker
+	SetBorderColor 126 12 35 255 # omen_of
+	SetFontSize 45
+	PlayAlertSound 12 300
+	MinimapIcon 2 Pink Triangle
+	PlayEffect Pink
 #===============================================================================
 # Section: H - Quest Items
 #===============================================================================
@@ -3645,7 +3695,7 @@ Show
 	SetBackgroundColor 225 100 0 255 # Items - Unique
 	SetBorderColor 0 0 0 255 # Items - Unique
 	SetFontSize 45
- 
+
 	PlayAlertSound 7 300 # Item - High Value
 	MinimapIcon 0 White Hexagon
 	PlayEffect White
@@ -4238,7 +4288,7 @@ Show
 Show
 	MapTier >= 11
 	Class = "Map"
-	HasExplicitMod = "Vaal" 
+	HasExplicitMod = "Vaal"
 	SetTextColor 255 166 158 255 # mapa_claro
 	SetBackgroundColor 119 46 37 240 # mapa_claro
 	SetBorderColor 255 255 255 255 # mapa_zana
@@ -6284,7 +6334,7 @@ Show
 #-------------------------------------------------------------------------------
 Show
 	AreaLevel <= 22
-	BaseType = "Leather Belt" 
+	BaseType = "Leather Belt"
 	SetBackgroundColor 59 36 51 255 # Item - T2
 	SetBorderColor 250 250 150 255 # item_jewellery
 	PlayAlertSound 1 100 # item_lvling
@@ -6399,13 +6449,13 @@ Show
 	SetFontSize 45
 Show
 	AreaLevel <= 5
-	BaseType =  "Driftwood Club"	
+	BaseType =  "Driftwood Club"
 	SetBackgroundColor 59 36 51 255 # Item - T2
 	SetBorderColor 169 169 254 255 # Item - Weapons
 	SetFontSize 45
 Show
 	AreaLevel <= 11
-	BaseType = "Jade Hatchet" "Copper Sword" 
+	BaseType = "Jade Hatchet" "Copper Sword"
 	SetBackgroundColor 128 77 23 255 # Item - T1
 	SetBorderColor 169 169 254 255 # Item - Weapons
 	SetFontSize 45
@@ -6663,7 +6713,7 @@ Show
 	SetFontSize 45
 Show
 	AreaLevel <= 57
-	BaseType = "Dragon Mace" "Phantom Mace" 
+	BaseType = "Dragon Mace" "Phantom Mace"
 	SetBackgroundColor 59 36 51 255 # Item - T2
 	SetBorderColor 169 169 254 255 # Item - Weapons
 	SetFontSize 45
@@ -6676,7 +6726,7 @@ Show
 	SetBackgroundColor 59 36 51 255 # Item - T2
 	SetBorderColor 169 169 254 255 # Item - Weapons
 	SetFontSize 45
-	
+
 #===============================================================================
 # Section: [Y] Leveling | 2h Melee
 #===============================================================================
@@ -6847,7 +6897,7 @@ Show
 Show
 	AreaLevel <= 72
 	Rarity <= Rare
-	BaseType = "Infernal Axe" "Sundering Axe" "Vaal Hatchet" "Fleshripper" "Ambusher" "Corsair Sword" "Behemoth Mace" "Harpy Rapier" "Spiraled Foil" "Terror Claw" "Throat Stabber" "Meatgrinder" "Terror Maul" 
+	BaseType = "Infernal Axe" "Sundering Axe" "Vaal Hatchet" "Fleshripper" "Ambusher" "Corsair Sword" "Behemoth Mace" "Harpy Rapier" "Spiraled Foil" "Terror Claw" "Throat Stabber" "Meatgrinder" "Terror Maul"
 	SetFontSize 42
 	SetBackgroundColor 59 36 51 255 # Item - T2
 	SetBorderColor 169 169 254 255 # Item - Weapons
@@ -7890,7 +7940,7 @@ Show
 # Subsection: [AB.1] Rares - Good Bases Always Shows
 #-------------------------------------------------------------------------------
 # Armours
-Show	
+Show
 	BaseType = "Sacrificial Garb" "Grasping Mail"
 	SetBackgroundColor 33 33 33 200 # Item - CatchAll
 	SetBorderColor 255 255 255 255 # Item - Body Armours
